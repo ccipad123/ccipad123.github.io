@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "陈辰 / Site Title"
+title                    : "陈辰"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "陈辰"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,7 +83,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "头像.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
