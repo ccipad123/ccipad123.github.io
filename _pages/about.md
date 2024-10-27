@@ -1,14 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Mark"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+大家好，我是陈辰，我搭建这个网站的初衷是记录自己的大学生活。我想用记录的方式回顾自己的本科生涯，希望为自己也为他人带来帮助。
 
 For more info
 ------
