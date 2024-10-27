@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "陈辰"
+title                    : "个人主页"
 title_separator          : "-"
 name                     : &name "陈辰"
 description              : &description "personal description"
