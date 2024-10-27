@@ -9,33 +9,25 @@ redirect_from:
 
 大家好，我是来自北京林业大学的陈辰，我搭建这个网站的初衷是记录自己的大学生活。我想用记录的方式回顾自己的本科生涯，希望为自己也为他人带来帮助。
 
+
 # 科研论文
 (\*Co-first author;  \#Corresponding author) 
 1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information fusion*, 2024, 102733.
 
-
 2. Qi Zhong, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Safe screening rules for multi-view non-parallel support vector machines**, submitted to *Engineering Applications of Artificial Intelligence*.
-
 
 3. Qianfei Liu, **Chen Chen**, Ting Huang, Yan Meng, and Huiru Wang<sup>#</sup>, **Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules**, submitted to *Expert Systems with Applications*.
 
-
 4. Niannian Deng, Renpeng Xu, **Chen Chen**, Ying Zhang, Haoting Wang, Huiru Wang<sup>#</sup>, Pei Wang<sup>#</sup>, and Yuhan Wu, **A new perspective study on LiDAR tree point clouds classification in multi-view and transfer learning based on a novel approach: least squares multi-view transfer discriminative model**, submitted to *IEEE Transactions on Geoscience and Remote Sensing*.
 
-
 5. Niannian Deng\*, Renpeng Xu\*, Ying Zhang, Haoting Wang, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm**, submitted to *Computers and Electronics in Agriculture*.
-
 
 6. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Health and Place*.
 
 
 # 软件著作权
 1. 面向林木光合作用叶绿素荧光表型的数据分析处理软件V1.0
-
-
 2. 面向降水时间序列的气象数据分析与处理软件V1.0
-
-
 3. 面向混沌水文时间序列的数据分析与处理软件V1.0
 4. 面向风速时间序列的数据分析处理软件V1.0
 5. 基于最小二乘多视角迁移学习的树木枝叶分离软件V1.0
@@ -50,7 +42,9 @@ redirect_from:
 
 
 # 科研项目
+2023~2024, 基于广义柯西过程的差分迭代算法和数据分解及误差修正的风速区间预测研究, 校级大学生创新创业训练项目(X202310022306), 优秀结题。
 
 2023~2024, 基于动态半径编码和增量学习的高光谱图像交互式分割算法的研究, 国家级大学生创新创业训练项目(202310022101), 优秀结题。
-2023~2024, 基于广义柯西过程的差分迭代算法和数据分解及误差修正的风速区间预测研究, 校级大学生创新创业训练项目(X202310022306), 优秀结题。
+
 2023~2024, 面向智慧林业感知的低功耗片上和片外存储策略设计, 国家级大学生创新创业训练项目(202310022102), 良好结题。
+
