@@ -25,8 +25,7 @@ author:
   name             : "陈辰"
   pronouns         : # example: "she/her"  
   bio              : "北京林业大学 数学系"
-  location         : "北京 海淀"
-  
+  # location         : "北京 海淀"
   employer         : "北京林业大学"
   # uri              : # URL
   email            : "ccyolo2022@bjfu.edu.cn"
