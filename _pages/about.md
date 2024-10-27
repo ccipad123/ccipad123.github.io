@@ -26,4 +26,4 @@ redirect_from:
 5. Niannian Deng\*, Renpeng Xu\*, Ying Zhang, Haoting Wang, Chen Chen, and Huiru Wang\#, **Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm**, submitted to *Computers and Electronics in Agriculture*.
 
 
-6. Xinyi Wang, Simin Bian\#, Tianyi Yu, Yan Lu, Zhiya Chen, and Chen Chen.**What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Health and Place*.
+6. Xinyi Wang, Simin Bian\#, Tianyi Yu, Yan Lu, Zhiya Chen, and Chen Chen, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Health and Place*.
