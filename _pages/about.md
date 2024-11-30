@@ -32,7 +32,7 @@ redirect_from:
 
 6. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Travel Behaviour and Society*.
 
-7. Jingwen Li, Jianan Sun<sup>#</sup>, Mingyu Shao, Yinghui Lai and **Chen Chen**, **On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory**, submitted to *British Journal of Mathematical and Statistical Psychology*.
+7. Jingwen Li, Jianan Sun<sup>#</sup>, Mingyu Shao, Yinghui Lai and **Chen Chen**, **On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory**, submitted to *Current Psychology*.
 
 
 # 软件著作权
