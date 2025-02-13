@@ -24,19 +24,15 @@ redirect_from:
 
 2. Qianfei Liu, **Chen Chen**, Ting Huang, Yan Meng, and Huiru Wang<sup>#</sup>, **Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules**, *Expert Systems with Applications*, 2025, 125814.
 
-3. Niannian Deng\*, Renpeng Xu\*, Ying Zhang, Haoting Wang, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm**, *Computers and Electronics in Agriculture*, 2025, 110020.
+3. Niannian Deng, Renpeng Xu, Ying Zhang, Haoting Wang, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm**, *Computers and Electronics in Agriculture*, 2025, 110020.
    
-4. 
+4. Jingwen Li, Jianan Sun<sup>#</sup>, Mingyu Shao, Yinghui Lai and **Chen Chen**, **A New Multidimensional Computerized Testing Approach: On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory**, *Mathematics* 2025, 13(4), 594.
 
-3. Qi Zhong, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Safe screening rules for multi-view non-parallel support vector machines**, submitted to *Engineering Applications of Artificial Intelligence*.
+5. Qi Zhong, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Safe screening rules for multi-view non-parallel support vector machines**, submitted to *Engineering Applications of Artificial Intelligence*.
 
-4. Niannian Deng, Renpeng Xu, **Chen Chen**, Ying Zhang, Haoting Wang, Huiru Wang<sup>#</sup>, Pei Wang<sup>#</sup>, and Yuhan Wu, **A new perspective study on LiDAR tree point clouds classification in multi-view and transfer learning based on a novel approach: least squares multi-view transfer discriminative model**, submitted to *IEEE Transactions on Geoscience and Remote Sensing*.
+6. Niannian Deng, Renpeng Xu, **Chen Chen**, Ying Zhang, Haoting Wang, Huiru Wang<sup>#</sup>, Pei Wang<sup>#</sup>, and Yuhan Wu, **A new perspective study on LiDAR tree point clouds classification in multi-view and transfer learning based on a novel approach: least squares multi-view transfer discriminative model**, submitted to *IEEE Transactions on Geoscience and Remote Sensing*.
 
-5. Niannian Deng\*, Renpeng Xu\*, Ying Zhang, Haoting Wang, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm**, submitted to *Computers and Electronics in Agriculture*.
-
-6. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Travel Behaviour and Society*.
-
-7. Jingwen Li, Jianan Sun<sup>#</sup>, Mingyu Shao, Yinghui Lai and **Chen Chen**, **On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory**, submitted to *Current Psychology*.
+7. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Transportation*.
 
 
 # 软件著作权
