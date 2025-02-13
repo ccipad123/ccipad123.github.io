@@ -20,7 +20,7 @@ redirect_from:
 
 # 科研论文
 (\*Co-first author;  \#Corresponding author) 
-1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information fusion*, 2025, 102733.
+1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information Fusion*, 2025, 102733.
 
 2. Qianfei Liu, **Chen Chen**, Ting Huang, Yan Meng, and Huiru Wang<sup>#</sup>, **Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules**, *Expert Systems with Applications*, 2025, 125814.
 
