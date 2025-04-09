@@ -35,6 +35,11 @@ redirect_from:
 7. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Transportation*.
 
 
+# 期刊审稿
+* 《The Journal of Supercomputing》
+* 《npj Artificial Intelligence》
+
+  
 # 软件著作权
 1. `2023.06` 面向林木光合作用叶绿素荧光表型的数据分析处理软件V1.0
 1. `2024.01` 面向风速时间序列的数据分析处理软件V1.0
@@ -106,9 +111,9 @@ redirect_from:
 
 
 # 学生工作
-* `2025.02 -        ` 《概率论与数理统计B》课程助教(课程代码:xxxx; 开课学期: 2024-2025-2)
-* `2024.12 - 2025.01` 《统计软件(双语)》课程助教(课程代码:22021080; 开课学期: 2024-2025-1)
-* `2024.09 - 2025.01` 《统计计算语言》课程助教(课程代码:21001950; 开课学期: 2024-2025-1)
+* `2025.02 -        ` 《概率论与数理统计B》课程助教(课程代码:xxxx; 开课学期: 2025春)
+* `2024.12 - 2025.01` 《统计软件(双语)》课程助教(课程代码:22021080; 开课学期: 2024冬)
+* `2024.09 - 2025.01` 《统计计算语言》课程助教(课程代码:21001950; 开课学期: 2024冬)
 * `2024.06 -        ` 北京林业大学理学院数学本科生党支部纪检委员
 * `2023.09 - 2024.08` 北京林业大学理学院2023级本科新生学业辅导员
 * `2023.09 - 2024.08` 北京林业大学数学21-2班生活委员
