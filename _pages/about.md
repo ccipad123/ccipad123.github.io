@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
   .container {
-      padding-right: 20px;
+      padding-right: 10px;
   }
 </style>
 
