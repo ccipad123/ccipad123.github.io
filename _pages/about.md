@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+
 <style>
   .container {
       padding-right: 1px;
