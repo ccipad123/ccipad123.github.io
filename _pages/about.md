@@ -10,7 +10,7 @@ redirect_from:
 
 <style>
   .container {
-    padding-right: 10px;
+    padding-right: 2px;
   }
 
   @media (min-width: 57.8125em) {
@@ -19,6 +19,7 @@ redirect_from:
     }
   }
 </style>
+
 
 大家好，我是陈辰，目前就读于北京林业大学数学与应用数学专业。我搭建这个网站的初衷是记录自己的大学生活。我想用记录的方式回顾自己的本科生涯。如果可能的话，也希望为自己的这些经历能为他人带来启发和帮助。
 
