@@ -15,7 +15,7 @@ redirect_from:
 
   @media (min-width: 57.8125em) {
     .page {
-      padding-right: 3%;
+      padding-right: 4%;
     }
   }
 </style>
