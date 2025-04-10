@@ -10,7 +10,7 @@ redirect_from:
 
 <style>
   .container {
-    padding-right: 2px;
+    padding-right: 5px;
   }
 
   @media (min-width: 57.8125em) {
