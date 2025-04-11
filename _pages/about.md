@@ -190,7 +190,7 @@ redirect_from:
 * `2025.01.02`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/QSY6QzaqB_QWrpamPO6xNA" target="_blank">理学院-“青春榜样”人物介绍——陈辰</a>
 * `2024.12.09`｜`林思享` <a href="https://mp.weixin.qq.com/s/v60qF07v_d-Sj2cmaoA-Dw" target="_blank">国奖人物志︱陈辰：求学求索，笃行致远</a>
 * `2024.11.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
-*
+* `2022.12.05`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/pPkQ2ed4CAg76ZasnU_CUg" target="_blank">【学院榜样】学海无涯勤是岸，云程有路志为梯——新生专业特等奖学金获得者陈辰</a>
 *
 *
 *
