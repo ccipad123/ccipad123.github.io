@@ -147,4 +147,5 @@ redirect_from:
 
 # 相关链接
 * `北林理学人` [【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座](https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA)
+* <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">北林理学人 【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 
