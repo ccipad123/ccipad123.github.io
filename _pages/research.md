@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "科研"
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
