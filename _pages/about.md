@@ -41,6 +41,7 @@ redirect_from:
 - [相关链接](#相关链接)
 
 
+
 <div id="科研项目" style="position: relative; top: -80px;"></div>
 # 科研项目
 1. 2023~2024, 基于广义柯西过程的差分迭代算法和数据分解及误差修正的风速区间预测研究, 校级大学生创新创业训练项目(X202310022306), 第一负责人, 优秀结题。
@@ -48,6 +49,7 @@ redirect_from:
 1. 2023~2024, 基于动态半径编码和增量学习的高光谱图像交互式分割算法的研究, 国家级大学生创新创业训练项目(202310022101), 第三负责人, 优秀结题。
 
 1. 2023~2024, 面向智慧林业感知的低功耗片上和片外存储策略设计, 国家级大学生创新创业训练项目(202310022102), 第三负责人, 良好结题。
+
 
 
 <div id="科研论文" style="position: relative; top: -80px;"></div>
@@ -68,10 +70,12 @@ redirect_from:
 7. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Transportation*.
 
 
+
 <div id="期刊审稿" style="position: relative; top: -80px;"></div>
 # 期刊审稿
 * <a href="https://link.springer.com/journal/11227" target="_blank">The Journal of Supercomputing｜Springer</a>
 * <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
+
 
 
 <div id="软件著作权" style="position: relative; top: -80px;"></div>
@@ -93,6 +97,7 @@ redirect_from:
 1. `2025.02` 基于SL01ADMM优化算法的MvSL01-SVM多视角分类可视化软件V1.0
 1. `2025.03` 基于SL01ADMM优化算法的SL01-SVM单视角分类可视化软件V1.0
 1. `2025.03` 基于L01ADMM优化算法的MvL01-SVM多视角分类可视化软件V1.0
+
 
 
 <div id="竞赛获奖" style="position: relative; top: -80px;"></div>
@@ -148,6 +153,7 @@ redirect_from:
 * `院级` 数据分析与人工智能课程优秀项目经理
 
 
+
 <div id="学生工作" style="position: relative; top: -80px;"></div>
 # 学生工作
 * `2025.02 - 2025.xx` 《概率论与数理统计B》课程助教(课程代码:xxxxxxxx; 开课学期: 2025春)
@@ -162,6 +168,7 @@ redirect_from:
 * `2021.09 - 2022.08` 北京林业大学党建助理团新媒体中心干事
 * `2021.09 - 2022.08` 北京林业大学数学21-2班宣传委员
 * `2021.09 - 2022.08` 北京林业大学数学21-2班心理委员
+
 
 
 <div id="相关链接" style="position: relative; top: -80px;"></div>
