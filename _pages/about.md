@@ -183,8 +183,8 @@ redirect_from:
 # 相关链接
 * `2025.04.10`｜`国家林草科技` <a href="https://mp.weixin.qq.com/s/jdHesap-_yH561sCRDgVKg" target="_blank">北林大 | 一种用于森林生物量碳储量估算的新算法</a>
 * `2025.04.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/fkEH6sVKIqoU7R65JPOF1g" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
-* `2025.03.25`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/ERosdCmTmc5mzLb_89dS0w" target="_blank">理学院林草数据处理团队 在《Expert Systems with Applications》上发表研究成果</a>
-* `2025.03.23`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/82jZG8JCOPVWYjJfqxinjw" target="_blank">理学院林草数据处理团队在 《Computers and Electronics in Agriculture》上发表研究成果</a>
+* `2025.03.25`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/ERosdCmTmc5mzLb_89dS0w" target="_blank">理学院林草数据处理团队在《Expert Systems with Applications》上发表研究成果</a>
+* `2025.03.23`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/82jZG8JCOPVWYjJfqxinjw" target="_blank">理学院林草数据处理团队在《Computers and Electronics in Agriculture》上发表研究成果</a>
 * `2025.03.19`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/fwowjBfSfTFXsu1AmvRVmw" target="_blank">理学院林草数据处理团队在《Information Fusion》上发表研究成果</a>
 * `2025.03.02`｜`蓝信封书信博物馆` <a href="https://mp.weixin.qq.com/s/t9n3oQFzoMHmjdTH7omB5Q" target="_blank">蓝信封数学与应用数学专业学生访谈录 | 陈辰：寻找属于自己的乐趣</a>
 * `2025.01.02`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/QSY6QzaqB_QWrpamPO6xNA" target="_blank">理学院-“青春榜样”人物介绍——陈辰</a>
