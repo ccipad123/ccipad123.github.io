@@ -181,7 +181,11 @@ redirect_from:
 <div id="相关链接" style="position: relative; top: -80px;"></div>
 
 # 相关链接
-* `2024.11.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 * `2025.04.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/fkEH6sVKIqoU7R65JPOF1g" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
- 
+* `2024.12.09`｜`林思享` <a href="https://mp.weixin.qq.com/s/v60qF07v_d-Sj2cmaoA-Dw" target="_blank">国奖人物志︱陈辰：求学求索，笃行致远</a>
+* `2024.11.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
+*
+*
+*
+*
 
