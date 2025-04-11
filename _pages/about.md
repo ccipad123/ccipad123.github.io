@@ -181,5 +181,5 @@ redirect_from:
 <div id="相关链接" style="position: relative; top: -80px;"></div>
 
 # 相关链接
-* `2024.11.08` `北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
+* `2024.11.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 
