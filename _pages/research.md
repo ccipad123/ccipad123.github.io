@@ -20,20 +20,20 @@ cc is here.
   * `视频观看推荐2` <a href="https://www.bilibili.com/video/BV1GvyGYCEDP?buvid=Y8431C82ADC6E85B46D09529D930111DA230&from_spmid=search.search-result.0.0&is_story_h5=false&mid=v%2BqB8wGtlO0J4uTL9QU7lA%3D%3D&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=B462D761-9BD5-4D6C-9667-3B26929E57FA&share_source=WEIXIN&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1729649073&unique_k=wU9HpH9&up_id=1266399589&vd_source=19f572b03f2ec7aebf1de5d4242523ce&spm_id_from=333.788.videopod.episodes" target="_blank">Bilibili｜LINK</a>
 
 * `Andrew Ng｜吴恩达｜Deep Learning`
-  * `官网「有时间限制」` [Coursera｜深度学习专项课程](https://www.coursera.org/specializations/deep-learning)
-  * `视频观看推荐1「播放多｜双语字幕」` [Bilibili｜[双语字幕]吴恩达深度学习deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&vd_source=19f572b03f2ec7aebf1de5d4242523ce)
-  * `视频观看推荐2「黄海广」` [Bilibili｜吴恩达《深度学习》视频课程全集](https://www.bilibili.com/video/BV16r4y1Y7jv/?vd_source=19f572b03f2ec7aebf1de5d4242523ce)
-  * `笔记推荐1` [深度学习笔记](http://www.ai-start.com/dl2017/)
-  * `笔记推荐2` [Deeplearning.ai深度学习教程中文笔记](https://github.com/fengdu78/deeplearning_ai_books?tab=readme-ov-file)
+  * `官网「有时间限制」` <a href="https://www.coursera.org/specializations/deep-learning" target="_blank">Coursera｜深度学习专项课程</a>
+  * `视频观看推荐1「播放多｜双语字幕」` <a href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&vd_source=19f572b03f2ec7aebf1de5d4242523ce" target="_blank">[双语字幕]吴恩达深度学习deeplearning.ai</a>
+  * `视频观看推荐2「黄海广」` <a href="https://www.bilibili.com/video/BV16r4y1Y7jv/?vd_source=19f572b03f2ec7aebf1de5d4242523ce" target="_blank">吴恩达《深度学习》视频课程全集</a>
+  * `笔记推荐1` <a href="http://www.ai-start.com/dl2017/" target="_blank">深度学习笔记</a>
+  * `笔记推荐2` <a href="https://github.com/fengdu78/deeplearning_ai_books?tab=readme-ov-file" target="_blank">Deeplearning.ai深度学习教程中文笔记</a>
 
 * `CS224N`
-  * `官网` [CS224N: Natural Language Processing with Deep Learning](http://vision.stanford.edu/teaching/cs231n/index.html)
+  * `官网` <a href="http://vision.stanford.edu/teaching/cs231n/index.html" target="_blank">CS224N: Natural Language Processing with Deep Learning</a>
 
 # 常用网站
 
 
 # 一些好用的工具
-* `PDFMathTranslate` [科学 PDF 文档翻译及双语对照工具](https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/README_zh-CN.md)
+* `PDFMathTranslate` <a href="https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/README_zh-CN.md" target="_blank">科学 PDF 文档翻译及双语对照工具</a>
 
 
 
