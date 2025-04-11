@@ -30,7 +30,7 @@ redirect_from:
 - [软件著作权](#软件著作权)
 - [竞赛获奖](#竞赛获奖)
 
-
+<div id="科研项目" style="position: relative; top: -80px;"></div>
 # 科研项目
 1. 2023~2024, 基于广义柯西过程的差分迭代算法和数据分解及误差修正的风速区间预测研究, 校级大学生创新创业训练项目(X202310022306), 第一负责人, 优秀结题。
 
@@ -147,5 +147,5 @@ redirect_from:
 
 # 相关链接
 * `北林理学人` [【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座](https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA)
-* <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">北林理学人 【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
+* `北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 
