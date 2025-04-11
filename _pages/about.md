@@ -44,6 +44,7 @@ redirect_from:
 
 <div id="科研项目" style="position: relative; top: -80px;"></div>
 # 科研项目
+
 1. 2023~2024, 基于广义柯西过程的差分迭代算法和数据分解及误差修正的风速区间预测研究, 校级大学生创新创业训练项目(X202310022306), 第一负责人, 优秀结题。
 
 1. 2023~2024, 基于动态半径编码和增量学习的高光谱图像交互式分割算法的研究, 国家级大学生创新创业训练项目(202310022101), 第三负责人, 优秀结题。
@@ -54,6 +55,7 @@ redirect_from:
 
 <div id="科研论文" style="position: relative; top: -80px;"></div>
 # 科研论文
+
 (\*Co-first author;  \#Corresponding author) 
 1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information Fusion*, 2025, 102733. <a href="https://doi.org/10.1016/j.inffus.2024.102733" target="_blank">https://doi.org/10.1016/j.inffus.2024.102733</a>.
 
@@ -79,15 +81,12 @@ redirect_from:
 
 
 <div id="软件著作权" style="position: relative; top: -80px;"></div>
+
 # 软件著作权
 1. `2023.06` 面向林木光合作用叶绿素荧光表型的数据分析处理软件V1.0
-
 1. `2024.01` 面向风速时间序列的数据分析处理软件V1.0
-   
 1. `2024.02` 基于鲸鱼优化联合的K近邻加权最小二乘孪生支持向量机盆栽茎叶分离软件V1.0
-   
 1. `2024.02` 基于鲸鱼优化联合的K近邻加权的最小二乘多生育支持向量回归的帕金森预测平台V1.0
-   
 1. `2024.03` 基于最小二乘多视角迁移学习的树木枝叶分离软件V1.0
 1. `2024.05` 面向降水时间序列的气象数据分析与处理软件V1.0
 1. `2024.05` 面向混沌水文时间序列的数据分析与处理软件V1.0
@@ -105,6 +104,7 @@ redirect_from:
 
 
 <div id="竞赛获奖" style="position: relative; top: -80px;"></div>
+
 # 竞赛获奖
 * `2024.11` `国家级` `创新创业` 第十九届“挑战杯”全国大学生课外学术科技作品竞赛2024年度“揭榜挂帅”全国一等奖
 * `2024.08` `省部级` `创新创业` 中国国际大学生创新大赛（2024）北京赛区一等奖
@@ -133,6 +133,7 @@ redirect_from:
 
 
 <div id="奖学金" style="position: relative; top: -80px;"></div>
+
 # 奖学金
 * `国家级` 2023-2024学年国家奖学金
 * `校级` 2023-2024学年学术优秀奖学金
@@ -146,6 +147,7 @@ redirect_from:
 
 
 <div id="荣誉称号" style="position: relative; top: -80px;"></div>
+
 # 荣誉称号
 * `市级` 2022-2023年度北京市三好学生
 * `区级` 海淀区三星级志愿者
@@ -159,6 +161,7 @@ redirect_from:
 
 
 <div id="学生工作" style="position: relative; top: -80px;"></div>
+
 # 学生工作
 * `2025.02 - 2025.xx` 《概率论与数理统计B》课程助教(课程代码:xxxxxxxx; 开课学期: 2025春)
 * `2024.12 - 2025.01` 《统计软件(双语)》课程助教(课程代码:22021080; 开课学期: 2024冬)
@@ -176,6 +179,7 @@ redirect_from:
 
 
 <div id="相关链接" style="position: relative; top: -80px;"></div>
+
 # 相关链接
 * `2024.11.08` `北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 
