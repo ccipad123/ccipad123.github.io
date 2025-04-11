@@ -21,8 +21,8 @@ cc is here.
 
 * `Andrew Ng｜吴恩达｜Deep Learning`
   * `官网「有时间限制」` <a href="https://www.coursera.org/specializations/deep-learning" target="_blank">Coursera｜深度学习专项课程</a>
-  * `视频观看推荐1「播放多｜双语字幕」` <a href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&vd_source=19f572b03f2ec7aebf1de5d4242523ce" target="_blank">[双语字幕]吴恩达深度学习deeplearning.ai</a>
-  * `视频观看推荐2「黄海广」` <a href="https://www.bilibili.com/video/BV16r4y1Y7jv/?vd_source=19f572b03f2ec7aebf1de5d4242523ce" target="_blank">吴恩达《深度学习》视频课程全集</a>
+  * `视频观看推荐1「播放多｜双语字幕」` <a href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&vd_source=19f572b03f2ec7aebf1de5d4242523ce" target="_blank">Bilibili｜[双语字幕]吴恩达深度学习deeplearning.ai</a>
+  * `视频观看推荐2「黄海广」` <a href="https://www.bilibili.com/video/BV16r4y1Y7jv/?vd_source=19f572b03f2ec7aebf1de5d4242523ce" target="_blank">Bilibili｜吴恩达《深度学习》视频课程全集</a>
   * `笔记推荐1` <a href="http://www.ai-start.com/dl2017/" target="_blank">深度学习笔记</a>
   * `笔记推荐2` <a href="https://github.com/fengdu78/deeplearning_ai_books?tab=readme-ov-file" target="_blank">Deeplearning.ai深度学习教程中文笔记</a>
 
