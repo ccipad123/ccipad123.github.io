@@ -9,8 +9,7 @@ cc is here.
 
 
 # 一些好用的工具
-* "PDFMathTranslate"
-
+* `PDFMathTranslate` 科学 PDF 文档翻译及双语对照工具
 https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/README_zh-CN.md
 
 
