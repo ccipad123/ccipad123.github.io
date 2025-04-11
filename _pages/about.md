@@ -74,7 +74,6 @@ redirect_from:
 * <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
 
 
-
 <div id="软件著作权" style="position: relative; top: -80px;"></div>
 # 软件著作权
 1. `2023.06` 面向林木光合作用叶绿素荧光表型的数据分析处理软件V1.0
