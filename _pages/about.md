@@ -55,7 +55,7 @@ redirect_from:
 (\*Co-first author;  \#Corresponding author) 
 1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information Fusion*, 2025, 102733. <a href="https://doi.org/10.1016/j.inffus.2024.102733" target="_blank">https://doi.org/10.1016/j.inffus.2024.102733</a>.
 
-2. Qianfei Liu, **Chen Chen**, Ting Huang, Yan Meng, and Huiru Wang<sup>#</sup>, **Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules**, *Expert Systems with Applications*, 2025, 125814. [https://doi.org/10.1016/j.eswa.2024.125814](https://doi.org/10.1016/j.eswa.2024.125814).
+2. Qianfei Liu, **Chen Chen**, Ting Huang, Yan Meng, and Huiru Wang<sup>#</sup>, **Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules**, *Expert Systems with Applications*, 2025, 125814. <a href="https://doi.org/10.1016/j.eswa.2024.125814" target="_blank">https://doi.org/10.1016/j.eswa.2024.125814</a>.
 
 3. Niannian Deng, Renpeng Xu, Ying Zhang, Haoting Wang, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm**, *Computers and Electronics in Agriculture*, 2025, 110020. [https://doi.org/10.1016/j.compag.2025.110020](https://doi.org/10.1016/j.compag.2025.110020).
    
