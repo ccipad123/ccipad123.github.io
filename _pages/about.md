@@ -74,16 +74,20 @@ redirect_from:
 <div id="期刊审稿" style="position: relative; top: -80px;"></div>
 # 期刊审稿
 * <a href="https://link.springer.com/journal/11227" target="_blank">The Journal of Supercomputing｜Springer</a>
-* <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
 
+* <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
 
 
 <div id="软件著作权" style="position: relative; top: -80px;"></div>
 # 软件著作权
 1. `2023.06` 面向林木光合作用叶绿素荧光表型的数据分析处理软件V1.0
+
 1. `2024.01` 面向风速时间序列的数据分析处理软件V1.0
+   
 1. `2024.02` 基于鲸鱼优化联合的K近邻加权最小二乘孪生支持向量机盆栽茎叶分离软件V1.0
+   
 1. `2024.02` 基于鲸鱼优化联合的K近邻加权的最小二乘多生育支持向量回归的帕金森预测平台V1.0
+   
 1. `2024.03` 基于最小二乘多视角迁移学习的树木枝叶分离软件V1.0
 1. `2024.05` 面向降水时间序列的气象数据分析与处理软件V1.0
 1. `2024.05` 面向混沌水文时间序列的数据分析与处理软件V1.0
