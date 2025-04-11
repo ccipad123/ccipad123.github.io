@@ -27,7 +27,7 @@ cc is here.
   * `笔记推荐2` <a href="https://github.com/fengdu78/deeplearning_ai_books?tab=readme-ov-file" target="_blank">Deeplearning.ai深度学习教程中文笔记</a>
 
 * `CS224N`
-  * `官网` <a href="http://vision.stanford.edu/teaching/cs231n/index.html" target="_blank">CS224N: Natural Language Processing with Deep Learning</a>
+  * `官网` <a href="https://web.stanford.edu/class/cs224n/" target="_blank">CS224N: Natural Language Processing with Deep Learning</a>
 
 
 # 常用网站
