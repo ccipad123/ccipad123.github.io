@@ -73,8 +73,8 @@ redirect_from:
 
 <div id="期刊审稿" style="position: relative; top: -80px;"></div>
 # 期刊审稿
-  * <a href="https://link.springer.com/journal/11227" target="_blank">The Journal of Supercomputing｜Springer</a>
-  * <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
+* <a href="https://link.springer.com/journal/11227" target="_blank">The Journal of Supercomputing｜Springer</a>
+* <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
 
 
 
@@ -173,5 +173,5 @@ redirect_from:
 
 <div id="相关链接" style="position: relative; top: -80px;"></div>
 # 相关链接
-* `2024.11.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
+* `2024.11.08` `北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 
