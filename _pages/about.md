@@ -182,4 +182,6 @@ redirect_from:
 
 # 相关链接
 * `2024.11.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
+* `2025.04.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/fkEH6sVKIqoU7R65JPOF1g" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
+ 
 
