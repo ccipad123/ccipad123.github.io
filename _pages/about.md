@@ -53,7 +53,7 @@ redirect_from:
 <div id="科研论文" style="position: relative; top: -80px;"></div>
 # 科研论文
 (\*Co-first author;  \#Corresponding author) 
-1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information Fusion*, 2025, 102733. [https://doi.org/10.1016/j.inffus.2024.102733](https://doi.org/10.1016/j.inffus.2024.102733).
+1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information Fusion*, 2025, 102733. <a href="https://doi.org/10.1016/j.inffus.2024.102733" target="_blank">https://doi.org/10.1016/j.inffus.2024.102733</a>.
 
 2. Qianfei Liu, **Chen Chen**, Ting Huang, Yan Meng, and Huiru Wang<sup>#</sup>, **Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules**, *Expert Systems with Applications*, 2025, 125814. [https://doi.org/10.1016/j.eswa.2024.125814](https://doi.org/10.1016/j.eswa.2024.125814).
 
@@ -166,6 +166,5 @@ redirect_from:
 
 <div id="相关链接" style="position: relative; top: -80px;"></div>
 # 相关链接
-* `北林理学人` [【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座](https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA)
 * `北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 
