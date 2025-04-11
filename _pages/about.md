@@ -43,19 +43,17 @@ redirect_from:
 
 
 <div id="科研项目" style="position: relative; top: -80px;"></div>
+
 # 科研项目
-
 1. 2023~2024, 基于广义柯西过程的差分迭代算法和数据分解及误差修正的风速区间预测研究, 校级大学生创新创业训练项目(X202310022306), 第一负责人, 优秀结题。
-
 1. 2023~2024, 基于动态半径编码和增量学习的高光谱图像交互式分割算法的研究, 国家级大学生创新创业训练项目(202310022101), 第三负责人, 优秀结题。
-
 1. 2023~2024, 面向智慧林业感知的低功耗片上和片外存储策略设计, 国家级大学生创新创业训练项目(202310022102), 第三负责人, 良好结题。
 
 
 
 <div id="科研论文" style="position: relative; top: -80px;"></div>
-# 科研论文
 
+# 科研论文
 (\*Co-first author;  \#Corresponding author) 
 1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information Fusion*, 2025, 102733. <a href="https://doi.org/10.1016/j.inffus.2024.102733" target="_blank">https://doi.org/10.1016/j.inffus.2024.102733</a>.
 
@@ -74,10 +72,11 @@ redirect_from:
 
 
 <div id="期刊审稿" style="position: relative; top: -80px;"></div>
+
 # 期刊审稿
 * <a href="https://link.springer.com/journal/11227" target="_blank">The Journal of Supercomputing｜Springer</a>
-
 * <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
+
 
 
 <div id="软件著作权" style="position: relative; top: -80px;"></div>
@@ -130,6 +129,7 @@ redirect_from:
 * `2023.03` `省部级` `数学竞赛` 北京市第三十三届大学生数学竞赛（数学类乙组）一等奖
 * `2022.12` `省部级` `数学建模` 二零二二年全国大学生数学建模竞赛北京赛区甲组成功参赛奖
 * `2022.08` `省部级` `统计建模` 第八届全国大学生统计建模大赛北京赛区本科生组三等奖
+
 
 
 <div id="奖学金" style="position: relative; top: -80px;"></div>
