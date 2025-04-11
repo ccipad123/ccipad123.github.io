@@ -29,6 +29,11 @@ redirect_from:
 - [期刊审稿](#期刊审稿)
 - [软件著作权](#软件著作权)
 - [竞赛获奖](#竞赛获奖)
+- [奖学金](#奖学金)
+- [荣誉称号](#荣誉称号)
+- [学生工作](#学生工作)
+- [相关链接](#相关链接)
+
 
 <div id="科研项目" style="position: relative; top: -80px;"></div>
 # 科研项目
@@ -39,6 +44,7 @@ redirect_from:
 1. 2023~2024, 面向智慧林业感知的低功耗片上和片外存储策略设计, 国家级大学生创新创业训练项目(202310022102), 第三负责人, 良好结题。
 
 
+<div id="科研论文" style="position: relative; top: -80px;"></div>
 # 科研论文
 (\*Co-first author;  \#Corresponding author) 
 1. **Chen Chen**, Qianfei Liu, Renpeng Xu, Ying Zhang, Huiru Wang<sup>#</sup>, and Qingmin Yu, **Multi-view support vector machine classifier via *L*<sub>0/1</sub> soft-margin loss with structural information**, *Information Fusion*, 2025, 102733. [https://doi.org/10.1016/j.inffus.2024.102733](https://doi.org/10.1016/j.inffus.2024.102733).
@@ -56,11 +62,13 @@ redirect_from:
 7. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Transportation*.
 
 
+<div id="期刊审稿" style="position: relative; top: -80px;"></div>
 # 期刊审稿
 * 《The Journal of Supercomputing》
 * 《npj Artificial Intelligence》
 
-  
+
+<div id="软件著作权" style="position: relative; top: -80px;"></div>
 # 软件著作权
 1. `2023.06` 面向林木光合作用叶绿素荧光表型的数据分析处理软件V1.0
 1. `2024.01` 面向风速时间序列的数据分析处理软件V1.0
@@ -81,6 +89,7 @@ redirect_from:
 1. `2025.03` 基于L01ADMM优化算法的MvL01-SVM多视角分类可视化软件V1.0
 
 
+<div id="竞赛获奖" style="position: relative; top: -80px;"></div>
 # 竞赛获奖
 * `2024.11` `国家级` `创新创业` 第十九届“挑战杯”全国大学生课外学术科技作品竞赛2024年度“揭榜挂帅”全国一等奖
 * `2024.08` `省部级` `创新创业` 中国国际大学生创新大赛（2024）北京赛区一等奖
@@ -108,6 +117,7 @@ redirect_from:
 * `2022.08` `省部级` `统计建模` 第八届全国大学生统计建模大赛北京赛区本科生组三等奖
 
 
+<div id="奖学金" style="position: relative; top: -80px;"></div>
 # 奖学金
 * `国家级` 2023-2024学年国家奖学金
 * `校级` 2023-2024学年学术优秀奖学金
@@ -120,6 +130,7 @@ redirect_from:
 * `校级` 2021-2022学年新生专业特等奖学金
 
 
+<div id="荣誉称号" style="position: relative; top: -80px;"></div>
 # 荣誉称号
 * `市级` 2022-2023年度北京市三好学生
 * `区级` 海淀区三星级志愿者
@@ -131,6 +142,7 @@ redirect_from:
 * `院级` 数据分析与人工智能课程优秀项目经理
 
 
+<div id="学生工作" style="position: relative; top: -80px;"></div>
 # 学生工作
 * `2025.02 - 2025.xx` 《概率论与数理统计B》课程助教(课程代码:xxxxxxxx; 开课学期: 2025春)
 * `2024.12 - 2025.01` 《统计软件(双语)》课程助教(课程代码:22021080; 开课学期: 2024冬)
@@ -145,6 +157,8 @@ redirect_from:
 * `2021.09 - 2022.08` 北京林业大学数学21-2班宣传委员
 * `2021.09 - 2022.08` 北京林业大学数学21-2班心理委员
 
+
+<div id="相关链接" style="position: relative; top: -80px;"></div>
 # 相关链接
 * `北林理学人` [【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座](https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA)
 * `北林理学人` <a href="https://mp.weixin.qq.com/s/xGJwbkSWyUW1PpjhdhMmzA" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
