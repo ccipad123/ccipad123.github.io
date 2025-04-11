@@ -29,7 +29,9 @@ cc is here.
 * `CS224N`
   * `官网` <a href="http://vision.stanford.edu/teaching/cs231n/index.html" target="_blank">CS224N: Natural Language Processing with Deep Learning</a>
 
+
 # 常用网站
+To be updated...
 
 
 # 一些好用的工具
