@@ -70,8 +70,9 @@ redirect_from:
 
 <div id="期刊审稿" style="position: relative; top: -80px;"></div>
 # 期刊审稿
-* 《The Journal of Supercomputing》
-* 《npj Artificial Intelligence》
+* <a href="https://link.springer.com/journal/11227" target="_blank">The Journal of Supercomputing｜Springer</a>
+* <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
+
 
 
 <div id="软件著作权" style="position: relative; top: -80px;"></div>
