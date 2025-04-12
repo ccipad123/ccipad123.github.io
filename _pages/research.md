@@ -48,8 +48,9 @@ cc is here.
 
 # 常用网站
 * <a href="https://chatgpt.com/" target="_blank">ChatGPT</a>
-* <a href="https://chat.deepseek.com/" target="_blank">Deepseek</a>
+* <a href="https://chat.deepseek.com/" target="_blank">DeepSeek</a>
 * <a href="https://yuanbao.tencent.com/chat/naQivTmsDa" target="_blank">腾讯元宝</a>
+* <a href="https://gemini.google.com/app" target="_blank">Gemini</a>
 * <a href="https://kimi.moonshot.cn" target="_blank">Kimi</a>
 * <a href="https://www.doubao.com/chat/" target="_blank">豆包</a>
 
