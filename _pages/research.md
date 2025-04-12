@@ -47,8 +47,8 @@ cc is here.
 <div id="常用网站" style="position: relative; top: -80px;"></div>
 
 # 常用网站
-To be updated...
-
+* <a href="https://chatgpt.com/" target="_blank">ChatGPT</a>
+* <a href="https://chat.deepseek.com/" target="_blank">Deepseek</a>
 
 <div id="一些好用的工具" style="position: relative; top: -80px;"></div>
 
