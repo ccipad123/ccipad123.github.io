@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "無限進步"
+title: "「無限進步」"
 author_profile: true
 redirect_from: 
   - /about/
