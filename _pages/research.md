@@ -58,9 +58,10 @@ cc is here.
 
 <div id="一些好用的工具" style="position: relative; top: -80px;"></div>
 
-# 一些好用的工具
+# 一些好用的网站 & 工具
 * `PDFMathTranslate` <a href="https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/README_zh-CN.md" target="_blank">科学 PDF 文档翻译及双语对照工具</a>
-
+* `ShowMeAI` <a href="https://www.showmeai.tech/" target="_blank">ShowMeAI——人工智能领域的资料库和学习社区</a>
+  * ShowMeAI——人工智能领域的资料库和学习社区，覆盖Python、数据科学、机器学习、深度学习、自然语言处理、计算机视觉等方向。
 
 
 
