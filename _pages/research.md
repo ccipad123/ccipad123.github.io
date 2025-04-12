@@ -7,6 +7,21 @@ author_profile: true
 
 cc is here. 
 
+# 目录
+- [机器学习 & 深度学习](#机器学习 & 深度学习)
+- [科研论文](#科研论文)
+- [期刊审稿](#期刊审稿)
+- [软件著作权](#软件著作权)
+- [竞赛获奖](#竞赛获奖)
+- [奖学金](#奖学金)
+- [荣誉称号](#荣誉称号)
+- [学生工作](#学生工作)
+- [相关链接](#相关链接)
+
+
+
+<div id="机器学习 & 深度学习" style="position: relative; top: -80px;"></div>
+
 # 机器学习 & 深度学习
 * `Andrew Ng｜吴恩达｜Machine Learning`
   * `官网「有时间限制」` <a href="https://www.coursera.org/specializations/machine-learning-introduction#courses" target="_blank">Coursera｜机器学习专项课程</a>
