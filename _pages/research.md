@@ -10,13 +10,8 @@ cc is here.
 # 目录
 - [机器学习 & 深度学习](#机器学习 & 深度学习)
 - [常用网站](#常用网站)
-- [期刊审稿](#期刊审稿)
-- [软件著作权](#软件著作权)
-- [竞赛获奖](#竞赛获奖)
-- [奖学金](#奖学金)
-- [荣誉称号](#荣誉称号)
-- [学生工作](#学生工作)
-- [相关链接](#相关链接)
+- [一些好用的工具](#一些好用的工具)
+
 
 
 
@@ -54,6 +49,8 @@ cc is here.
 # 常用网站
 To be updated...
 
+
+<div id="一些好用的工具" style="position: relative; top: -80px;"></div>
 
 # 一些好用的工具
 * `PDFMathTranslate` <a href="https://github.com/Byaidu/PDFMathTranslate/blob/main/docs/README_zh-CN.md" target="_blank">科学 PDF 文档翻译及双语对照工具</a>
