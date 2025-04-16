@@ -5,7 +5,7 @@ permalink: /links/
 author_profile: true
 ---
 
-cc is here. 
+在榜样的光辉下，我也在不断前行。每一位榜样的故事都让我感受到奋斗的力量和青春的魅力，他们的坚持与努力深深感染了我。正是因为有了这些榜样的激励，我更加坚定了自己的方向，努力追寻属于自己的梦想。每一步成长的脚印，都带着他们的光辉，指引我走得更远。
 
 # 目录
 - [BJFU Role Models](#BJFU Role Models)
