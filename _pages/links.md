@@ -33,7 +33,7 @@ cc is here.
 * `2019.11.24`｜`北林理学人` https://mp.weixin.qq.com/s/L9PNdsTwUCIRcBwQYEdLRQ 【学院榜样】越自律越自由--新生特等奖学金获得谢曦瑶
 * `2018.11.29`｜`北林理学人` https://mp.weixin.qq.com/s/cwrtgo4s8ZMbQrOlx5tfTQ 【学院榜样】读书和旅行总有一个在路上——新生特等奖学金获得者王浩天
 * `2017.12.09`｜`北林理学人` https://mp.weixin.qq.com/s/F1iCHw8yjPdaP9h4DKHIug 【学院榜样】才华与颜值兼备，严谨与幽默并存——国家奖学金获得者何英豪
-* `2023.04.01`｜`北林理学人` https://mp.weixin.qq.com/s/CdEAe3LfhVFYTcv0UecnDA 青春榜样 | 刘雅轩：风华正茂青云上，笔耕静以修身，思悟敢为人先
+* `2023.04.01`｜`北林理学人` https://mp.weixin.qq.com/s/CdEAe3LfhVFYTcv0UecnDA 青春榜样｜刘雅轩：风华正茂青云上，笔耕静以修身，思悟敢为人先
 * `2019.03.26`｜`中国大学生网` https://mp.weixin.qq.com/s/LccU_pNjs82tkfkD67QHcA 这是一位活在数学与诗歌中的“宝藏女孩” 慧心“妍”状，才貌双全！
 
 
