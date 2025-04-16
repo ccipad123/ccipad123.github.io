@@ -29,12 +29,12 @@ cc is here.
 * `2019.11.28`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/HvIf6Rc5rHwAfQIZhx07zA" target="_blank">【学院榜样】有意识的勤奋，不经意的优秀——国家奖学金获得者王浩天</a>
 * `2019.11.26`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/-yssKXwsFagza4QsCEm10w" target="_blank">【学院榜样】平和无畏 一路前行——国家奖学金获得者许诺</a>
 * `2019.11.24`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/L9PNdsTwUCIRcBwQYEdLRQ" target="_blank">【学院榜样】越自律越自由--新生特等奖学金获得谢曦瑶</a>
+* `2019.03.26`｜`中国大学生网` <a href="https://mp.weixin.qq.com/s/LccU_pNjs82tkfkD67QHcA" target="_blank">这是一位活在数学与诗歌中的“宝藏女孩” 慧心“妍”状，才貌双全！</a>
 * `2018.11.30`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/gxpQ_GRaPZ3w9WQRCAR27A" target="_blank">【学院榜样】活在妙不可言的等待中——国家奖学金获得者邓妍</a>
 * `2018.11.29`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/cwrtgo4s8ZMbQrOlx5tfTQ" target="_blank">【学院榜样】读书和旅行总有一个在路上——新生特等奖学金获得者王浩天</a>
 * `2018.11.28`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/vjVhAq7md2vdt1gPOaP1_g" target="_blank">【学院榜样】知其不可而为之——国家奖学金获得者许诺</a>
 * `2017.12.12`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/inpwBxd6SM0xcO_zubKHqQ" target="_blank">【学院榜样】人生自有江湖，唯有奋斗翘楚——国家奖学金获得者邓妍</a>
 * `2017.12.09`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/F1iCHw8yjPdaP9h4DKHIug" target="_blank">【学院榜样】才华与颜值兼备，严谨与幽默并存——国家奖学金获得者何英豪</a>
-* `2019.03.26`｜`中国大学生网` <a href="https://mp.weixin.qq.com/s/LccU_pNjs82tkfkD67QHcA" target="_blank">这是一位活在数学与诗歌中的“宝藏女孩” 慧心“妍”状，才貌双全！</a>
 
 
 
