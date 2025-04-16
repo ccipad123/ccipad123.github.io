@@ -7,15 +7,17 @@ author_profile: true
 
 cc is here. 
 
-# 目录
-- [科研项目](#科研项目)
-- [科研论文](#科研论文)
-- [期刊审稿](#期刊审稿)
-- [软件著作权](#软件著作权)
-- [竞赛获奖](#竞赛获奖)
-- [奖学金](#奖学金)
-- [荣誉称号](#荣誉称号)
-- [学生工作](#学生工作)
+<ul style="display: flex; list-style-type: none; padding: 0; margin: 0;">
+  <li style="margin-right: 20px;"><a href="#科研项目">科研项目</a></li>
+  <li style="margin-right: 20px;"><a href="#科研论文">科研论文</a></li>
+  <li style="margin-right: 20px;"><a href="#期刊审稿">期刊审稿</a></li>
+  <li style="margin-right: 20px;"><a href="#软件著作权">软件著作权</a></li>
+  <li style="margin-right: 20px;"><a href="#竞赛获奖">竞赛获奖</a></li>
+  <li style="margin-right: 20px;"><a href="#奖学金">奖学金</a></li>
+  <li><a href="#荣誉称号">荣誉称号</a></li>
+  <li><a href="#学生工作">学生工作</a></li>
+</ul>
+
 
 
 
