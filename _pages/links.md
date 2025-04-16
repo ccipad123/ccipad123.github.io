@@ -16,6 +16,7 @@ cc is here.
 <div id="BJFU Role Models" style="position: relative; top: -80px;"></div>
 
 # BJFU Role Models
+* `2023.04.18`｜`北林青马协会` <a href="https://mp.weixin.qq.com/s/nqI6kBM6Rcwx-8UjoGEZNQ" target="_blank">青春正当时 | 北林青年五四奖章答辩预告</a>
 * `2023.04.01`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/CdEAe3LfhVFYTcv0UecnDA" target="_blank">青春榜样｜刘雅轩：风华正茂青云上，笔耕静以修身，思悟敢为人先</a>
 * `2022.12.12`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/dIZfnqE91S4Fn5djGHYMlg" target="_blank">【学院榜样】青衿之志，履践致远——国家奖学金获得者刘震宇</a>
 * `2022.12.01`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/zBcgm_BbKKzfjxfPTnuY_w" target="_blank">【学院榜样】秉持热爱，谱写青春——国家奖学金获得者刘雅轩</a>
