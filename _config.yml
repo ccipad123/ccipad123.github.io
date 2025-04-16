@@ -28,7 +28,10 @@ author:
   # location         : "北京 海淀"
   employer         : "北京林业大学 数学系"
   # uri              : # URL
-  email            : "ccyolo2022@bjfu.edu.cn"
+email:
+  - "ccyolo2022@bjfu.edu.cn"
+  - "anotheremail@example.com"
+
 
 
 
