@@ -5,7 +5,8 @@ permalink: /research/
 author_profile: true
 ---
 
-cc is here. 
+This page organizes a selection of learning resources in the fields of machine learning and deep learning, including curated courses, useful tools, and research notes. Academic exchanges and collaborative discussions are warmly welcomed!
+
 
 # 目录
 - [机器学习 & 深度学习](#机器学习 & 深度学习)
