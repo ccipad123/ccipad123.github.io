@@ -5,7 +5,9 @@ permalink: /awards/
 author_profile: true
 ---
 
-cc is here. 
+
+这里整理了我大学期间的学习与科研足迹。何其有幸，得遇良师悉心指点，益友携手同行，更蒙母校润物无声的栽培。这些微不足道的收获，不过是求知长河中的几朵浪花，前路漫漫，深知自己才疏学浅。愿持赤子之心，在学术的沃土上深耕不辍。饮水思源，感恩所有提携之恩；虚左以待，诚盼诸位方家不吝赐教。
+
 
 # 目录
 <ul style="display: flex; list-style-type: none; padding: 0; margin: 0; font-family: 'Arial', sans-serif; font-size: 22px; color: #333;">
