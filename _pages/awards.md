@@ -7,6 +7,7 @@ author_profile: true
 
 cc is here. 
 
+# 目录
 <ul style="display: flex; list-style-type: none; padding: 0; margin: 0;">
   <li style="margin-right: 20px;"><a href="#科研项目">科研项目</a></li>
   <li style="margin-right: 20px;"><a href="#科研论文">科研论文</a></li>
@@ -14,8 +15,8 @@ cc is here.
   <li style="margin-right: 20px;"><a href="#软件著作权">软件著作权</a></li>
   <li style="margin-right: 20px;"><a href="#竞赛获奖">竞赛获奖</a></li>
   <li style="margin-right: 20px;"><a href="#奖学金">奖学金</a></li>
-  <li><a href="#荣誉称号">荣誉称号</a></li>
-  <li><a href="#学生工作">学生工作</a></li>
+  <li style="margin-right: 20px;"><a href="#荣誉称号">荣誉称号</a></li>
+  <li style="margin-right: 20px;"><a href="#学生工作">学生工作</a></li>
 </ul>
 
 
