@@ -12,24 +12,31 @@ cc is here.
   <li style="margin-right: 20px;">
     <a href="#科研项目" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">科研项目</a>
   </li>
+  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
     <a href="#科研论文" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">科研论文</a>
   </li>
+  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
     <a href="#期刊审稿" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">期刊审稿</a>
   </li>
+  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
     <a href="#软件著作权" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">软件著作权</a>
   </li>
+  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
     <a href="#竞赛获奖" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">竞赛获奖</a>
   </li>
+  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
     <a href="#奖学金" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">奖学金</a>
   </li>
+  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
     <a href="#荣誉称号" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">荣誉称号</a>
   </li>
+  <li style="margin-right: 20px;">|</li>
   <li>
     <a href="#学生工作" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">学生工作</a>
   </li>
@@ -40,7 +47,19 @@ cc is here.
     color: #FF6347; /* Hover color */
     text-decoration: underline;
   }
+  ul li {
+    display: inline-block;
+  }
+  ul li:not(:last-child) {
+    margin-right: 10px; /* Adjust the space between the items */
+  }
+  ul li:not(:last-child)::after {
+    content: '|';
+    margin-left: 10px;
+    color: #333; /* The color of the separator */
+  }
 </style>
+
 
 
 
