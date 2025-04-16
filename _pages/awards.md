@@ -12,53 +12,35 @@ cc is here.
   <li style="margin-right: 20px;">
     <a href="#科研项目" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">科研项目</a>
   </li>
-  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
-    <a href="#科研论文" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">科研论文</a>
+    <a href="#科研论文" style="text-decoration: none; color: #FF4500; transition: color 0.3s ease;">科研论文</a>
   </li>
-  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
-    <a href="#期刊审稿" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">期刊审稿</a>
+    <a href="#期刊审稿" style="text-decoration: none; color: #32CD32; transition: color 0.3s ease;">期刊审稿</a>
   </li>
-  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
-    <a href="#软件著作权" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">软件著作权</a>
+    <a href="#软件著作权" style="text-decoration: none; color: #FFD700; transition: color 0.3s ease;">软件著作权</a>
   </li>
-  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
-    <a href="#竞赛获奖" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">竞赛获奖</a>
+    <a href="#竞赛获奖" style="text-decoration: none; color: #8A2BE2; transition: color 0.3s ease;">竞赛获奖</a>
   </li>
-  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
-    <a href="#奖学金" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">奖学金</a>
+    <a href="#奖学金" style="text-decoration: none; color: #FF6347; transition: color 0.3s ease;">奖学金</a>
   </li>
-  <li style="margin-right: 20px;">|</li>
   <li style="margin-right: 20px;">
-    <a href="#荣誉称号" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">荣誉称号</a>
+    <a href="#荣誉称号" style="text-decoration: none; color: #20B2AA; transition: color 0.3s ease;">荣誉称号</a>
   </li>
-  <li style="margin-right: 20px;">|</li>
   <li>
-    <a href="#学生工作" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">学生工作</a>
+    <a href="#学生工作" style="text-decoration: none; color: #FF1493; transition: color 0.3s ease;">学生工作</a>
   </li>
 </ul>
 
 <style>
   ul li a:hover {
-    color: #FF6347; /* Hover color */
     text-decoration: underline;
   }
-  ul li {
-    display: inline-block;
-  }
-  ul li:not(:last-child) {
-    margin-right: 10px; /* Adjust the space between the items */
-  }
-  ul li:not(:last-child)::after {
-    content: '|';
-    margin-left: 10px;
-    color: #333; /* The color of the separator */
-  }
 </style>
+
 
 
 
