@@ -16,6 +16,13 @@ cc is here.
 <div id="BJFU Role Models" style="position: relative; top: -80px;"></div>
 
 # BJFU Role Models
+* `2017.12.12`｜`北林理学人` https://mp.weixin.qq.com/s/inpwBxd6SM0xcO_zubKHqQ 【学院榜样】人生自有江湖，唯有奋斗翘楚——国家奖学金获得者邓妍
+* `2019.11.26`｜`北林理学人` https://mp.weixin.qq.com/s/-yssKXwsFagza4QsCEm10w 【学院榜样】平和无畏 一路前行——国家奖学金获得者许诺
+* `2018.11.28`｜`北林理学人` https://mp.weixin.qq.com/s/vjVhAq7md2vdt1gPOaP1_g 【学院榜样】知其不可而为之——国家奖学金获得者许诺
+* `2018.11.30`｜`北林理学人` https://mp.weixin.qq.com/s/gxpQ_GRaPZ3w9WQRCAR27A 【学院榜样】活在妙不可言的等待中——国家奖学金获得者邓妍
+* `2021.11.19`｜`北林理学人` https://mp.weixin.qq.com/s/6Ek9MmKHzB9-fNZ4n5RgYQ 【学院榜样】书生意气纵苍穹——国家奖学金获得者刘雅轩
+* `2020.11.20`｜`北林理学人` https://mp.weixin.qq.com/s/mDSHGIMFdhLoydtDgN7P6Q 【学院榜样】不忘初心，负重前行——本科生国家奖学金获得者王浩天
+* 
 
 
 
