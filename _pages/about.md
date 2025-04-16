@@ -7,46 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>無限進步</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background-color: #f0f0f0;
-    }
-    .title {
-      font-size: 72px;
-      font-weight: bold;
-    }
-    .title span {
-      display: inline-block;
-      padding: 0 10px;
-    }
-    .title .color1 { color: red; }
-    .title .color2 { color: blue; }
-    .title .color3 { color: green; }
-    .title .color4 { color: orange; }
-  </style>
-</head>
-<body>
-  <h1 class="title">
-    <span class="color1">無</span>
-    <span class="color2">限</span>
-    <span class="color3">進</span>
-    <span class="color4">步</span>
-  </h1>
-</body>
-</html>
-
 
 <style>
   .container {
