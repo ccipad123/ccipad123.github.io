@@ -8,16 +8,40 @@ author_profile: true
 cc is here. 
 
 # 目录
-<ul style="display: flex; list-style-type: none; padding: 0; margin: 0;">
-  <li style="margin-right: 20px;"><a href="#科研项目">科研项目</a></li>
-  <li style="margin-right: 20px;"><a href="#科研论文">科研论文</a></li>
-  <li style="margin-right: 20px;"><a href="#期刊审稿">期刊审稿</a></li>
-  <li style="margin-right: 20px;"><a href="#软件著作权">软件著作权</a></li>
-  <li style="margin-right: 20px;"><a href="#竞赛获奖">竞赛获奖</a></li>
-  <li style="margin-right: 20px;"><a href="#奖学金">奖学金</a></li>
-  <li style="margin-right: 20px;"><a href="#荣誉称号">荣誉称号</a></li>
-  <li style="margin-right: 20px;"><a href="#学生工作">学生工作</a></li>
+<ul style="display: flex; list-style-type: none; padding: 0; margin: 0; font-family: 'Arial', sans-serif; font-size: 18px; color: #333;">
+  <li style="margin-right: 20px;">
+    <a href="#科研项目" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">科研项目</a>
+  </li>
+  <li style="margin-right: 20px;">
+    <a href="#科研论文" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">科研论文</a>
+  </li>
+  <li style="margin-right: 20px;">
+    <a href="#期刊审稿" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">期刊审稿</a>
+  </li>
+  <li style="margin-right: 20px;">
+    <a href="#软件著作权" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">软件著作权</a>
+  </li>
+  <li style="margin-right: 20px;">
+    <a href="#竞赛获奖" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">竞赛获奖</a>
+  </li>
+  <li style="margin-right: 20px;">
+    <a href="#奖学金" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">奖学金</a>
+  </li>
+  <li style="margin-right: 20px;">
+    <a href="#荣誉称号" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">荣誉称号</a>
+  </li>
+  <li>
+    <a href="#学生工作" style="text-decoration: none; color: #007BFF; transition: color 0.3s ease;">学生工作</a>
+  </li>
 </ul>
+
+<style>
+  ul li a:hover {
+    color: #FF6347; /* Hover color */
+    text-decoration: underline;
+  }
+</style>
+
 
 
 
