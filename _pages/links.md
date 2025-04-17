@@ -16,7 +16,7 @@ author_profile: true
 <div id="BJFU Role Models" style="position: relative; top: -80px;"></div>
 
 # BJFU Role Models
-* `2023.04.18`｜`北林青马协会` <a href="https://mp.weixin.qq.com/s/nqI6kBM6Rcwx-8UjoGEZNQ" target="_blank">青春正当时 | 北林青年五四奖章答辩预告</a>
+* `2023.04.18`｜`北林青马协会` <a href="https://mp.weixin.qq.com/s/nqI6kBM6Rcwx-8UjoGEZNQ" target="_blank">青春正当时｜北林青年五四奖章答辩预告</a>
 * `2023.04.01`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/CdEAe3LfhVFYTcv0UecnDA" target="_blank">青春榜样｜刘雅轩：风华正茂青云上，笔耕静以修身，思悟敢为人先</a>
 * `2022.12.12`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/dIZfnqE91S4Fn5djGHYMlg" target="_blank">【学院榜样】青衿之志，履践致远——国家奖学金获得者刘震宇</a>
 * `2022.12.01`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/zBcgm_BbKKzfjxfPTnuY_w" target="_blank">【学院榜样】秉持热爱，谱写青春——国家奖学金获得者刘雅轩</a>
@@ -46,8 +46,8 @@ author_profile: true
 <div id="About Me" style="position: relative; top: -80px;"></div>
 
 # About Me
-* `2025.04.17`｜`北京林业大学科技处` <a href="https://mp.weixin.qq.com/s/tV1bfYwLv4cUvWHsZKaz1w" target="_blank">科技快报 | 我校科研团队在多视角学习研究领域取得进展</a>
-* `2025.04.10`｜`国家林草科技` <a href="https://mp.weixin.qq.com/s/jdHesap-_yH561sCRDgVKg" target="_blank">北林大 | 一种用于森林生物量碳储量估算的新算法</a>
+* `2025.04.17`｜`北京林业大学科技处` <a href="https://mp.weixin.qq.com/s/tV1bfYwLv4cUvWHsZKaz1w" target="_blank">科技快报｜我校科研团队在多视角学习研究领域取得进展</a>
+* `2025.04.10`｜`国家林草科技` <a href="https://mp.weixin.qq.com/s/jdHesap-_yH561sCRDgVKg" target="_blank">北林大｜一种用于森林生物量碳储量估算的新算法</a>
 * `2025.04.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/fkEH6sVKIqoU7R65JPOF1g" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
 * `2025.03.25`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/ERosdCmTmc5mzLb_89dS0w" target="_blank">理学院林草数据处理团队在《Expert Systems with Applications》上发表研究成果</a>
 * `2025.03.23`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/82jZG8JCOPVWYjJfqxinjw" target="_blank">理学院林草数据处理团队在《Computers and Electronics in Agriculture》发表研究成果</a>
