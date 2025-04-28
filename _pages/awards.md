@@ -32,7 +32,7 @@ author_profile: true
   <li style="margin-right: 20px;">
     <a href="#荣誉称号" style="text-decoration: none; color: #20B2AA; transition: color 0.3s ease;">荣誉称号</a>
   </li>
-  <li>
+  <li style="margin-right: 20px;">
     <a href="#学生工作" style="text-decoration: none; color: #FF1493; transition: color 0.3s ease;">学生工作</a>
   </li>
   <li>
