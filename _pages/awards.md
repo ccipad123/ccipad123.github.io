@@ -35,6 +35,9 @@ author_profile: true
   <li>
     <a href="#学生工作" style="text-decoration: none; color: #FF1493; transition: color 0.3s ease;">学生工作</a>
   </li>
+  <li>
+    <a href="#志愿服务" style="text-decoration: none; color: #9370DB; transition: color 0.3s ease;">志愿服务</a>
+  </li>
 </ul>
 
 <style>
@@ -188,6 +191,10 @@ author_profile: true
 * `2021.09 - 2022.08` 北京林业大学数学21-2班心理委员
 
 
+
+<div id="志愿服务" style="position: relative; top: -80px;"></div>
+
+# 志愿服务
 
 
 
