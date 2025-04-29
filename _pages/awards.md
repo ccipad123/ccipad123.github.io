@@ -73,7 +73,7 @@ author_profile: true
    
 4. Jingwen Li, Jianan Sun<sup>#</sup>, Mingyu Shao, Yinghui Lai and **Chen Chen**, **A New Multidimensional Computerized Testing Approach: On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory**, *Mathematics* 2025, 13(4), 594. <a href="https://doi.org/10.3390/math13040594" target="_blank">https://doi.org/10.3390/math13040594</a>.
 
-5. Shuangrui Jia, Sijie Liang, Ziyi Mo, Chunxiao Liu, Huiru Wang<sup>#</sup> and **Chen Chen**, **Deep Multi-view Least Squares Support Vector Machine with Consistency and Complementarity Principle based on Cross-Output Knowledge Transfer**, submitted to *Expert Systems with Applications*
+5. Shuangrui Jia, Sijie Liang, Ziyi Mo, Chunxiao Liu, Huiru Wang<sup>#</sup> and **Chen Chen**, **Deep Multi-view Least Squares Support Vector Machine with Consistency and Complementarity Principle based on Cross-Output Knowledge Transfer**, submitted to *Expert Systems with Applications*.
 
 6. Qi Zhong, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Safe screening rules for multi-view non-parallel support vector machines**, submitted to *Engineering Applications of Artificial Intelligence*.
 
