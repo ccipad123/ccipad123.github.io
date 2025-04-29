@@ -73,11 +73,13 @@ author_profile: true
    
 4. Jingwen Li, Jianan Sun<sup>#</sup>, Mingyu Shao, Yinghui Lai and **Chen Chen**, **A New Multidimensional Computerized Testing Approach: On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory**, *Mathematics* 2025, 13(4), 594. <a href="https://doi.org/10.3390/math13040594" target="_blank">https://doi.org/10.3390/math13040594</a>.
 
-5. Qi Zhong, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Safe screening rules for multi-view non-parallel support vector machines**, submitted to *Engineering Applications of Artificial Intelligence*.
+5. Shuangrui Jia, Sijie Liang, Ziyi Mo, Chunxiao Liu, Huiru Wang<sup>#</sup> and **Chen Chen**, **Deep Multi-view Least Squares Support Vector Machine with Consistency and Complementarity Principle based on Cross-Output Knowledge Transfer**, submitted to *Expert Systems with Applications*
 
-6. Niannian Deng, Renpeng Xu, **Chen Chen**, Ying Zhang, Haoting Wang, Huiru Wang<sup>#</sup>, Pei Wang<sup>#</sup>, and Yuhan Wu, **A new perspective study on LiDAR tree point clouds classification in multi-view and transfer learning based on a novel approach: least squares multi-view transfer discriminative model**, submitted to *IEEE Transactions on Geoscience and Remote Sensing*.
+6. Qi Zhong, **Chen Chen**, and Huiru Wang<sup>#</sup>, **Safe screening rules for multi-view non-parallel support vector machines**, submitted to *Engineering Applications of Artificial Intelligence*.
 
-7. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Transportation*.
+7. Niannian Deng, Renpeng Xu, **Chen Chen**, Ying Zhang, Haoting Wang, Huiru Wang<sup>#</sup>, Pei Wang<sup>#</sup>, and Yuhan Wu, **A new perspective study on LiDAR tree point clouds classification in multi-view and transfer learning based on a novel approach: least squares multi-view transfer discriminative model**, submitted to *IEEE Transactions on Geoscience and Remote Sensing*.
+
+8. Xinyi Wang, Simin Bian<sup>#</sup>, Tianyi Yu, Yan Lu, Zhiya Chen, and **Chen Chen**, **What Characteristics of Green Spaces Attract Commuters to Take a Detour on Their Way Home? A Study on Preferences for Green Spaces Around Beijing Subway Stations**, submitted to *Transportation*.
 
 
 
