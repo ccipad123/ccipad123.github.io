@@ -165,6 +165,7 @@ author_profile: true
 <div id="荣誉称号" style="position: relative; top: -80px;"></div>
 
 # 荣誉称号
+* `校级` 北京林业大学优秀毕业生
 * `市级` 2022-2023年度北京市三好学生
 * `区级` 海淀区三星级志愿者
 * `校级` 2023-2024学年优秀学生干部
@@ -203,6 +204,7 @@ author_profile: true
 * Botball 国际教育机器人大会
 * “锋”行校园，“洁”尽全力——雷锋月志愿活动
 * 蓝信封通讯大使活动
+  * `蓝信封书信博物馆` <a href="https://mp.weixin.qq.com/s/t9n3oQFzoMHmjdTH7omB5Q" target="_blank">蓝信封数学与应用数学专业学生访谈录 | 陈辰：寻找属于自己的乐趣</a>
 * 北京半程马拉松志愿者
 
 {% comment %}
