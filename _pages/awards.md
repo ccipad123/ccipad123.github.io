@@ -198,15 +198,18 @@ author_profile: true
 <div id="志愿服务" style="position: relative; top: -80px;"></div>
 
 # 志愿服务
+* 北京半程马拉松志愿者
+  * <a href="https://mp.weixin.qq.com/s/8LEt3xullJrt_sJnlI8lVg" target="_blank">2025北京国际长跑节-北京半程马拉松志愿者预招募</a>
+* 蓝信封通讯大使活动
+  * <a href="https://mp.weixin.qq.com/s/t9n3oQFzoMHmjdTH7omB5Q" target="_blank">蓝信封数学与应用数学专业学生访谈录 | 陈辰：寻找属于自己的乐趣</a>
 * 临终关怀志愿服务
   * 临终关怀是由北京松堂关怀医院主办的校外公益项目，也是阳光社团长期开展的一项品牌活动，活动以“温情伴晚年，爱意满人间”为理念，服务对象为步入生命最后历程的老人们。活动中，志愿者们将走进北京松堂关怀医院，去倾听、陪伴老人们生命中的最后一段时光，给予老人们帮助和心灵的慰藉，同时也唤起志愿者们对生命的敬畏与反思。
   * <a href="https://mp.weixin.qq.com/s/q7QpOSb0ERlzdlObiuTMDg" target="_blank">【志愿者招募】临终关怀再启程</a>
 * 国家动物博物馆志愿项目
 * Botball 国际教育机器人大会
+  * <a href="https://mp.weixin.qq.com/s/is8xUBtgjfIxkWOw8qvoaQ" target="_blank">【北京志愿者招募】2025Botball国际教育机器人大会开放挑战-北京站志愿者招募</a>
 * “锋”行校园，“洁”尽全力——雷锋月志愿活动
-* 蓝信封通讯大使活动
-  * `蓝信封书信博物馆` <a href="https://mp.weixin.qq.com/s/t9n3oQFzoMHmjdTH7omB5Q" target="_blank">蓝信封数学与应用数学专业学生访谈录 | 陈辰：寻找属于自己的乐趣</a>
-* 北京半程马拉松志愿者
+
 
 {% comment %}
 {% include base_path %}
