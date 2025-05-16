@@ -44,6 +44,7 @@ author_profile: true
 <div id="About Me" style="position: relative; top: -80px;"></div>
 
 # About Me
+* `2025.05.08`｜`北京林业大学` <a href="https://mp.weixin.qq.com/s/CkMmSG9_mD1pmrDuPO8dYA" target="_blank">一起来看！北林大科研新进展！</a>
 * `2025.04.17`｜`北京林业大学科技处` <a href="https://mp.weixin.qq.com/s/tV1bfYwLv4cUvWHsZKaz1w" target="_blank">科技快报｜我校科研团队在多视角学习研究领域取得进展</a>
 * `2025.04.10`｜`国家林草科技` <a href="https://mp.weixin.qq.com/s/jdHesap-_yH561sCRDgVKg" target="_blank">北林大｜一种用于森林生物量碳储量估算的新算法</a>
 * `2025.04.08`｜`北林理学人` <a href="https://mp.weixin.qq.com/s/fkEH6sVKIqoU7R65JPOF1g" target="_blank">【理院新闻】“理响时刻”就业沙龙之“保研”专题讲座</a>
