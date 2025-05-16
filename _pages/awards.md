@@ -88,6 +88,7 @@ author_profile: true
 # 期刊审稿
 * <a href="https://link.springer.com/journal/11227" target="_blank">The Journal of Supercomputing｜Springer</a>
 * <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
+* <a href="https://www.sciencedirect.com/journal/information-sciences" target="_blank">Information Sciences｜Elsevier</a>
 
 
 
