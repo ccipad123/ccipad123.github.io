@@ -90,6 +90,7 @@ author_profile: true
 * <a href="https://www.nature.com/npjai/" target="_blank">npj Artificial Intelligence｜Nature</a>
 * <a href="https://www.sciencedirect.com/journal/information-sciences" target="_blank">Information Sciences｜Elsevier</a>
 * <a href="https://www.sciencedirect.com/journal/expert-systems-with-applications" target="_blank">Expert Systems With Applications｜Elsevier</a>
+* <a href="https://link.springer.com/journal/12889/volumes-and-issues" target="_blank">BMC Public Health｜Springer</a>
 
 
 <div id="软件著作权" style="position: relative; top: -80px;"></div>
