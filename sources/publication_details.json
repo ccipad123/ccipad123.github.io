@@ -34,5 +34,12 @@
     "summary": "针对风速序列的非线性与多尺度波动，研究通过平稳小波变换提取不同尺度的平均风速和湍流强度，使用并行 LSTM 子模型分别预测。气压、温度、风向等气象序列由 WaveNet、LSTM 和 TCN 单独建模，再通过 Transformer 自注意力融合各路输出。三组数据上的多类对比实验评估了预测精度与稳健性，并报告了 6 小时预测结果。",
     "checked": "2026-10-15",
     "basis": "Publisher-provided abstract and primary URL in retained Crossref record"
+  },
+  "10.1016/j.eswa.2026.134683": {
+    "paper_url": "https://www.sciencedirect.com/science/article/pii/S0957417426035876",
+    "summary": "针对支持向量机中损失函数对异常样本敏感、非凸模型求解成本较高的问题，研究提出兼顾稀疏性与有界性的混合截断损失，构建单视图分类模型。通过 P-平稳点建立最优性条件，并结合工作集策略设计 ADMM 求解算法；进一步引入结构信息与视图权重，将模型扩展到多视图学习。合成、真实及图像数据集实验考察了分类性能、支持向量数量与噪声鲁棒性。",
+    "checked": "2026-10-16",
+    "basis": "Chinese summary based on the matching author preprint arXiv:2606.05814; journal metadata verified against Crossref and Elsevier API.",
+    "summary_source": "https://arxiv.org/abs/2606.05814"
   }
 }

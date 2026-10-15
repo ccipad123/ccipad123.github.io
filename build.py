@@ -5,6 +5,7 @@ Publications are generated from the retained, Crossref-verified source records.
 No build-time network access or third-party Python packages are required.
 """
 from pathlib import Path
+from datetime import date
 import html
 import json
 
@@ -16,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261015-method-links-news'
+REVISION = '20261016-hybrid-loss-paper'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -57,9 +58,12 @@ def bibtex(p):
     return ('@article{' + p['authors'][0].split()[-1] + str(year) + '_' + p['article'] + ',\n'
             + '\n'.join('  ' + key + ' = {' + value + '},' for key, value in [
                 ('title', title), ('author', ' and '.join(p['authors'])),
-                ('journal', p['journal']), ('year', str(year)), ('volume', p['volume']),
+                ('journal', p['journal']), ('year', str(year)),
+                *([('volume', p['volume'])] if p.get('volume') else []),
                 *([('number', p['issue'])] if p.get('issue') else []),
-                ('pages', p['article']), ('doi', p['doi'])]) + '\n}')
+                ('pages', p['article']), ('doi', p['doi']),
+                *([('note', 'Available online ' + p['published_online'])]
+                  if p.get('published_online') and not p.get('volume') else [])]) + '\n}')
 
 
 
@@ -111,7 +115,12 @@ def paper(p, full=False):
     cover_alt = journal.get('cover_alt', p['journal'] + ' 期刊封面')
     cover = f'<img class="journal-cover-image w-100 rounded-sm" src="{cover_path}" width="{journal["cover_width"]}" height="{journal["cover_height"]}" alt="{ESC(cover_alt)}" loading="lazy" decoding="async">'
     metric = external(journal['source_url'], f'{journal["jif_year"]} JIF · {journal["jif"]:.1f}', 'journal-metric')
-    volume_issue = ESC(p['volume']) + (f'({ESC(p["issue"])})' if p.get('issue') else '')
+    volume_issue = ESC(p.get('volume', '')) + (f'({ESC(p["issue"])})' if p.get('issue') else '')
+    bibliographic_line = f'{year}, ' + (volume_issue + ': ' if volume_issue else '') + ESC(p['article'])
+    if p.get('published_online') and not p.get('volume'):
+        online = date.fromisoformat(p['published_online'])
+        month = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'][online.month - 1]
+        bibliographic_line += f' · Available online {online.day} {month} {online.year}'
     citation = ''
     if full:
         citation = f'<details class="bibtex"><summary>BibTeX</summary><div class="citation-box"><pre><code>{ESC(bibtex(p))}</code></pre><button class="btn btn-sm btn-outline-secondary copy-citation" type="button">复制引用</button><span class="copy-status small ml-2" role="status"></span></div></details>'
@@ -120,7 +129,7 @@ def paper(p, full=False):
     <div class="col-md-9 col-xl-10 p-3 pl-md-0 publication-body">
     <h3 class="h5 mt-0 mb-1 font-weight-normal paper-title">{external('https://doi.org/'+p['doi'], title, 'text-body')}</h3>
     <p class="mt-0 mb-0 small authors">{names}</p>
-    <p class="mt-0 mb-0 small journal-line"><i>{ESC(p['journal'])}</i> {year}, {volume_issue}: {ESC(p['article'])} {metric}</p>
+    <p class="mt-0 mb-0 small journal-line"><i>{ESC(p['journal'])}</i> {bibliographic_line} {metric}</p>
     <p class="mt-0 mb-0 small text-muted paper-summary">{math_text(SUMMARIES[p['doi']], base)}</p>
     <div class="small paper-links">{external(PUBLICATION_DETAILS[p['doi']]['paper_url'], '[Paper]', 'paper-link')}{external('https://doi.org/'+p['doi'], '[DOI]')}{citation}</div></div></article>'''
 
@@ -175,13 +184,14 @@ def education_honors(base=''):
 
 def news_card():
     return f'''<section class="my-3 bg-white shadow-sm rounded-xl" id="news"><h2 class="h6 p-3 mb-0 border-bottom">{icon('fas fa-rss')} News</h2><div class="px-3 pb-1 small">
-    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习。 {external('https://doi.org/10.1016/j.eswa.2025.129406','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
+    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>论文在线发表于 <i>Expert Systems with Applications</i>，研究基于混合截断损失的鲁棒稀疏支持向量机。 {external('https://doi.org/10.1016/j.eswa.2026.134683','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Oct.</i></div></div>
+    <div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习。 {external('https://doi.org/10.1016/j.eswa.2025.129406','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
     <div class="media py-1 border-top"><div class="mr-3 text-muted my-1">2025</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Energies</i>，研究融合湍流强度与多种气象特征的 Transformer 风速预测模型。 {external('https://doi.org/10.3390/en18174571','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Aug.</i></div></div>
     <div class="my-1 d-flex"><div>合作论文发表于 <i>Computers and Electronics in Agriculture</i>，研究森林生物量碳储量估计。 {external('https://doi.org/10.1016/j.compag.2025.110020','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>May</i></div></div></div></div></div></section>'''
 
 
 def home():
-    selected = [next(p for p in PUBLICATIONS if p['doi'] == doi) for doi in ['10.1016/j.inffus.2024.102733','10.1016/j.eswa.2024.125814','10.1016/j.eswa.2025.129406','10.1016/j.compag.2025.110020']]
+    selected = [next(p for p in PUBLICATIONS if p['doi'] == doi) for doi in ['10.1016/j.eswa.2026.134683','10.1016/j.inffus.2024.102733','10.1016/j.eswa.2024.125814','10.1016/j.eswa.2025.129406','10.1016/j.compag.2025.110020']]
     return profile_card() + education_honors() + news_card() + f'''<section class="my-3 p-0 bg-white shadow-sm rounded-xl" aria-labelledby="selected-title">
     <h2 class="h6 border-bottom p-3 mb-0" id="selected-title">{icon('fas fa-star')} Selected Publications <a href="publications/index.html">(view all {icon('fas fa-angle-double-right')})</a></h2>
     <p class="small text-muted px-3 pt-2 mb-2 correspondence-key"># Corresponding author</p>{''.join(paper(p) for p in selected)}<div class="h6 d-block p-3 mt-0 mb-0 text-right"><a href="publications/index.html">All publications {icon('fas fa-angle-double-right')}</a></div></section>''' + reviewer_service()

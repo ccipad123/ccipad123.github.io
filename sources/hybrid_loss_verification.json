@@ -1,0 +1,950 @@
+{
+  "checked": "2026-10-16",
+  "crossref_url": "https://api.crossref.org/works/10.1016/j.eswa.2026.134683",
+  "crossref_record": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2026-10-13T20:44:59Z",
+      "timestamp": 1791924299080,
+      "version": "4.3.4"
+    },
+    "reference-count": 49,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2026-10-01T00:00:00Z",
+          "timestamp": 1790812800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012226",
+        "name": "Fundamental Research Funds for the Central Universities",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "QNTD202510"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "QNTD202510"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012226",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100013804",
+        "name": "Fundamental Research Funds for the Central Universities",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100013804",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "12501719"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "12501719"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Expert Systems with Applications"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.eswa.2026.134683",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2026-10-12T15:58:10Z",
+      "timestamp": 1791820690000
+    },
+    "page": "134683",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Robust and sparse support vector machine via hybrid truncated loss for supervised classification"
+    ],
+    "prefix": "10.1016",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-8157-3638",
+        "authenticated-orcid": false,
+        "given": "Yuliang",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chen",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-3078-3814",
+        "authenticated-orcid": false,
+        "given": "Yuxiang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3579-0028",
+        "authenticated-orcid": false,
+        "given": "Huiru",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "01",
+        "key": "10.1016/j.eswa.2026.134683_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1109/TPAMI.2024.3465535",
+        "article-title": "RoboSS: A robust, bounded, sparse, and smooth loss function for supervised learning",
+        "volume": "47",
+        "author": "Akhtar",
+        "year": "2025",
+        "journal-title": "IEEE Transactions on Pattern Analysis & Machine Intelligence"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1016/j.aej.2025.04.067",
+        "article-title": "Machine learning algorithm for detecting suspicious email messages using natural language processing NLP",
+        "volume": "128",
+        "author": "Alkhodhairy",
+        "year": "2025",
+        "journal-title": "Alexandria Engineering Journal"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0003",
+        "series-title": "Proceedings of the 49th annual ACM SIGACT symposium on theory of computing",
+        "first-page": "1200",
+        "article-title": "Katyusha: the first direct acceleration of stochastic gradient methods",
+        "author": "Allen-Zhu",
+        "year": "2017"
+      },
+      {
+        "issue": "85",
+        "key": "10.1016/j.eswa.2026.134683_bib0004",
+        "first-page": "2399",
+        "article-title": "Manifold regularization: A geometric framework for learning from labeled and unlabeled examples",
+        "volume": "7",
+        "author": "Belkin",
+        "year": "2006",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.eswa.2026.134683_bib0005",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/3767728",
+        "article-title": "A comprehensive survey on multi-view classification: Methods, applications, and challenges",
+        "volume": "16",
+        "author": "Berahmand",
+        "year": "2025",
+        "journal-title": "ACM Trans. Intell. Syst. Technol."
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0006",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neucom.2024.128109",
+        "article-title": "An efficient primal simplex method for solving large-scale support vector machines",
+        "volume": "599",
+        "author": "Brahmi",
+        "year": "2024",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0007",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.inffus.2024.102733",
+        "article-title": "Multi-view support vector machine classifier via l0/1 soft-margin loss with structural information",
+        "volume": "115",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Information Fusion"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0008",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.knosys.2025.113236",
+        "article-title": "Ams: A hyperspectral image classification method based on svm and multi-modal attention network",
+        "volume": "314",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Knowledge-Based Systems"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0009",
+        "series-title": "Proceedings of the 23rd international conference on machine learning",
+        "first-page": "201",
+        "article-title": "Trading convexity for scalability",
+        "author": "Collobert",
+        "year": "2006"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eswa.2026.134683_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1023/A:1022627411411",
+        "article-title": "Support-vector networks",
+        "volume": "20",
+        "author": "Cortes",
+        "year": "1995",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1016/j.neucom.2023.01.082",
+        "article-title": "Over-relaxed multi-block ADMM algorithms for doubly regularized support vector machines",
+        "volume": "530",
+        "author": "Dai",
+        "year": "2023",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0012",
+        "series-title": "Advances in neural information processing systems",
+        "first-page": "355",
+        "article-title": "Two view learning: SVM-2k, theory and practice",
+        "volume": "vol. 18",
+        "author": "Farquhar",
+        "year": "2005"
+      },
+      {
+        "issue": "21",
+        "key": "10.1016/j.eswa.2026.134683_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "18643",
+        "DOI": "10.1007/s00521-022-07460-6",
+        "article-title": "Support matrix machine with pinball loss for classification",
+        "volume": "34",
+        "author": "Feng",
+        "year": "2022",
+        "journal-title": "Neural Comput. Appl."
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0014",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2025.130097",
+        "article-title": "A new multi-view support vector machine with v-property",
+        "volume": "299",
+        "author": "He",
+        "year": "2026",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.eswa.2026.134683_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "984",
+        "DOI": "10.1109/TPAMI.2013.178",
+        "article-title": "Support vector machine classifier with pinball loss",
+        "volume": "36",
+        "author": "Huang",
+        "year": "2014",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.eswa.2026.134683_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "1584",
+        "DOI": "10.1109/TNNLS.2016.2547324",
+        "article-title": "Solution path for pin-SVM classifiers with positive and negative tau values",
+        "volume": "28",
+        "author": "Huang",
+        "year": "2017",
+        "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0017",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2025.129406",
+        "article-title": "Deep multi-view least squares support vector machine with consistency and complementarity principle based on cross-output knowledge transfer",
+        "volume": "298",
+        "author": "Jia",
+        "year": "2026",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0018",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2022.109125",
+        "article-title": "L2-loss nonparallel bounded support vector machine for robust classification and its DCD-type solver",
+        "volume": "126",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0019",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2020.106840",
+        "article-title": "Smooth pinball loss nonparallel support vector machine for robust classification",
+        "volume": "98",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Applied Soft Computing"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0020",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2024.125814",
+        "article-title": "Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules",
+        "volume": "265",
+        "author": "Liu",
+        "year": "2025",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.eswa.2026.134683_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "5187",
+        "DOI": "10.1109/TCE.2026.3652617",
+        "article-title": "V-shaped ravine loss for twin concentric hyper-spheres maximum margin classifier for robust classification in pattern recognition",
+        "volume": "72",
+        "author": "Liu",
+        "year": "2026",
+        "journal-title": "IEEE Transactions on Consumer Electronics"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2026.134683_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "237",
+        "DOI": "10.1016/j.ejor.2024.12.014",
+        "article-title": "A novel robust optimization model for nonlinear support vector machine",
+        "volume": "322",
+        "author": "Maggioni",
+        "year": "2025",
+        "journal-title": "European Journal of Operational Research"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0023",
+        "series-title": "Advances in neural information processing systems",
+        "first-page": "512",
+        "article-title": "Boosting algorithms as gradient descent",
+        "volume": "vol. 12",
+        "author": "Mason",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0024",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neunet.2025.107433",
+        "article-title": "Enhancing multiview synergy: Robust learning by exploiting the wave loss function with consensus and complementarity principles",
+        "volume": "188",
+        "author": "Quadir",
+        "year": "2025",
+        "journal-title": "Neural Networks"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0025",
+        "article-title": "Variational Analysis",
+        "author": "Rockafellar",
+        "year": "2009"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2026.134683_bib0026",
+        "article-title": "Quantum machine learning for image classification",
+        "volume": "5",
+        "author": "Senokosov",
+        "year": "2024",
+        "journal-title": "Machine Learning: Science and Technology"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1016/j.patcog.2017.03.011",
+        "article-title": "Support vector machine classifier with truncated pinball loss",
+        "volume": "68",
+        "author": "Shen",
+        "year": "2017",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eswa.2026.134683_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1023/A:1018628609742",
+        "article-title": "Least squares support vector machine classifiers",
+        "volume": "9",
+        "author": "Suykens",
+        "year": "1999",
+        "journal-title": "Neural Process. Lett."
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0029",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1186/s40537-025-01108-7",
+        "article-title": "Machine learning in biomedical and health big data: a comprehensive survey with empirical and experimental insights",
+        "volume": "12",
+        "author": "Taha",
+        "year": "2025",
+        "journal-title": "Journal of Big Data"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "384",
+        "DOI": "10.1016/j.neucom.2022.10.078",
+        "article-title": "Robust multi-view learning with the bounded LINEX loss",
+        "volume": "518",
+        "author": "Tang",
+        "year": "2023",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "110",
+        "DOI": "10.1016/j.ins.2018.12.058",
+        "article-title": "Coupling privileged kernel method for multi-view learning",
+        "volume": "481",
+        "author": "Tang",
+        "year": "2019",
+        "journal-title": "Information Sciences"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0032",
+        "series-title": "Proceedings of 2005 international conference on neural networks and brain proceedings, ICNNB’05",
+        "first-page": "279",
+        "article-title": "Comparison of SVM and LS-SVM for regression",
+        "volume": "vol. 1",
+        "author": "Wang",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0033",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ins.2023.119136",
+        "article-title": "Fast SVM classifier for large-scale classification problems",
+        "volume": "642",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Information Sciences"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0034",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neucom.2025.130893",
+        "article-title": "Sparse and robust alternating direction method of multipliers for large-scale classification learning",
+        "volume": "652",
+        "author": "Wang",
+        "year": "2025",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0035",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2023.109987",
+        "article-title": "Fast generalized ramp loss support vector machine for pattern classification",
+        "volume": "146",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.eswa.2026.134683_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "7253",
+        "DOI": "10.1109/TPAMI.2021.3092177",
+        "article-title": "Support vector machine classifier via l0/1 soft-margin loss",
+        "volume": "44",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Pattern Analysis & Machine Intelligence"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.eswa.2026.134683_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "3781",
+        "DOI": "10.1007/s00521-020-05225-7",
+        "article-title": "Twin-parametric margin support vector machine with truncated pinball loss",
+        "volume": "33",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Neural Comput. Appl."
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0038",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2024.110544",
+        "article-title": "Sparse and robust support vector machine with capped squared loss for large-scale pattern classification",
+        "volume": "153",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.eswa.2026.134683_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "4151",
+        "DOI": "10.1109/TSMC.2024.3375021",
+        "article-title": "Fast support vector machine with low-computational complexity for large-scale classification",
+        "volume": "54",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+      },
+      {
+        "issue": "301",
+        "key": "10.1016/j.eswa.2026.134683_bib0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.1080/01621459.1963.10500845",
+        "article-title": "Hierarchical grouping to optimize an objective function",
+        "volume": "58",
+        "author": "Ward",
+        "year": "1963",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "issue": "C",
+        "key": "10.1016/j.eswa.2026.134683_bib0041",
+        "article-title": "Csr-svm: Compositional semantic representation for intelligent identification of engineering change documents based on svm",
+        "volume": "57",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "Adv. Eng. Inform."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eswa.2026.134683_bib0042",
+        "doi-asserted-by": "crossref",
+        "first-page": "701",
+        "DOI": "10.3233/IDA-150740",
+        "article-title": "Multi-view twin support vector machines",
+        "volume": "19",
+        "author": "Xie",
+        "year": "2015",
+        "journal-title": "Intell. Data Anal."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.eswa.2026.134683_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "2401",
+        "DOI": "10.1109/TKDE.2019.2933511",
+        "article-title": "Multi-view support vector machines with the consensus and complementarity information",
+        "volume": "32",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0044",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/j.patcog.2016.09.045",
+        "article-title": "Robust support vector machines based on the rescaled hinge loss function",
+        "volume": "63",
+        "author": "Xu",
+        "year": "2017",
+        "journal-title": "Pattern Recognition"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0045",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2022.117787",
+        "article-title": "Multi-view learning with privileged weighted twin support vector machine",
+        "volume": "206",
+        "author": "Xu",
+        "year": "2022",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0046",
+        "series-title": "Proceedings of the fourteenth international conference on artificial intelligence and statistics",
+        "first-page": "832",
+        "article-title": "Efficient variable selection in support vector machines via the alternating direction method of multipliers",
+        "volume": "vol. 15",
+        "author": "Ye",
+        "year": "2011"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.eswa.2026.134683_bib0047",
+        "doi-asserted-by": "crossref",
+        "first-page": "477",
+        "DOI": "10.1007/s10589-019-00075-z",
+        "article-title": "A semismooth newton method for support vector classification and regression",
+        "volume": "73",
+        "author": "Yin",
+        "year": "2019",
+        "journal-title": "Computational Optimization and Applications"
+      },
+      {
+        "key": "10.1016/j.eswa.2026.134683_bib0048",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neucom.2025.131647",
+        "article-title": "Multi-view least squares support vector classifiers with the principles of complementarity and consensus",
+        "volume": "657",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.eswa.2026.134683_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "15944",
+        "DOI": "10.1109/TNNLS.2023.3290540",
+        "article-title": "Multiview structural large margin classifier and its safe acceleration strategy",
+        "volume": "35",
+        "author": "Zhao",
+        "year": "2024",
+        "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+      }
+    ],
+    "container-title": [
+      "Expert Systems with Applications"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417426035876?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0957417426035876?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2026-10-13T19:49:45Z",
+      "timestamp": 1791920985000
+    },
+    "score": 67.5379,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0957417426035876"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "references-count": 49,
+    "alternative-id": [
+      "S0957417426035876"
+    ],
+    "URL": "https://doi.org/10.1016/j.eswa.2026.134683",
+    "ISSN": [
+      "0957-4174"
+    ],
+    "issn-type": [
+      {
+        "value": "0957-4174",
+        "type": "print"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Robust and sparse support vector machine via hybrid truncated loss for supervised classification",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Expert Systems with Applications",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.eswa.2026.134683",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "134683"
+  },
+  "elsevier_api_url": "https://api.elsevier.com/content/article/pii/S0957417426035876?httpAccept=text/xml",
+  "elsevier_coredata": {
+    "url": "https://api.elsevier.com/content/article/pii/S0957417426035876",
+    "identifier": "doi:10.1016/j.eswa.2026.134683",
+    "eid": "1-s2.0-S0957417426035876",
+    "doi": "10.1016/j.eswa.2026.134683",
+    "pii": "S0957-4174(26)03587-6",
+    "title": "Robust and sparse support vector machine via hybrid truncated loss for supervised classification ",
+    "publicationName": "Expert Systems with Applications",
+    "aggregationType": "Journal",
+    "issn": "09574174",
+    "coverDate": "2026-10-12",
+    "coverDisplayDate": "Available online 12 October 2026",
+    "openaccess": "0",
+    "openaccessArticle": "false",
+    "openArchiveArticle": "false"
+  },
+  "summary_source": "https://arxiv.org/abs/2606.05814",
+  "user_confirmed": {
+    "authorship": "Chen Chen is the user; second author",
+    "corresponding_author": "Huiru Wang",
+    "affiliations": {
+      "a": "School of Science, Beijing Forestry University, No.35 Qinghua East Road, 100083, Beijing, Haidian, China",
+      "b": "Translational Cancer Research Center, Peking University First Hospital, No. 8 Xishiku Street, 100034, Xicheng, Beijing, China"
+    },
+    "author_affiliations": {
+      "Yuliang Yang": [
+        "a"
+      ],
+      "Chen Chen": [
+        "a",
+        "b"
+      ],
+      "Yuxiang Liu": [
+        "a"
+      ],
+      "Huiru Wang": [
+        "a"
+      ]
+    }
+  },
+  "publication_status": "Available online; no volume or issue in current Crossref/publisher record",
+  "retrieval_notes": [
+    "Exa returned 429; Jina Reader returned 401; ScienceDirect web reader returned 403.",
+    "Crossref API and Elsevier API accessible; arXiv abstract retrieved using web reader.",
+    "No unverified ranking labels copied into the article title; existing 2025 JIF 9.4 journal record reused."
+  ]
+}

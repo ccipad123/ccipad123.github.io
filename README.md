@@ -24,7 +24,7 @@
 
 ## 内容与署名
 
-六篇论文作者顺序和 DOI 基于已核对书目。[Paper] 指向出版方文章页，[DOI] 保留永久链接，BibTeX 可下载。# Corresponding author 表示通讯作者，标记不加入 BibTeX 姓名。科研项目与荣誉按本人确认资料填写。
+七篇论文作者顺序和 DOI 基于已核对书目。混合截断损失 SVM 论文已于 12 Oct. 2026 在线发表，当前无卷号，按已核实的文章号 134683 和在线日期展示；来源见 sources/hybrid_loss_verification.json。[Paper] 指向出版方文章页，[DOI] 保留永久链接，BibTeX 可下载。# Corresponding author 表示通讯作者，标记不加入 BibTeX 姓名。科研项目与荣誉按本人确认资料填写。
 
 Energies 图片是 18(17) 的官方期刊封面；封面故事并非本文作者的风速预测论文。封面印刷指标与当前明确年份的 JIF 标签分开保留。
 

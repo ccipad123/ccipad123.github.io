@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-15",
+  "checked": "2026-10-16",
   "display_marker": "#",
   "source_marker": "# on user-designated prior homepage; * on MDPI",
   "papers": {
@@ -47,6 +47,14 @@
       ],
       "source_url": "https://www.mdpi.com/1996-1073/18/17/4571",
       "evidence": "Hongqing Wang: 1,*,‡; Xiaodong Ji: 3,*,‡; Authors to whom correspondence should be addressed."
+    },
+    "10.1016/j.eswa.2026.134683": {
+      "status": "user_source_verified",
+      "authors": [
+        "Huiru Wang"
+      ],
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0957417426035876",
+      "evidence": "User supplied publisher author list on 2026-10-16 with Correspondence author icon next to Huiru Wang. Author order independently matches Crossref and arXiv."
     }
   }
 }

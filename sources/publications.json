@@ -140,5 +140,27 @@
     "volume": "18",
     "issue": "17",
     "article": "4571"
+  },
+  {
+    "doi": "10.1016/j.eswa.2026.134683",
+    "title": "Robust and sparse support vector machine via hybrid truncated loss for supervised classification",
+    "journal": "Expert Systems with Applications",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "published_online": "2026-10-12",
+    "authors": [
+      "Yuliang Yang",
+      "Chen Chen",
+      "Yuxiang Liu",
+      "Huiru Wang"
+    ],
+    "article": "134683"
   }
 ]
