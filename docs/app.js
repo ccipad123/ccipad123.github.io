@@ -1,4 +1,38 @@
 /* Small progressive enhancements; all content and links work without JavaScript. */
+const certificateDialog = document.getElementById('certificate-viewer');
+if (certificateDialog && typeof certificateDialog.showModal === 'function') {
+  const certificateImage = certificateDialog.querySelector('.certificate-image');
+  const certificateTitle = certificateDialog.querySelector('#certificate-title');
+  const certificateOriginal = certificateDialog.querySelector('.certificate-original');
+  let certificateTrigger;
+  for (const link of document.querySelectorAll('[data-certificate]')) {
+    link.addEventListener('click', event => {
+      if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      certificateTrigger = link;
+      certificateTitle.textContent = link.dataset.certificateTitle;
+      certificateImage.alt = link.dataset.certificateTitle + '证书';
+      certificateImage.src = link.href;
+      certificateOriginal.href = link.href;
+      certificateDialog.showModal();
+      document.body.classList.add('certificate-open');
+      certificateDialog.scrollTop = 0;
+    });
+  }
+  certificateDialog.querySelector('.certificate-close').addEventListener('click', () => certificateDialog.close());
+  certificateDialog.addEventListener('click', event => {
+    if (event.target !== certificateDialog) return;
+    const rect = certificateDialog.getBoundingClientRect();
+    if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) {
+      certificateDialog.close();
+    }
+  });
+  certificateDialog.addEventListener('close', () => {
+    document.body.classList.remove('certificate-open');
+    certificateTrigger?.focus({preventScroll: true});
+  });
+}
+
 const toggle = document.querySelector('.navbar-toggler');
 const navigation = document.getElementById('site-navigation');
 toggle?.addEventListener('click', () => {

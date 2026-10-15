@@ -6,7 +6,7 @@
 
 ## 内容更新
 
-- sources/profile.json：教育日期、研究方向、关键词介绍链接、导师官方主页、志愿服务文字与蓝信封访谈、ORCID
+- sources/profile.json：教育日期、研究方向、关键词介绍链接、导师官方主页、志愿服务与证书链接、蓝信封访谈、ORCID
 - sources/awards.json：获奖名称与年月
 - sources/projects.json：科研项目、编号、角色和结题结果
 - sources/publications.json：论文书目
@@ -16,6 +16,8 @@
 - sources/journals.json：期刊图片及明确年份的 JIF
 - build.py：页面结构及简介正文
 - docs/style.css：手工维护的排版覆盖层与灰色链接主题；build.py 不覆盖此文件
+- docs/app.js：导航、年份筛选、引用复制与证书弹窗；build.py 不覆盖此文件
+- docs/assets/certificates/：用户授权点击展示的三张原始证书
 - site_config.json：网站正式网址
 
 修改源文件后运行 python3 build.py，再用 python3 -m http.server 8767 --bind 127.0.0.1 --directory docs 本地预览。

@@ -40,6 +40,17 @@ a:hover{color:var(--site-link-hover)}
 .email-text{overflow-wrap:anywhere}
 .education-emblem{display:block;flex:0 0 18px;width:18px;height:18px;object-fit:contain}
 .dated-list li+li{margin-top:2px}
+.certificate-link{color:inherit;text-decoration:underline;text-decoration-color:var(--site-link-rule);text-underline-offset:.2em}
+.certificate-link:hover{color:var(--site-link-hover);text-decoration-color:currentColor}
+body.certificate-open{overflow:hidden}
+.certificate-dialog{width:760px;max-width:calc(100vw - 2rem);max-height:calc(100vh - 2rem);max-height:calc(100dvh - 2rem);padding:1rem;border:0;border-radius:.75rem;color:#343a40;box-shadow:0 1rem 3rem rgba(0,0,0,.2)}
+.certificate-dialog[open]{display:flex;flex-direction:column;gap:.75rem}
+.certificate-dialog::backdrop{background:rgba(17,24,39,.65)}
+.certificate-toolbar{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.certificate-toolbar h2{min-width:0;line-height:1.5}
+.certificate-close{flex:0 0 auto;min-height:40px}
+.certificate-figure{margin:0;min-height:0;overflow:auto}
+.certificate-image{display:block;max-width:100%;max-height:75vh;max-height:75dvh;width:auto;height:auto;object-fit:contain;margin:auto}
 .publication:last-child{border-bottom:0!important}
 .journal-cover-link,.journal-cover-image{display:block}
 .journal-cover-image{height:auto}
@@ -92,7 +103,7 @@ a:hover{color:var(--site-link-hover)}
 }
 @media print{
  body{padding-top:0;background:white!important}
- .navbar,.footer,.publication-tools,.copy-citation,.year-nav{display:none!important}
+ .navbar,.footer,.publication-tools,.copy-citation,.year-nav,.certificate-dialog{display:none!important}
  .card,.shadow-sm{box-shadow:none!important}
  .publication{break-inside:avoid;background-image:none}
  .journal-cover-image{print-color-adjust:exact}

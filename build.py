@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261016-volunteer-service'
+REVISION = '20261016-certificate-viewer'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -34,6 +34,7 @@ TEACHING = [
     ('Feb. 2025 – Jul. 2025', '概率论与数理统计 B'),
     ('Dec. 2024 – Jan. 2025', '统计软件（双语）'),
     ('Sep. 2024 – Jan. 2025', '统计计算语言'),
+    ('Sep. 2023 – Aug. 2024', '本科新生学业辅导员'),
 ]
 REVIEWER_SERVICE = json.loads((ROOT / 'sources/reviewer_service.json').read_text())
 REVIEWER_JOURNALS = REVIEWER_SERVICE['journals']
@@ -166,19 +167,34 @@ def education(base=''):
     <li class="media mb-1"><img src="{base}assets/universities/bjfu.png" width="18" height="18" alt="北京林业大学校徽" class="mr-1 mt-1 education-emblem"><div class="media-body"><div>北京林业大学</div><div class="small d-flex"><div>数学与应用数学</div><div class="mt-auto ml-auto no-break pl-2"><em>{education_period('bjfu')}</em></div></div></div></li></ul>'''
 
 
-def dated_list(items):
+def certificate_link(title, filename, base=''):
+    url = base + 'assets/certificates/' + filename
+    return f'<a class="certificate-link" href="{ESC(url, quote=True)}" target="_blank" rel="noopener noreferrer" data-certificate data-certificate-title="{ESC(title, quote=True)}" aria-haspopup="dialog" aria-label="{ESC(title, quote=True)}：查看证书" title="查看证书">{ESC(title)}</a>'
+
+
+def certificate_viewer():
+    return '''<dialog class="certificate-dialog" id="certificate-viewer" aria-labelledby="certificate-title">
+    <div class="certificate-toolbar"><h2 class="h6 mb-0" id="certificate-title">证书</h2><button class="certificate-close btn btn-sm btn-outline-secondary" type="button" autofocus aria-label="关闭证书">关闭</button></div>
+    <figure class="certificate-figure"><img class="certificate-image" alt=""></figure>
+    <p class="small mb-0"><a class="certificate-original" target="_blank" rel="noopener noreferrer">查看原图 ↗</a></p></dialog>'''
+
+
+def dated_list(items, certificates=None, base=''):
     rows = []
     for item in items:
         date, text = item[:2]
         note = f'<small class="d-block text-muted">{ESC(item[2])}</small>' if len(item) > 2 and item[2] else ''
-        rows.append(f'<li><div class="d-flex"><div>{ESC(text)}{note}</div><div class="ml-auto mt-auto no-break pl-3"><em>{ESC(date)}</em></div></div></li>')
+        label = certificate_link(text, certificates[text], base) if certificates and text in certificates else ESC(text)
+        rows.append(f'<li><div class="d-flex"><div>{label}{note}</div><div class="ml-auto mt-auto no-break pl-3"><em>{ESC(date)}</em></div></div></li>')
     return '<ul class="list small pl-3 mb-1 dated-list">' + ''.join(rows) + '</ul>'
 
 
 def education_honors(base=''):
+    recognition = PROFILE['volunteering']['recognition']
+    certificates = {recognition['title']: recognition['certificate']}
     return f'''<div class="row mt-3"><div class="col"><section class="card border-0 shadow-sm bg-white"><div class="card-body p-4"><div class="row education-honors">
     <div class="col-lg-6"><div class="mx-2 my-1"><h2 class="h6">Education <small class="text-muted">教育经历</small></h2>{education(base)}</div></div>
-    <div class="col-lg-6" id="honors"><div class="mx-2 my-1"><h2 class="h6">Honors &amp; Awards <small class="text-muted">获奖与荣誉</small></h2>{dated_list(AWARDS)}</div></div>
+    <div class="col-lg-6" id="honors"><div class="mx-2 my-1"><h2 class="h6">Honors &amp; Awards <small class="text-muted">获奖与荣誉</small></h2>{dated_list(AWARDS, certificates, base)}</div></div>
     </div></div></section></div></div>'''
 
 
@@ -208,7 +224,9 @@ def publications():
 def experience():
     volunteering = PROFILE['volunteering']
     service_items = [(item['display_date'], item['title']) for item in volunteering['events']]
-    service_items.append(('Sep. 2023 – Aug. 2024', '本科新生学业辅导员'))
+    certificates = {item['title']: item['certificate'] for item in volunteering['events']}
+    recognition = volunteering['recognition']
+    recognition_summary = ESC(recognition['summary']).replace(ESC(recognition['title']), certificate_link(recognition['title'], recognition['certificate'], '../'))
     return f'''<h1 class="h3 font-weight-normal mb-3">Experience <small class="text-muted">学习与经历</small></h1>{education_honors('../')}
     <section class="my-3 bg-white shadow-sm rounded-xl" id="research"><h2 class="h6 p-3 mb-0 border-bottom">Research <small class="text-muted">研究经历</small></h2><div class="p-4 research-content">
     <section class="research-section" aria-labelledby="phd-research"><h3 class="h6" id="phd-research">博士阶段 · 空间转录组算法设计</h3><p>目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事{bilingual_term('空间转录组', 'Spatial Transcriptomics')}算法设计，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p><p>空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p></section>
@@ -216,8 +234,8 @@ def experience():
     <section class="research-section" aria-labelledby="collaborative-research"><h3 class="h6" id="collaborative-research">合作研究 · 预测建模与统计测量</h3><p>在森林生物量碳储量估计中，参与基于局部样本信息的加权回归研究，将 K 近邻结构与参数优化用于碳储量预测。在风速预测工作中，结合多尺度湍流特征、气象序列独立建模与 Transformer 融合，分析不同时间尺度及气象变量所包含的信息。</p><p>另一项合作研究面向多维自适应测评，在多维项目反应理论框架下进行即时组卷，比较不同组卷策略的能力估计精度、题目曝光和实施灵活性。上述工作分别发表于 <i>Computers and Electronics in Agriculture</i>、<i>Energies</i> 与 <i>Mathematics</i>。</p></section>
     <p class="mb-0"><a href="../projects/index.html">Projects · 科研项目 {icon('fas fa-angle-double-right')}</a></p></div></section>
     {reviewer_service()}
-    <section class="my-3 bg-white shadow-sm rounded-xl"><h2 class="h6 p-3 mb-0 border-bottom">Teaching <small class="text-muted">助教经历</small></h2><div class="p-4">{dated_list(TEACHING)}</div></section>
-    <section class="my-3 bg-white shadow-sm rounded-xl" id="service"><h2 class="h6 p-3 mb-0 border-bottom">Service <small class="text-muted">志愿与服务</small></h2><div class="p-4"><p class="mb-3">{ESC(volunteering['recognition']['summary'])}</p>{dated_list(service_items)}<p class="mt-3">曾参与蓝信封通讯陪伴、临终关怀与国家动物博物馆等志愿服务。</p><ul class="pl-3 mb-0">{''.join('<li>' + ESC(item['activity']) + '<div class="small mt-1">' + external(item['url'], ESC(item['title'])) + '</div></li>' for item in PROFILE['outreach'])}</ul></div></section>
+    <section class="my-3 bg-white shadow-sm rounded-xl" id="teaching"><h2 class="h6 p-3 mb-0 border-bottom">Teaching <small class="text-muted">教学与辅导</small></h2><div class="p-4">{dated_list(TEACHING)}</div></section>
+    <section class="my-3 bg-white shadow-sm rounded-xl" id="service"><h2 class="h6 p-3 mb-0 border-bottom">Service <small class="text-muted">志愿与服务</small></h2><div class="p-4"><p class="mb-3">{recognition_summary}</p>{dated_list(service_items, certificates, '../')}<p class="mt-3">曾参与蓝信封通讯陪伴、临终关怀与国家动物博物馆等志愿服务。</p><ul class="pl-3 mb-0">{''.join('<li>' + ESC(item['activity']) + '<div class="small mt-1">' + external(item['url'], ESC(item['title'])) + '</div></li>' for item in PROFILE['outreach'])}</ul></div></section>
     <section class="my-3 bg-white shadow-sm rounded-xl" id="contact"><h2 class="h6 p-3 mb-0 border-bottom">Contact <small class="text-muted">联系</small></h2><div class="p-4"><p class="mb-2">欢迎就研究与学习交流。</p><p class="mb-2"><a href="mailto:chenc2025@stu.pku.edu.cn">chenc2025@stu.pku.edu.cn</a></p><p class="small mb-0">{external(ORCID,'ORCID · 0009-0006-6694-580X')}</p></div></section>'''
 
 
@@ -239,9 +257,9 @@ def layout(page, body, base=''):
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>陈辰 Chen Chen · {titles[page]}</title><meta name="site-revision" content="{REVISION}"><meta name="description" content="陈辰的个人学术主页。北京大学第一临床医学院直博生，从事空间转录组算法设计，关注计算病理学与生物信息学。论文、科研项目、教育经历、获奖与教学。"><link rel="canonical" href="{ORIGIN}/{route}">
     <meta property="og:title" content="陈辰 Chen Chen · {titles[page]}"><meta property="og:description" content="个人简介、学术论文与学习经历。"><meta property="og:type" content="website"><meta property="og:url" content="{ORIGIN}/{route}"><meta name="theme-color" content="#f8f9fa">
-    <link rel="icon" href="{base}assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="{base}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{base}assets/vendor/fontawesome/css/all.min.css"><link rel="stylesheet" href="{base}assets/vendor/academic-homepage.css"><link rel="stylesheet" href="{base}style.css?v={REVISION}"><script src="{base}app.js" defer></script></head>
+    <link rel="icon" href="{base}assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="{base}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{base}assets/vendor/fontawesome/css/all.min.css"><link rel="stylesheet" href="{base}assets/vendor/academic-homepage.css"><link rel="stylesheet" href="{base}style.css?v={REVISION}"><script src="{base}app.js?v={REVISION}" defer></script></head>
     <body class="bg-light d-flex flex-column min-vh-100"><a class="skip-link" href="#main">跳转到正文</a><nav class="navbar navbar-expand-sm navbar-light fixed-top mb-5 shadow-sm" aria-label="主导航"><div class="container-lg"><a class="navbar-brand" href="{base}index.html"><strong>陈辰</strong></a><button class="navbar-toggler" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="打开导航">{icon('fas fa-map')} Menu</button><div class="collapse navbar-collapse" id="site-navigation"><ul class="navbar-nav ml-auto">{nav}</ul></div></div></nav>
-    <main class="flex-grow-1 flex-shrink-0 container-lg" id="main" tabindex="-1">{body}</main>
+    <main class="flex-grow-1 flex-shrink-0 container-lg" id="main" tabindex="-1">{body}</main>{certificate_viewer() if page in ('home', 'experience') else ''}
     <footer class="footer flex-shrink-0 border-top py-2 mt-5 bg-white small"><div class="container-lg"><div class="row my-3"><div class="col-6 text-muted"><i>Last updated: Oct. 2026</i><span class="d-block small">© 2026 陈辰</span></div><div class="col-6 text-right">{external('https://github.com/luost26/academic-homepage',icon('fas fa-pencil-ruler')+' academic-homepage')}</div></div></div></footer></body></html>'''
 
 
