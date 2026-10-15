@@ -16,7 +16,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261015-quiet-typography'
+REVISION = '20261015-method-links-news'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -133,7 +133,7 @@ def profile_card():
     <div class="text-profile-position">直博生 · PhD Student<br><img src="assets/universities/pku.png" alt="北京大学校徽" class="inline-badge">北京大学第一临床医学院</div>
     <div class="text-profile-bio mt-3"><p>我目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事{bilingual_term('空间转录组', 'Spatial Transcriptomics')}<strong>算法设计</strong>，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p>
     <p>本科就读于北京林业大学数学与应用数学专业，研究主要围绕{research_term('Machine Learning')}、{research_term('Pattern Recognition')}与{research_term('Optimization')}展开。</p>
-    <p>我的研究聚焦于{bilingual_term('多视图学习', 'Multi-view Learning')}领域，主要涉及{bilingual_term('支持向量机', 'Support Vector Machines')}和{bilingual_term('安全筛选', 'Safe Screening')}，关注不同视图的共有信息与互补信息，以及数据结构、损失函数对分类模型的影响；相关工作也涉及<strong>非凸优化</strong>与<strong>工作集求解</strong>。论文发表于 <strong>Information Fusion</strong>、<strong>Expert Systems with Applications</strong> 等期刊。</p>
+    <p>我的研究聚焦于{research_term('Multi-view Learning')}领域，主要涉及{research_term('Support Vector Machines')}和{research_term('Safe Screening')}，关注不同视图的共有信息与互补信息，以及数据结构、损失函数对分类模型的影响；相关工作也涉及<strong>非凸优化</strong>与<strong>工作集求解</strong>。论文发表于 <strong>Information Fusion</strong>、<strong>Expert Systems with Applications</strong> 等期刊。</p>
     <p>欢迎交流！</p></div>
     </div></div><hr><div class="row"><div class="col contact-links">
     <a class="pr-3" href="mailto:chenc2025@stu.pku.edu.cn">{icon('fas fa-at')} <span class="email-text">chenc2025@stu.pku.edu.cn</span></a>
@@ -175,9 +175,9 @@ def education_honors(base=''):
 
 def news_card():
     return f'''<section class="my-3 bg-white shadow-sm rounded-xl" id="news"><h2 class="h6 p-3 mb-0 border-bottom">{icon('fas fa-rss')} News</h2><div class="px-3 pb-1 small">
-    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习 {external('https://doi.org/10.1016/j.eswa.2025.129406','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
-    <div class="media py-1 border-top"><div class="mr-3 text-muted my-1">2025</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Energies</i>，研究融合湍流强度与多种气象特征的 Transformer 风速预测模型 {external('https://doi.org/10.3390/en18174571','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Aug.</i></div></div>
-    <div class="my-1 d-flex"><div>合作论文发表于 <i>Computers and Electronics in Agriculture</i>，研究森林生物量碳储量估计 {external('https://doi.org/10.1016/j.compag.2025.110020','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>May</i></div></div></div></div></div></section>'''
+    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习。 {external('https://doi.org/10.1016/j.eswa.2025.129406','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
+    <div class="media py-1 border-top"><div class="mr-3 text-muted my-1">2025</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Energies</i>，研究融合湍流强度与多种气象特征的 Transformer 风速预测模型。 {external('https://doi.org/10.3390/en18174571','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Aug.</i></div></div>
+    <div class="my-1 d-flex"><div>合作论文发表于 <i>Computers and Electronics in Agriculture</i>，研究森林生物量碳储量估计。 {external('https://doi.org/10.1016/j.compag.2025.110020','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>May</i></div></div></div></div></div></section>'''
 
 
 def home():
@@ -199,7 +199,7 @@ def experience():
     return f'''<h1 class="h3 font-weight-normal mb-3">Experience <small class="text-muted">学习与经历</small></h1>{education_honors('../')}
     <section class="my-3 bg-white shadow-sm rounded-xl" id="research"><h2 class="h6 p-3 mb-0 border-bottom">Research <small class="text-muted">研究经历</small></h2><div class="p-4 research-content">
     <section class="research-section" aria-labelledby="phd-research"><h3 class="h6" id="phd-research">博士阶段 · 空间转录组算法设计</h3><p>目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事{bilingual_term('空间转录组', 'Spatial Transcriptomics')}算法设计，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p><p>空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p></section>
-    <section class="research-section" aria-labelledby="undergraduate-research"><h3 class="h6" id="undergraduate-research">本科阶段 · 机器学习、模式识别与最优化理论</h3><p class="small text-muted research-subtitle">Machine Learning · Pattern Recognition · Optimization</p><p>{bilingual_term('多视图学习', 'Multi-view Learning')}关注从不同角度描述同一样本的数据，各视图既有共有信息，也有各自的特征。我的相关工作围绕如何共同利用这些信息展开：在{bilingual_term('支持向量机', 'Support Vector Machines')}中引入结构信息和不同损失函数，通过视图权重、结构正则项或跨层知识迁移构造分类模型。</p><p>除了模型构造，相关研究也讨论优化问题的求解。在非凸损失模型中分析最优解与平稳点的关系，结合工作集策略求解；在孪生支持向量机中推导安全筛选规则，减少参数选择时需要处理的样本。具体方法与实验见<a href="../publications/index.html">论文列表</a>。</p></section>
+    <section class="research-section" aria-labelledby="undergraduate-research"><h3 class="h6" id="undergraduate-research">本科阶段 · 机器学习、模式识别与最优化理论</h3><p class="small text-muted research-subtitle">Machine Learning · Pattern Recognition · Optimization</p><p>{research_term('Multi-view Learning')}关注从不同角度描述同一样本的数据，各视图既有共有信息，也有各自的特征。我的相关工作围绕如何共同利用这些信息展开：在{research_term('Support Vector Machines')}中引入结构信息和不同损失函数，通过视图权重、结构正则项或跨层知识迁移构造分类模型。</p><p>除了模型构造，相关研究也讨论优化问题的求解。在非凸损失模型中分析最优解与平稳点的关系，结合工作集策略求解；在孪生支持向量机中推导安全筛选规则，减少参数选择时需要处理的样本。具体方法与实验见<a href="../publications/index.html">论文列表</a>。</p></section>
     <section class="research-section" aria-labelledby="collaborative-research"><h3 class="h6" id="collaborative-research">合作研究 · 预测建模与统计测量</h3><p>在森林生物量碳储量估计中，参与基于局部样本信息的加权回归研究，将 K 近邻结构与参数优化用于碳储量预测。在风速预测工作中，结合多尺度湍流特征、气象序列独立建模与 Transformer 融合，分析不同时间尺度及气象变量所包含的信息。</p><p>另一项合作研究面向多维自适应测评，在多维项目反应理论框架下进行即时组卷，比较不同组卷策略的能力估计精度、题目曝光和实施灵活性。上述工作分别发表于 <i>Computers and Electronics in Agriculture</i>、<i>Energies</i> 与 <i>Mathematics</i>。</p></section>
     <p class="mb-0"><a href="../projects/index.html">Projects · 科研项目 {icon('fas fa-angle-double-right')}</a></p></div></section>
     {reviewer_service()}

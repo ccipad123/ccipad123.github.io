@@ -66,6 +66,21 @@
       "zh": "最优化理论",
       "url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
       "source": "Wikipedia mathematical optimization overview"
+    },
+    "Multi-view Learning": {
+      "zh": "多视图学习",
+      "url": "https://arxiv.org/abs/1304.5634",
+      "source": "Xu, Tao and Xu: A Survey on Multi-view Learning"
+    },
+    "Support Vector Machines": {
+      "zh": "支持向量机",
+      "url": "https://scikit-learn.org/stable/modules/svm.html",
+      "source": "scikit-learn official user guide: Support Vector Machines"
+    },
+    "Safe Screening": {
+      "zh": "安全筛选",
+      "url": "https://arxiv.org/abs/1009.3515",
+      "source": "El Ghaoui, Viallon and Rabbani: Safe Feature Elimination in Sparse Supervised Learning"
     }
   },
   "keyword_links_verified_on": "2026-10-15",
