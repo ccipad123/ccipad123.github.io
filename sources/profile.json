@@ -70,6 +70,14 @@
   },
   "keyword_links_verified_on": "2026-10-15",
   "keyword_link_policy": "Link each English term to a concept introduction, not a Scholar author-label search. Use the DPA definition paper for computational pathology.",
+  "outreach": [
+    {
+      "activity": "蓝信封通讯大使活动",
+      "title": "蓝信封数学与应用数学专业学生访谈录 | 陈辰：寻找属于自己的乐趣",
+      "url": "https://mp.weixin.qq.com/s/t9n3oQFzoMHmjdTH7omB5Q",
+      "source": "Title and URL provided by user on 2026-10-15; article body not independently retrieved."
+    }
+  ],
   "phd_research_focus": {
     "zh": "空间转录组算法设计",
     "en": "Spatial Transcriptomics Algorithm Design",
