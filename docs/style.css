@@ -15,6 +15,10 @@ body{font-family:Lato,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
 .profile-portrait-mobile{height:48px;width:48px;object-fit:cover}
 .profile-name{min-width:0}
 .profile-name small{display:inline-block}
+.profile-card .text-profile-bio{line-height:1.8;color:#343a40}
+.profile-card .text-profile-bio p{margin-bottom:1.1rem}
+.profile-card .text-profile-bio p:last-child{margin-bottom:0}
+.profile-card .contact-links{line-height:2}
 .contact-links a{display:inline-block;max-width:100%}
 .email-text{overflow-wrap:anywhere}
 .education-emblem{display:block;flex:0 0 18px;width:18px;height:18px;object-fit:contain}
@@ -50,6 +54,8 @@ body{font-family:Lato,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
 .reviewer-table tbody tr:last-child>*{border-bottom:0}
 @media(max-width:991px){.education-honors>.col-lg-6+.col-lg-6{margin-top:1rem}}
 @media(max-width:767px){
+ .profile-card>.card-body{padding:1.5rem!important}
+ .profile-card .text-profile-bio{line-height:1.85}
  .publication{background-image:var(--paper-cover);background-size:cover;background-position:center}
  .publication-body{background:rgba(255,255,255,.9);padding:1rem 1.5rem!important}
  .contact-links>a[href^="mailto:"]{display:flex;align-items:baseline;gap:.25rem;padding-right:0!important}

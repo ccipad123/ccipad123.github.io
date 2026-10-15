@@ -32,5 +32,10 @@
     "Multi-view Learning",
     "Support Vector Machines"
   ],
-  "interests_updated_by_user": "2026-10-15"
+  "interests_updated_by_user": "2026-10-15",
+  "phd_research_focus": {
+    "zh": "空间转录组算法设计",
+    "en": "Spatial Transcriptomics Algorithm Design",
+    "confirmed_by_user": "2026-10-15"
+  }
 }
