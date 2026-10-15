@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261016-hybrid-loss-paper'
+REVISION = '20261016-volunteer-service'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -206,6 +206,9 @@ def publications():
 
 
 def experience():
+    volunteering = PROFILE['volunteering']
+    service_items = [(item['display_date'], item['title']) for item in volunteering['events']]
+    service_items.append(('Sep. 2023 – Aug. 2024', '本科新生学业辅导员'))
     return f'''<h1 class="h3 font-weight-normal mb-3">Experience <small class="text-muted">学习与经历</small></h1>{education_honors('../')}
     <section class="my-3 bg-white shadow-sm rounded-xl" id="research"><h2 class="h6 p-3 mb-0 border-bottom">Research <small class="text-muted">研究经历</small></h2><div class="p-4 research-content">
     <section class="research-section" aria-labelledby="phd-research"><h3 class="h6" id="phd-research">博士阶段 · 空间转录组算法设计</h3><p>目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事{bilingual_term('空间转录组', 'Spatial Transcriptomics')}算法设计，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p><p>空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p></section>
@@ -214,7 +217,7 @@ def experience():
     <p class="mb-0"><a href="../projects/index.html">Projects · 科研项目 {icon('fas fa-angle-double-right')}</a></p></div></section>
     {reviewer_service()}
     <section class="my-3 bg-white shadow-sm rounded-xl"><h2 class="h6 p-3 mb-0 border-bottom">Teaching <small class="text-muted">助教经历</small></h2><div class="p-4">{dated_list(TEACHING)}</div></section>
-    <section class="my-3 bg-white shadow-sm rounded-xl" id="service"><h2 class="h6 p-3 mb-0 border-bottom">Service <small class="text-muted">志愿与服务</small></h2><div class="p-4">{dated_list([('Sep. 2023 – Aug. 2024', '本科新生学业辅导员')])}<p class="mt-3">曾参与蓝信封通讯陪伴、北京半程马拉松、临终关怀与国家动物博物馆等志愿服务。</p><ul class="pl-3 mb-0">{''.join('<li>' + ESC(item['activity']) + '<div class="small mt-1">' + external(item['url'], ESC(item['title'])) + '</div></li>' for item in PROFILE['outreach'])}</ul></div></section>
+    <section class="my-3 bg-white shadow-sm rounded-xl" id="service"><h2 class="h6 p-3 mb-0 border-bottom">Service <small class="text-muted">志愿与服务</small></h2><div class="p-4"><p class="mb-3">{ESC(volunteering['recognition']['summary'])}</p>{dated_list(service_items)}<p class="mt-3">曾参与蓝信封通讯陪伴、临终关怀与国家动物博物馆等志愿服务。</p><ul class="pl-3 mb-0">{''.join('<li>' + ESC(item['activity']) + '<div class="small mt-1">' + external(item['url'], ESC(item['title'])) + '</div></li>' for item in PROFILE['outreach'])}</ul></div></section>
     <section class="my-3 bg-white shadow-sm rounded-xl" id="contact"><h2 class="h6 p-3 mb-0 border-bottom">Contact <small class="text-muted">联系</small></h2><div class="p-4"><p class="mb-2">欢迎就研究与学习交流。</p><p class="mb-2"><a href="mailto:chenc2025@stu.pku.edu.cn">chenc2025@stu.pku.edu.cn</a></p><p class="small mb-0">{external(ORCID,'ORCID · 0009-0006-6694-580X')}</p></div></section>'''
 
 

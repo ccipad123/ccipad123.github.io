@@ -97,5 +97,32 @@
     "zh": "空间转录组算法设计",
     "en": "Spatial Transcriptomics Algorithm Design",
     "confirmed_by_user": "2026-10-15"
+  },
+  "volunteering": {
+    "confirmed_by_user": "2026-10-16",
+    "display_preference": "text_only",
+    "recognition": {
+      "title": "海淀区三星级志愿者",
+      "date": "2024-06",
+      "issuer": "北京市海淀区志愿服务联合会",
+      "hours_at_recognition": 619.5,
+      "summary": "2024 年 6 月获评海淀区三星级志愿者，获评时累计志愿服务 619.5 小时。",
+      "source": "User-provided star volunteer certificate, visually checked 2026-10-16."
+    },
+    "events": [
+      {
+        "title": "2026 中国田径协会 10 公里精英赛（北京·海淀站）志愿者",
+        "date": "2026-04-06",
+        "display_date": "Apr. 2026",
+        "source": "User-provided volunteer certificate states event held on April 6, 2026."
+      },
+      {
+        "title": "2025 北京半程马拉松志愿者",
+        "official_event": "中国银行2025北京国际长跑节—北京半程马拉松",
+        "date": "2025-04-20",
+        "display_date": "Apr. 2025",
+        "source": "User-provided volunteer certificate states event held on April 20, 2025."
+      }
+    ]
   }
 }

@@ -6,7 +6,7 @@
 
 ## 内容更新
 
-- sources/profile.json：教育日期、研究方向、关键词介绍链接、导师官方主页、蓝信封访谈、ORCID
+- sources/profile.json：教育日期、研究方向、关键词介绍链接、导师官方主页、志愿服务文字与蓝信封访谈、ORCID
 - sources/awards.json：获奖名称与年月
 - sources/projects.json：科研项目、编号、角色和结题结果
 - sources/publications.json：论文书目
