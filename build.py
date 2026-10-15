@@ -16,6 +16,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
+REVISION = '20261015-quiet-typography'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -73,9 +74,14 @@ def icon(name):
     return f'<i class="{name}" aria-hidden="true"></i>'
 
 
+def bilingual_term(chinese, english, url=None):
+    translation = external(url, ESC(english)) if url else ESC(english)
+    return f'<span class="research-term"><strong>{ESC(chinese)}</strong><span class="term-translation">（{translation}）</span></span>'
+
+
 def research_term(name):
     term = PROFILE['keyword_resources'][name]
-    return '<strong>' + ESC(term['zh']) + '（' + external(term['url'], ESC(name)) + '）</strong>'
+    return bilingual_term(term['zh'], name, term['url'])
 
 
 def advisor_link():
@@ -125,8 +131,9 @@ def profile_card():
     <div class="figure float-right ml-4 mb-4 d-none d-md-block"><img src="assets/portrait.png" class="figure-img img-fluid img-thumbnail profile-portrait" width="603" height="603" alt="陈辰的个人主页头像"></div>
     <div class="d-flex"><h1 class="h1 font-weight-normal profile-name" id="profile-name">陈辰 <small>Chen Chen</small></h1><div class="ml-auto d-md-none pl-2"><a href="assets/portrait.png" target="_blank" rel="noopener"><img src="assets/portrait.png" class="rounded-circle profile-portrait-mobile" width="48" height="48" alt="陈辰的个人主页头像"></a></div></div>
     <div class="text-profile-position">直博生 · PhD Student<br><img src="assets/universities/pku.png" alt="北京大学校徽" class="inline-badge">北京大学第一临床医学院</div>
-    <div class="text-profile-bio mt-3"><p>我目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事<strong>空间转录组（Spatial Transcriptomics）算法设计</strong>，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p>
-    <p>本科就读于北京林业大学数学与应用数学专业，研究主要围绕{research_term('Machine Learning')}、{research_term('Pattern Recognition')}与{research_term('Optimization')}展开。我的研究聚焦于<strong>多视图学习（Multi-view Learning）</strong>领域，主要涉及<strong>支持向量机（Support Vector Machines）</strong>和<strong>安全筛选（Safe Screening）</strong>，关注不同视图的共有信息与互补信息，以及数据结构、损失函数对分类模型的影响；相关工作也涉及<strong>非凸优化</strong>与<strong>工作集求解</strong>。论文发表于 <strong>Information Fusion</strong>、<strong>Expert Systems with Applications</strong> 等期刊。</p>
+    <div class="text-profile-bio mt-3"><p>我目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事{bilingual_term('空间转录组', 'Spatial Transcriptomics')}<strong>算法设计</strong>，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p>
+    <p>本科就读于北京林业大学数学与应用数学专业，研究主要围绕{research_term('Machine Learning')}、{research_term('Pattern Recognition')}与{research_term('Optimization')}展开。</p>
+    <p>我的研究聚焦于{bilingual_term('多视图学习', 'Multi-view Learning')}领域，主要涉及{bilingual_term('支持向量机', 'Support Vector Machines')}和{bilingual_term('安全筛选', 'Safe Screening')}，关注不同视图的共有信息与互补信息，以及数据结构、损失函数对分类模型的影响；相关工作也涉及<strong>非凸优化</strong>与<strong>工作集求解</strong>。论文发表于 <strong>Information Fusion</strong>、<strong>Expert Systems with Applications</strong> 等期刊。</p>
     <p>欢迎交流！</p></div>
     </div></div><hr><div class="row"><div class="col contact-links">
     <a class="pr-3" href="mailto:chenc2025@stu.pku.edu.cn">{icon('fas fa-at')} <span class="email-text">chenc2025@stu.pku.edu.cn</span></a>
@@ -190,10 +197,10 @@ def publications():
 
 def experience():
     return f'''<h1 class="h3 font-weight-normal mb-3">Experience <small class="text-muted">学习与经历</small></h1>{education_honors('../')}
-    <section class="my-3 bg-white shadow-sm rounded-xl" id="research"><h2 class="h6 p-3 mb-0 border-bottom">Research <small class="text-muted">研究经历</small></h2><div class="p-4">
-    <h3 class="h6">博士阶段 · 空间转录组算法设计</h3><p>目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事空间转录组（Spatial Transcriptomics）算法设计，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p>
-    <h3 class="h6 mt-4">本科阶段 · 机器学习、模式识别与最优化理论</h3><p class="small text-muted">Machine Learning · Pattern Recognition · Optimization</p><p>多视图学习（Multi-view Learning）关注从不同角度描述同一样本的数据，各视图既有共有信息，也有各自的特征。我的相关工作围绕如何共同利用这些信息展开：在支持向量机（Support Vector Machines）中引入结构信息和不同损失函数，通过视图权重、结构正则项或跨层知识迁移构造分类模型。</p><p>除了模型构造，相关研究也讨论优化问题的求解。在非凸损失模型中分析最优解与平稳点的关系，结合工作集策略求解；在孪生支持向量机中推导安全筛选规则，减少参数选择时需要处理的样本。具体方法与实验见<a href="../publications/index.html">论文列表</a>。</p>
-    <h3 class="h6 mt-4">合作研究 · 预测建模与统计测量</h3><p>在森林生物量碳储量估计中，参与基于局部样本信息的加权回归研究，将 K 近邻结构与参数优化用于碳储量预测。在风速预测工作中，结合多尺度湍流特征、气象序列独立建模与 Transformer 融合，分析不同时间尺度及气象变量所包含的信息。</p><p>另一项合作研究面向多维自适应测评，在多维项目反应理论框架下进行即时组卷，比较不同组卷策略的能力估计精度、题目曝光和实施灵活性。上述工作分别发表于 <i>Computers and Electronics in Agriculture</i>、<i>Energies</i> 与 <i>Mathematics</i>。</p>
+    <section class="my-3 bg-white shadow-sm rounded-xl" id="research"><h2 class="h6 p-3 mb-0 border-bottom">Research <small class="text-muted">研究经历</small></h2><div class="p-4 research-content">
+    <section class="research-section" aria-labelledby="phd-research"><h3 class="h6" id="phd-research">博士阶段 · 空间转录组算法设计</h3><p>目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事{bilingual_term('空间转录组', 'Spatial Transcriptomics')}算法设计，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p><p>空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p></section>
+    <section class="research-section" aria-labelledby="undergraduate-research"><h3 class="h6" id="undergraduate-research">本科阶段 · 机器学习、模式识别与最优化理论</h3><p class="small text-muted research-subtitle">Machine Learning · Pattern Recognition · Optimization</p><p>{bilingual_term('多视图学习', 'Multi-view Learning')}关注从不同角度描述同一样本的数据，各视图既有共有信息，也有各自的特征。我的相关工作围绕如何共同利用这些信息展开：在{bilingual_term('支持向量机', 'Support Vector Machines')}中引入结构信息和不同损失函数，通过视图权重、结构正则项或跨层知识迁移构造分类模型。</p><p>除了模型构造，相关研究也讨论优化问题的求解。在非凸损失模型中分析最优解与平稳点的关系，结合工作集策略求解；在孪生支持向量机中推导安全筛选规则，减少参数选择时需要处理的样本。具体方法与实验见<a href="../publications/index.html">论文列表</a>。</p></section>
+    <section class="research-section" aria-labelledby="collaborative-research"><h3 class="h6" id="collaborative-research">合作研究 · 预测建模与统计测量</h3><p>在森林生物量碳储量估计中，参与基于局部样本信息的加权回归研究，将 K 近邻结构与参数优化用于碳储量预测。在风速预测工作中，结合多尺度湍流特征、气象序列独立建模与 Transformer 融合，分析不同时间尺度及气象变量所包含的信息。</p><p>另一项合作研究面向多维自适应测评，在多维项目反应理论框架下进行即时组卷，比较不同组卷策略的能力估计精度、题目曝光和实施灵活性。上述工作分别发表于 <i>Computers and Electronics in Agriculture</i>、<i>Energies</i> 与 <i>Mathematics</i>。</p></section>
     <p class="mb-0"><a href="../projects/index.html">Projects · 科研项目 {icon('fas fa-angle-double-right')}</a></p></div></section>
     {reviewer_service()}
     <section class="my-3 bg-white shadow-sm rounded-xl"><h2 class="h6 p-3 mb-0 border-bottom">Teaching <small class="text-muted">助教经历</small></h2><div class="p-4">{dated_list(TEACHING)}</div></section>
@@ -217,9 +224,9 @@ def layout(page, body, base=''):
         base = BASE_PATH
     nav = ''.join(f'<li class="nav-item"><a class="nav-link{" active" if page==key else ""}" '+('aria-current="page" ' if page==key else '')+f'href="{base}{path}">{label}</a></li>' for key,path,label in [('home','index.html','Home'),('publications','publications/index.html','Publications'),('projects','projects/index.html','Projects'),('experience','experience/index.html','Experience')])
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <title>陈辰 Chen Chen · {titles[page]}</title><meta name="site-revision" content="20261015-emphasis-forest-interview"><meta name="description" content="陈辰的个人学术主页。北京大学第一临床医学院直博生，从事空间转录组算法设计，关注计算病理学与生物信息学。论文、科研项目、教育经历、获奖与教学。"><link rel="canonical" href="{ORIGIN}/{route}">
+    <title>陈辰 Chen Chen · {titles[page]}</title><meta name="site-revision" content="{REVISION}"><meta name="description" content="陈辰的个人学术主页。北京大学第一临床医学院直博生，从事空间转录组算法设计，关注计算病理学与生物信息学。论文、科研项目、教育经历、获奖与教学。"><link rel="canonical" href="{ORIGIN}/{route}">
     <meta property="og:title" content="陈辰 Chen Chen · {titles[page]}"><meta property="og:description" content="个人简介、学术论文与学习经历。"><meta property="og:type" content="website"><meta property="og:url" content="{ORIGIN}/{route}"><meta name="theme-color" content="#f8f9fa">
-    <link rel="icon" href="{base}assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="{base}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{base}assets/vendor/fontawesome/css/all.min.css"><link rel="stylesheet" href="{base}assets/vendor/academic-homepage.css"><link rel="stylesheet" href="{base}style.css"><script src="{base}app.js" defer></script></head>
+    <link rel="icon" href="{base}assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="{base}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{base}assets/vendor/fontawesome/css/all.min.css"><link rel="stylesheet" href="{base}assets/vendor/academic-homepage.css"><link rel="stylesheet" href="{base}style.css?v={REVISION}"><script src="{base}app.js" defer></script></head>
     <body class="bg-light d-flex flex-column min-vh-100"><a class="skip-link" href="#main">跳转到正文</a><nav class="navbar navbar-expand-sm navbar-light fixed-top mb-5 shadow-sm" aria-label="主导航"><div class="container-lg"><a class="navbar-brand" href="{base}index.html"><strong>陈辰</strong></a><button class="navbar-toggler" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="打开导航">{icon('fas fa-map')} Menu</button><div class="collapse navbar-collapse" id="site-navigation"><ul class="navbar-nav ml-auto">{nav}</ul></div></div></nav>
     <main class="flex-grow-1 flex-shrink-0 container-lg" id="main" tabindex="-1">{body}</main>
     <footer class="footer flex-shrink-0 border-top py-2 mt-5 bg-white small"><div class="container-lg"><div class="row my-3"><div class="col-6 text-muted"><i>Last updated: Oct. 2026</i><span class="d-block small">© 2026 陈辰</span></div><div class="col-6 text-right">{external('https://github.com/luost26/academic-homepage',icon('fas fa-pencil-ruler')+' academic-homepage')}</div></div></div></footer></body></html>'''

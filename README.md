@@ -15,6 +15,7 @@
 - sources/reviewer_service.json：审稿期刊及顺序
 - sources/journals.json：期刊图片及明确年份的 JIF
 - build.py：页面结构及简介正文
+- docs/style.css：手工维护的排版覆盖层与灰色链接主题；build.py 不覆盖此文件
 - site_config.json：网站正式网址
 
 修改源文件后运行 python3 build.py，再用 python3 -m http.server 8767 --bind 127.0.0.1 --directory docs 本地预览。

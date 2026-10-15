@@ -3,8 +3,15 @@
 @font-face{font-family:Lato;src:url('assets/fonts/Lato-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
 @font-face{font-family:Lato;src:url('assets/fonts/Lato-Italic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
 @font-face{font-family:"Source Code Pro";src:url('assets/fonts/SourceCodePro.ttf') format('truetype');font-weight:200 900;font-style:normal;font-display:swap}
+:root{--site-link:#4b5563;--site-link-hover:#1f2937;--site-muted:#626b75;--site-link-rule:#bdc4cb}
 body{font-family:Lato,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
-:focus-visible{outline:3px solid #007bff;outline-offset:3px}
+a{color:var(--site-link)}
+a:hover{color:var(--site-link-hover)}
+:focus-visible{outline:2px solid var(--site-link);outline-offset:3px}
+.btn-outline-primary{color:var(--site-link);border-color:var(--site-link)}
+.btn-outline-primary:hover,.btn-outline-primary:not(:disabled):not(.disabled).active,.btn-outline-primary:not(:disabled):not(.disabled):active{color:#fff;background-color:var(--site-link);border-color:var(--site-link)}
+.btn-outline-primary:focus,.btn-outline-primary:not(:disabled):not(.disabled).active:focus,.btn-outline-primary:not(:disabled):not(.disabled):active:focus{box-shadow:0 0 0 .2rem rgba(75,85,99,.2)}
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link{background-color:var(--site-link)}
 [hidden]{display:none!important}
 #main:focus{outline:none}
 #main,section[id],h2[id]{scroll-margin-top:80px}
@@ -18,6 +25,16 @@ body{font-family:Lato,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
 .profile-card .text-profile-bio{line-height:1.8;color:#343a40}
 .profile-card .text-profile-bio p{margin-bottom:1.1rem}
 .profile-card .text-profile-bio p:last-child{margin-bottom:0}
+.term-translation{font-size:.94em;font-weight:400;color:var(--site-muted)}
+.text-profile-bio a,#research a,#service a{color:inherit;text-decoration:underline;text-decoration-color:var(--site-link-rule);text-decoration-thickness:1px;text-underline-offset:.2em;text-decoration-skip-ink:auto}
+.text-profile-bio a:hover,#research a:hover,#service a:hover{color:var(--site-link-hover);text-decoration-color:currentColor}
+.research-content{max-width:58rem;margin-inline:auto;line-height:1.85;color:#343a40}
+.research-section{margin-bottom:1.5rem}
+.research-section+.research-section{border-top:1px solid #e9ecef;padding-top:1.5rem}
+.research-section h3{line-height:1.6;margin-bottom:.65rem}
+.research-section p{margin-bottom:1rem}
+.research-section p:last-child{margin-bottom:0}
+.research-section .research-subtitle{margin-top:-.2rem;margin-bottom:.85rem}
 .profile-card .contact-links{line-height:2}
 .contact-links a{display:inline-block;max-width:100%}
 .email-text{overflow-wrap:anywhere}
@@ -26,16 +43,16 @@ body{font-family:Lato,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
 .publication:last-child{border-bottom:0!important}
 .journal-cover-link,.journal-cover-image{display:block}
 .journal-cover-image{height:auto}
-.paper-title a:hover{color:#007bff!important;text-decoration:none}
+.paper-title a:hover{color:var(--site-link-hover)!important;text-decoration:underline;text-decoration-color:var(--site-link-rule);text-underline-offset:.15em}
 .inline-math{display:inline-block;width:1.95em;height:auto;vertical-align:-.27em}
 .journal-metric{display:inline-block;margin-left:.35rem;padding:0 .3rem;border:1px solid #dee2e6;border-radius:3px;font-size:11px;line-height:1.55;white-space:nowrap;color:#6c757d}
-.journal-metric:hover{color:#0056b3;text-decoration:none}
+.journal-metric:hover{color:var(--site-link-hover);text-decoration:none}
 .paper-links{display:flex;gap:.6rem;align-items:flex-start;flex-wrap:wrap}
 .paper-links>a{white-space:nowrap}
 .publication-tools{display:flex;justify-content:space-between;align-items:center;gap:.6rem 1rem;flex-wrap:wrap}
 .year-nav{top:80px}
 .bibtex{min-width:0;flex:1}
-.bibtex summary{cursor:pointer;color:#007bff;width:max-content}
+.bibtex summary{cursor:pointer;color:var(--site-link);width:max-content}
 .citation-box{background:#f8f9fa;border:1px solid #dee2e6;padding:.75rem;margin-top:.5rem;border-radius:.25rem}
 .citation-box pre{white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;font-size:12px;line-height:1.5;margin-bottom:.5rem}
 .reviewer-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.5}
@@ -48,7 +65,7 @@ body{font-family:Lato,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
 .reviewer-table th:not(:first-child),.reviewer-table td{text-align:center}
 .reviewer-table .review-name{font-weight:400}
 .review-name a{color:#212529}
-.review-name a:hover{color:#007bff}
+.review-name a:hover{color:var(--site-link-hover)}
 .review-publisher{color:#6c757d}
 .review-metric{font-variant-numeric:tabular-nums}
 .reviewer-table tbody tr:last-child>*{border-bottom:0}
