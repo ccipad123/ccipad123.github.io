@@ -2,7 +2,7 @@
 
 陈辰的独立学术主页，采用 [academic-homepage 的 layout2](https://luost.me/academic-homepage/index_layout2) 布局，包含 Home、Publications、Projects、Experience 四个页面。
 
-源码仓库：[ccipad123/chen-chen-homepage](https://github.com/ccipad123/chen-chen-homepage)。网站使用 GitHub Pages 托管，发布后地址为 [陈辰的学术主页](https://ccipad123.github.io/chen-chen-homepage/)。仓库可从任意电脑或编辑器维护，与 ChatGPT 账号相互独立。
+源码仓库：[ccipad123/chen-chen-homepage](https://github.com/ccipad123/chen-chen-homepage)。网站使用 GitHub Pages 托管，公开地址为 [陈辰的学术主页](https://ccipad123.github.io/chen-chen-homepage/)。仓库可从任意电脑或编辑器维护，与 ChatGPT 账号相互独立。
 
 ## 内容更新
 

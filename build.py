@@ -95,6 +95,7 @@ def paper(p, full=False):
     correspondents = CORRESPONDING[p['doi']]['authors']
     names = ', '.join(('<strong>Chen Chen</strong>' if n == 'Chen Chen' else ESC(n)) + ('<sup class="corresponding-marker" title="Corresponding author" aria-label="Corresponding author">#</sup>' if n in correspondents else '') for n in p['authors'])
     cover_path = base + 'assets/journals/' + journal['cover']
+    cover_background = BASE_PATH + 'assets/journals/' + journal['cover']
     cover_alt = journal.get('cover_alt', p['journal'] + ' 期刊封面')
     cover = f'<img class="journal-cover-image w-100 rounded-sm" src="{cover_path}" width="{journal["cover_width"]}" height="{journal["cover_height"]}" alt="{ESC(cover_alt)}" loading="lazy" decoding="async">'
     metric = external(journal['source_url'], f'{journal["jif_year"]} JIF · {journal["jif"]:.1f}', 'journal-metric')
@@ -102,7 +103,7 @@ def paper(p, full=False):
     citation = ''
     if full:
         citation = f'<details class="bibtex"><summary>BibTeX</summary><div class="citation-box"><pre><code>{ESC(bibtex(p))}</code></pre><button class="btn btn-sm btn-outline-secondary copy-citation" type="button">复制引用</button><span class="copy-status small ml-2" role="status"></span></div></details>'
-    return f'''<article class="publication row no-gutters border-bottom" data-year="{year}" style="--paper-cover:url('{cover_path}')">
+    return f'''<article class="publication row no-gutters border-bottom" data-year="{year}" style="--paper-cover:url('{cover_background}')">
     <div class="col-md-3 col-xl-2 p-md-3 d-none d-md-block journal-cover-column">{external(journal.get('cover_url', journal['journal_url']), cover, 'journal-cover-link')}</div>
     <div class="col-md-9 col-xl-10 p-3 pl-md-0 publication-body">
     <h3 class="h5 mt-0 mb-1 font-weight-normal paper-title">{external('https://doi.org/'+p['doi'], title, 'text-body')}</h3>
