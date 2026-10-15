@@ -33,6 +33,43 @@
     "Support Vector Machines"
   ],
   "interests_updated_by_user": "2026-10-15",
+  "advisor": {
+    "name": "薛瑞栋",
+    "title": "研究员",
+    "homepage": "https://pkuici.bjmu.edu.cn/szdw/yjyPI/xrd/index.htm",
+    "homepage_source": "北京大学国际癌症研究院官方 PI 主页",
+    "relationship_confirmed_by_user": "2026-10-15",
+    "homepage_verified_on": "2026-10-15"
+  },
+  "keyword_resources": {
+    "Computational Pathology": {
+      "zh": "计算病理学",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6852275/",
+      "source": "Digital Pathology Association white paper: Computational pathology definitions, best practices, and recommendations for regulatory guidance"
+    },
+    "Bioinformatics": {
+      "zh": "生物信息学",
+      "url": "https://en.wikipedia.org/wiki/Bioinformatics",
+      "source": "Wikipedia concept overview"
+    },
+    "Machine Learning": {
+      "zh": "机器学习",
+      "url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "source": "Wikipedia concept overview"
+    },
+    "Pattern Recognition": {
+      "zh": "模式识别",
+      "url": "https://en.wikipedia.org/wiki/Pattern_recognition",
+      "source": "Wikipedia concept overview"
+    },
+    "Optimization": {
+      "zh": "最优化理论",
+      "url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+      "source": "Wikipedia mathematical optimization overview"
+    }
+  },
+  "keyword_links_verified_on": "2026-10-15",
+  "keyword_link_policy": "Link each English term to a concept introduction, not a Scholar author-label search. Use the DPA definition paper for computational pathology.",
   "phd_research_focus": {
     "zh": "空间转录组算法设计",
     "en": "Spatial Transcriptomics Algorithm Design",

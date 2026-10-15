@@ -73,8 +73,14 @@ def icon(name):
     return f'<i class="{name}" aria-hidden="true"></i>'
 
 
-def interest_links(interests):
-    return ', '.join(external('https://scholar.google.com/citations?view_op=search_authors&hl=zh-CN&mauthors=label:' + name.lower().replace(' ', '_'), ESC(name)) for name in interests)
+def research_term(name):
+    term = PROFILE['keyword_resources'][name]
+    return ESC(term['zh']) + '（' + external(term['url'], ESC(name)) + '）'
+
+
+def advisor_link():
+    advisor = PROFILE['advisor']
+    return external(advisor['homepage'], ESC(advisor['name'])) + ESC(advisor['title'])
 
 
 def reviewer_service():
@@ -119,10 +125,9 @@ def profile_card():
     <div class="figure float-right ml-4 mb-4 d-none d-md-block"><img src="assets/portrait.png" class="figure-img img-fluid img-thumbnail profile-portrait" width="603" height="603" alt="陈辰的个人主页头像"></div>
     <div class="d-flex"><h1 class="h1 font-weight-normal profile-name" id="profile-name">陈辰 <small>Chen Chen</small></h1><div class="ml-auto d-md-none pl-2"><a href="assets/portrait.png" target="_blank" rel="noopener"><img src="assets/portrait.png" class="rounded-circle profile-portrait-mobile" width="48" height="48" alt="陈辰的个人主页头像"></a></div></div>
     <div class="text-profile-position">直博生 · PhD Student<br><img src="assets/universities/pku.png" alt="北京大学校徽" class="inline-badge">北京大学第一临床医学院</div>
-    <div class="text-profile-bio mt-3"><p>我目前在北京大学第一临床医学院攻读博士，主要从事<strong>空间转录组算法设计</strong>（Spatial Transcriptomics Algorithm Design），研究兴趣涉及计算病理学与生物信息学（{interest_links(PROFILE['phd_interests'])}）。</p>
-    <p>空间转录组将基因表达与组织中的空间位置联系起来，也为算法设计提出了新的问题：如何在建模时共同利用表达特征和空间结构，如何理解组织内部的分子差异及其空间分布。我希望把此前在多视图学习与最优化方面的积累用于这些问题，在具体生物学数据中研究模型的表达能力、求解方法与结果解释。</p>
-    <p>本科就读于北京林业大学数学与应用数学专业，研究主要围绕<strong>机器学习、模式识别与最优化理论</strong>（{interest_links(PROFILE['undergraduate_interests'])}）展开。我曾研究多视图学习（Multi-view Learning）和支持向量机（Support Vector Machines），关注不同视图的共有信息与互补信息，以及数据结构、损失函数对分类模型的影响；相关工作也涉及非凸优化、工作集求解与安全筛选。论文发表于 <i>Information Fusion</i>、<i>Expert Systems with Applications</i> 等期刊。</p>
-    <p>我也参与过森林生物量碳储量估计、风速预测和多维自适应测评研究，接触了回归建模、时间序列分析与统计测量中的不同问题。本科期间曾担任统计学相关课程助教和新生学业辅导员，并参加志愿服务。欢迎就空间转录组、计算病理学，以及机器学习与优化方法交流。</p></div>
+    <div class="text-profile-bio mt-3"><p>我目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事<strong>空间转录组（Spatial Transcriptomics）算法设计</strong>，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p>
+    <p>本科就读于北京林业大学数学与应用数学专业，研究主要围绕{research_term('Machine Learning')}、{research_term('Pattern Recognition')}与{research_term('Optimization')}展开。我的研究聚焦于多视图学习（Multi-view Learning）领域，主要涉及支持向量机（Support Vector Machines）和安全筛选（Safe Screening），关注不同视图的共有信息与互补信息，以及数据结构、损失函数对分类模型的影响；相关工作也涉及非凸优化与工作集求解。论文发表于 <i>Information Fusion</i>、<i>Expert Systems with Applications</i> 等期刊。</p>
+    <p>欢迎交流！</p></div>
     </div></div><hr><div class="row"><div class="col contact-links">
     <a class="pr-3" href="mailto:chenc2025@stu.pku.edu.cn">{icon('fas fa-at')} <span class="email-text">chenc2025@stu.pku.edu.cn</span></a>
     {external(SCHOLAR, icon('fab fa-google-scholar')+' Google Scholar','pr-3 no-break')}
@@ -163,9 +168,9 @@ def education_honors(base=''):
 
 def news_card():
     return f'''<section class="my-3 bg-white shadow-sm rounded-xl" id="news"><h2 class="h6 p-3 mb-0 border-bottom">{icon('fas fa-rss')} News</h2><div class="px-3 pb-1 small">
-    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习 {external('https://doi.org/10.1016/j.eswa.2025.129406','[论文]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
-    <div class="media py-1 border-top"><div class="mr-3 text-muted my-1">2025</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Energies</i>，研究融合湍流强度与多种气象特征的 Transformer 风速预测模型 {external('https://doi.org/10.3390/en18174571','[论文]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Aug.</i></div></div>
-    <div class="my-1 d-flex"><div>合作论文发表于 <i>Computers and Electronics in Agriculture</i>，研究森林生物量碳储量估计 {external('https://doi.org/10.1016/j.compag.2025.110020','[论文]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>May</i></div></div></div></div></div></section>'''
+    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习 {external('https://doi.org/10.1016/j.eswa.2025.129406','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
+    <div class="media py-1 border-top"><div class="mr-3 text-muted my-1">2025</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Energies</i>，研究融合湍流强度与多种气象特征的 Transformer 风速预测模型 {external('https://doi.org/10.3390/en18174571','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Aug.</i></div></div>
+    <div class="my-1 d-flex"><div>合作论文发表于 <i>Computers and Electronics in Agriculture</i>，研究森林生物量碳储量估计 {external('https://doi.org/10.1016/j.compag.2025.110020','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>May</i></div></div></div></div></div></section>'''
 
 
 def home():
@@ -186,7 +191,7 @@ def publications():
 def experience():
     return f'''<h1 class="h3 font-weight-normal mb-3">Experience <small class="text-muted">学习与经历</small></h1>{education_honors('../')}
     <section class="my-3 bg-white shadow-sm rounded-xl" id="research"><h2 class="h6 p-3 mb-0 border-bottom">Research <small class="text-muted">研究经历</small></h2><div class="p-4">
-    <h3 class="h6">博士阶段 · 空间转录组算法设计</h3><p class="small text-muted">Spatial Transcriptomics Algorithm Design · Computational Pathology · Bioinformatics</p><p>目前在北京大学第一临床医学院攻读博士，主要从事空间转录组算法设计，研究兴趣涉及计算病理学与生物信息学。空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p><p>希望将此前在多视图学习与最优化方面的研究积累用于生物学数据建模，围绕表达特征与空间结构的结合研究模型构造、优化求解和结果解释。</p>
+    <h3 class="h6">博士阶段 · 空间转录组算法设计</h3><p>目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事空间转录组（Spatial Transcriptomics）算法设计，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p><p>希望将此前在多视图学习与最优化方面的研究积累用于生物学数据建模，围绕表达特征与空间结构的结合研究模型构造、优化求解和结果解释。</p>
     <h3 class="h6 mt-4">本科阶段 · 机器学习、模式识别与最优化理论</h3><p class="small text-muted">Machine Learning · Pattern Recognition · Optimization</p><p>多视图学习（Multi-view Learning）关注从不同角度描述同一样本的数据，各视图既有共有信息，也有各自的特征。我的相关工作围绕如何共同利用这些信息展开：在支持向量机（Support Vector Machines）中引入结构信息和不同损失函数，通过视图权重、结构正则项或跨层知识迁移构造分类模型。</p><p>除了模型构造，相关研究也讨论优化问题的求解。在非凸损失模型中分析最优解与平稳点的关系，结合工作集策略求解；在孪生支持向量机中推导安全筛选规则，减少参数选择时需要处理的样本。具体方法与实验见<a href="../publications/index.html">论文列表</a>。</p>
     <h3 class="h6 mt-4">合作研究 · 预测建模与统计测量</h3><p>在森林生物量碳储量估计中，参与基于局部样本信息的加权回归研究，将 K 近邻结构与参数优化用于碳储量预测。在风速预测工作中，结合多尺度湍流特征、气象序列独立建模与 Transformer 融合，分析不同时间尺度及气象变量所包含的信息。</p><p>另一项合作研究面向多维自适应测评，在多维项目反应理论框架下进行即时组卷，比较不同组卷策略的能力估计精度、题目曝光和实施灵活性。上述工作分别发表于 <i>Computers and Electronics in Agriculture</i>、<i>Energies</i> 与 <i>Mathematics</i>。</p>
     <p class="mb-0"><a href="../projects/index.html">Projects · 科研项目 {icon('fas fa-angle-double-right')}</a></p></div></section>
@@ -212,7 +217,7 @@ def layout(page, body, base=''):
         base = BASE_PATH
     nav = ''.join(f'<li class="nav-item"><a class="nav-link{" active" if page==key else ""}" '+('aria-current="page" ' if page==key else '')+f'href="{base}{path}">{label}</a></li>' for key,path,label in [('home','index.html','Home'),('publications','publications/index.html','Publications'),('projects','projects/index.html','Projects'),('experience','experience/index.html','Experience')])
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <title>陈辰 Chen Chen · {titles[page]}</title><meta name="site-revision" content="20261015-spatial-bio-punctuation"><meta name="description" content="陈辰的个人学术主页。北京大学第一临床医学院直博生，从事空间转录组算法设计，关注计算病理学与生物信息学。论文、科研项目、教育经历、获奖与教学。"><link rel="canonical" href="{ORIGIN}/{route}">
+    <title>陈辰 Chen Chen · {titles[page]}</title><meta name="site-revision" content="20261015-keywords-advisor-volunteer"><meta name="description" content="陈辰的个人学术主页。北京大学第一临床医学院直博生，从事空间转录组算法设计，关注计算病理学与生物信息学。论文、科研项目、教育经历、获奖与教学。"><link rel="canonical" href="{ORIGIN}/{route}">
     <meta property="og:title" content="陈辰 Chen Chen · {titles[page]}"><meta property="og:description" content="个人简介、学术论文与学习经历。"><meta property="og:type" content="website"><meta property="og:url" content="{ORIGIN}/{route}"><meta name="theme-color" content="#f8f9fa">
     <link rel="icon" href="{base}assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="{base}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{base}assets/vendor/fontawesome/css/all.min.css"><link rel="stylesheet" href="{base}assets/vendor/academic-homepage.css"><link rel="stylesheet" href="{base}style.css"><script src="{base}app.js" defer></script></head>
     <body class="bg-light d-flex flex-column min-vh-100"><a class="skip-link" href="#main">跳转到正文</a><nav class="navbar navbar-expand-sm navbar-light fixed-top mb-5 shadow-sm" aria-label="主导航"><div class="container-lg"><a class="navbar-brand" href="{base}index.html"><strong>陈辰</strong></a><button class="navbar-toggler" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="打开导航">{icon('fas fa-map')} Menu</button><div class="collapse navbar-collapse" id="site-navigation"><ul class="navbar-nav ml-auto">{nav}</ul></div></div></nav>

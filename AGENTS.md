@@ -8,6 +8,7 @@
 - Preserve Paper, DOI, BibTeX and the local TeX SVG for L_{0/1}. Keep author order; use # only for sourced corresponding authors.
 - Reviewer publishers: Nature Portfolio, Elsevier, Springer Nature, Frontiers; journals alphabetical within each group. Show journal/publisher/2025 JIF only.
 - Undergraduate interests: Machine Learning, Pattern Recognition, Optimization; methods Multi-view Learning, Support Vector Machines. PhD focus Spatial Transcriptomics Algorithm Design; interests Computational Pathology, Bioinformatics.
+- Pair each Chinese keyword with its own English parentheses. Keyword links use the concept resources in profile.json, not Scholar author-label searches. Advisor 薛瑞栋研究员 links to his official PKU profile; homepage bio ends with 欢迎交流！. News paper links use [Paper].
 - Dates use English month abbreviations, italic, aligned right; known periods are in profile.json and awards.json.
 - Do not invent projects, individual contributions, awards, impact factors, or publication status.
 - Before publishing, check desktop/mobile layout, navigation, local assets and year filtering. Reuse the existing GitHub repository; do not create another hosting account or Site.
