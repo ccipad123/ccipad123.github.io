@@ -1,0 +1,72 @@
+{
+  "Information Fusion": {
+    "cover": "information-fusion.jpg",
+    "cover_width": 263,
+    "cover_height": 350,
+    "journal_url": "https://www.sciencedirect.com/journal/information-fusion",
+    "jif": 17.4,
+    "jif_year": 2025,
+    "release_year": 2026,
+    "source_url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=9",
+    "source_name": "2026 JCR journal metrics table, NIIC research-institute archive",
+    "evidence_row": "Information Fusion 1872-6305 SCIE 40171 17.4 15.5 Q1",
+    "checked": "2026-10-14"
+  },
+  "Expert Systems with Applications": {
+    "cover": "expert-systems.jpg",
+    "cover_width": 263,
+    "cover_height": 350,
+    "journal_url": "https://www.sciencedirect.com/journal/expert-systems-with-applications",
+    "jif": 9.4,
+    "jif_year": 2025,
+    "release_year": 2026,
+    "source_url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=26",
+    "source_name": "2026 JCR journal metrics table, NIIC research-institute archive",
+    "evidence_row": "EXPERT SYSTEMS WITH APPLICATIONS 1873-6793 SCIE 136812 9.4 7.5 Q1",
+    "checked": "2026-10-14"
+  },
+  "Computers and Electronics in Agriculture": {
+    "cover": "computers-agriculture.jpg",
+    "cover_width": 263,
+    "cover_height": 350,
+    "journal_url": "https://www.sciencedirect.com/journal/computers-and-electronics-in-agriculture",
+    "jif": 10.3,
+    "jif_year": 2025,
+    "release_year": 2026,
+    "source_url": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf#page=22",
+    "source_name": "2026 JCR journal metrics table, NIIC research-institute archive",
+    "evidence_row": "COMPUTERS AND ELECTRONICS IN AGRICULTURE 1872-7107 SCIE 65217 10.3 8.9 Q1",
+    "publisher_crosscheck": "https://www.sciencedirect.com/browse/calls-for-papers?dgcid=STMJ_1687166064_STMJIN_OTR",
+    "checked": "2026-10-14"
+  },
+  "Mathematics": {
+    "cover": "mathematics.png",
+    "cover_width": 2008,
+    "cover_height": 2882,
+    "journal_url": "https://www.mdpi.com/journal/mathematics",
+    "jif": 2.3,
+    "jif_year": 2025,
+    "release_year": 2026,
+    "source_url": "https://www.mdpi.com/journal/mathematics/imprint",
+    "source_name": "MDPI Mathematics official imprint",
+    "evidence_row": "Impact Factor 2.3 (2025); 5-Year Impact Factor 2.1 (2025)",
+    "checked": "2026-10-14",
+    "cover_url": "https://www.mdpi.com/2227-7390/13/4",
+    "cover_alt": "Mathematics 第 13 卷第 4 期期刊封面（2025）"
+  },
+  "Energies": {
+    "cover": "energies.png",
+    "cover_width": 388,
+    "cover_height": 558,
+    "journal_url": "https://www.mdpi.com/journal/energies",
+    "cover_url": "https://www.mdpi.com/1996-1073/18/17",
+    "cover_alt": "Energies 第 18 卷第 17 期期刊封面（2025）",
+    "jif": 3.9,
+    "jif_year": 2025,
+    "release_year": 2026,
+    "source_url": "https://www.mdpi.com/journal/energies/imprint",
+    "source_name": "MDPI Energies official imprint",
+    "evidence_row": "Impact Factor 3.9 (2025)",
+    "checked": "2026-10-14"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checked": "2026-10-15",
+  "display_marker": "#",
+  "source_marker": "# on user-designated prior homepage; * on MDPI",
+  "papers": {
+    "10.1016/j.inffus.2024.102733": {
+      "status": "user_source_verified",
+      "authors": [
+        "Huiru Wang"
+      ],
+      "evidence": "Author-provided publication list, confirmed 2026-10-15: Huiru Wang marked as corresponding author."
+    },
+    "10.1016/j.eswa.2024.125814": {
+      "status": "user_source_verified",
+      "authors": [
+        "Huiru Wang"
+      ],
+      "evidence": "Author-provided publication list, confirmed 2026-10-15: Huiru Wang marked as corresponding author."
+    },
+    "10.1016/j.compag.2025.110020": {
+      "status": "user_source_verified",
+      "authors": [
+        "Huiru Wang"
+      ],
+      "evidence": "Author-provided publication list, confirmed 2026-10-15: Huiru Wang marked as corresponding author."
+    },
+    "10.1016/j.eswa.2025.129406": {
+      "status": "user_source_verified",
+      "authors": [
+        "Huiru Wang"
+      ],
+      "evidence": "Author-provided publication list, confirmed 2026-10-15: Huiru Wang marked as corresponding author."
+    },
+    "10.3390/math13040594": {
+      "status": "verified",
+      "authors": [
+        "Jianan Sun"
+      ],
+      "source_url": "https://www.mdpi.com/2227-7390/13/4/594",
+      "evidence": "Jianan Sun: 1,*; Author to whom correspondence should be addressed."
+    },
+    "10.3390/en18174571": {
+      "status": "verified",
+      "authors": [
+        "Hongqing Wang",
+        "Xiaodong Ji"
+      ],
+      "source_url": "https://www.mdpi.com/1996-1073/18/17/4571",
+      "evidence": "Hongqing Wang: 1,*,‡; Xiaodong Ji: 3,*,‡; Authors to whom correspondence should be addressed."
+    }
+  }
+}

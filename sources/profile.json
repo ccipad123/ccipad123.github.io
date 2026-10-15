@@ -1,0 +1,36 @@
+{
+  "confirmed_by_user": "2026-10-14",
+  "undergraduate_interests": [
+    "Machine Learning",
+    "Pattern Recognition",
+    "Optimization"
+  ],
+  "phd_interests": [
+    "Computational Pathology",
+    "Bioinformatics"
+  ],
+  "orcid": "0009-0006-6694-580X",
+  "orcid_public_url": "https://orcid.org/0009-0006-6694-580X",
+  "education": {
+    "confirmed_by_user": "2026-10-14",
+    "confirmation": "User confirmed the exact proposed dates with 就是这个",
+    "pku": {
+      "start": "2025-09",
+      "end": null
+    },
+    "bjfu": {
+      "start": "2021-09",
+      "end": "2025-06"
+    }
+  },
+  "undergraduate_interests_zh": [
+    "机器学习",
+    "模式识别",
+    "最优化理论"
+  ],
+  "undergraduate_methods": [
+    "Multi-view Learning",
+    "Support Vector Machines"
+  ],
+  "interests_updated_by_user": "2026-10-15"
+}

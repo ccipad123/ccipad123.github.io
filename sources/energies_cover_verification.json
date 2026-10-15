@@ -1,0 +1,14 @@
+{
+  "checked": "2026-10-15",
+  "result": "correct issue cover",
+  "issue": "18(17), September-1-2025",
+  "paper_article": "4571",
+  "cover_story_article": "4563",
+  "source_url": "https://www.mdpi.com/1996-1073/18/17",
+  "cover_story_url": "https://www.mdpi.com/1996-1073/18/17/4563",
+  "announcement_url": "https://www.mdpi.com/journal/energies/announcements?page_no=8",
+  "asset": "dist/assets/journals/energies.png",
+  "sha256": "2891317e79e07a3ba294a0dcc06637a8a3992f3439145db5fedf03cd493f0c61",
+  "printed_impact_factor": 3.2,
+  "note": "Official issue image preserved unchanged; cover story is not the user article. Printed historic metric is independent from the current 2025 JIF label."
+}

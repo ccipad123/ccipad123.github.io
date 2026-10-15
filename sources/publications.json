@@ -1,0 +1,144 @@
+[
+  {
+    "doi": "10.1016/j.inffus.2024.102733",
+    "title": "Multi-view support vector machine classifier via\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si17.svg\" display=\"inline\" id=\"d1e8618\">\n                      <mml:msub>\n                        <mml:mrow>\n                          <mml:mi>L</mml:mi>\n                        </mml:mrow>\n                        <mml:mrow>\n                          <mml:mn>0</mml:mn>\n                          <mml:mo>/</mml:mo>\n                          <mml:mn>1</mml:mn>\n                        </mml:mrow>\n                      </mml:msub>\n                    </mml:math>\n                    soft-margin loss with structural information",
+    "journal": "Information Fusion",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "authors": [
+      "Chen Chen",
+      "Qianfei Liu",
+      "Renpeng Xu",
+      "Ying Zhang",
+      "Huiru Wang",
+      "Qingmin Yu"
+    ],
+    "volume": "115",
+    "article": "102733"
+  },
+  {
+    "doi": "10.1016/j.eswa.2024.125814",
+    "title": "Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules",
+    "journal": "Expert Systems with Applications",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "authors": [
+      "Qianfei Liu",
+      "Chen Chen",
+      "Ting Huang",
+      "Yan Meng",
+      "Huiru Wang"
+    ],
+    "volume": "265",
+    "article": "125814"
+  },
+  {
+    "doi": "10.1016/j.compag.2025.110020",
+    "title": "Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm",
+    "journal": "Computers and Electronics in Agriculture",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "authors": [
+      "Niannian Deng",
+      "Renpeng Xu",
+      "Ying Zhang",
+      "Haoting Wang",
+      "Chen Chen",
+      "Huiru Wang"
+    ],
+    "volume": "232",
+    "article": "110020"
+  },
+  {
+    "doi": "10.3390/math13040594",
+    "title": "A New Multidimensional Computerized Testing Approach: On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory",
+    "journal": "Mathematics",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          11
+        ]
+      ]
+    },
+    "authors": [
+      "Jingwen Li",
+      "Jianan Sun",
+      "Mingyu Shao",
+      "Yinghui Lai",
+      "Chen Chen"
+    ],
+    "volume": "13",
+    "article": "594"
+  },
+  {
+    "doi": "10.1016/j.eswa.2025.129406",
+    "title": "Deep multi-view least squares support vector machine with consistency and complementarity principle based on cross-output knowledge transfer",
+    "journal": "Expert Systems with Applications",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "authors": [
+      "Shuangrui Jia",
+      "Sijie Liang",
+      "Ziyi Mo",
+      "Chunxiao Liu",
+      "Huiru Wang",
+      "Chen Chen"
+    ],
+    "volume": "298",
+    "article": "129406"
+  },
+  {
+    "doi": "10.3390/en18174571",
+    "title": "A Transformer-Based Hybrid Neural Network Integrating Multiresolution Turbulence Intensity and Independent Modeling of Multiple Meteorological Features for Wind Speed Forecasting",
+    "journal": "Energies",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          28
+        ]
+      ]
+    },
+    "authors": [
+      "Hongbin Liu",
+      "Ziyan Wang",
+      "Yizhuo Liu",
+      "Jie Zhou",
+      "Chen Chen",
+      "Haoyuan Ma",
+      "Xi Huang",
+      "Hongqing Wang",
+      "Xiaodong Ji"
+    ],
+    "volume": "18",
+    "issue": "17",
+    "article": "4571"
+  }
+]
