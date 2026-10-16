@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261016-certificate-viewer'
+REVISION = '20261016-final-review'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -236,7 +236,7 @@ def experience():
     {reviewer_service()}
     <section class="my-3 bg-white shadow-sm rounded-xl" id="teaching"><h2 class="h6 p-3 mb-0 border-bottom">Teaching <small class="text-muted">教学与辅导</small></h2><div class="p-4">{dated_list(TEACHING)}</div></section>
     <section class="my-3 bg-white shadow-sm rounded-xl" id="service"><h2 class="h6 p-3 mb-0 border-bottom">Service <small class="text-muted">志愿与服务</small></h2><div class="p-4"><p class="mb-3">{recognition_summary}</p>{dated_list(service_items, certificates, '../')}<p class="mt-3">曾参与蓝信封通讯陪伴、临终关怀与国家动物博物馆等志愿服务。</p><ul class="pl-3 mb-0">{''.join('<li>' + ESC(item['activity']) + '<div class="small mt-1">' + external(item['url'], ESC(item['title'])) + '</div></li>' for item in PROFILE['outreach'])}</ul></div></section>
-    <section class="my-3 bg-white shadow-sm rounded-xl" id="contact"><h2 class="h6 p-3 mb-0 border-bottom">Contact <small class="text-muted">联系</small></h2><div class="p-4"><p class="mb-2">欢迎就研究与学习交流。</p><p class="mb-2"><a href="mailto:chenc2025@stu.pku.edu.cn">chenc2025@stu.pku.edu.cn</a></p><p class="small mb-0">{external(ORCID,'ORCID · 0009-0006-6694-580X')}</p></div></section>'''
+    <section class="my-3 bg-white shadow-sm rounded-xl" id="contact"><h2 class="h6 p-3 mb-0 border-bottom">Contact <small class="text-muted">联系</small></h2><div class="p-4"><p class="mb-2">欢迎交流！</p><p class="mb-2"><a href="mailto:chenc2025@stu.pku.edu.cn">chenc2025@stu.pku.edu.cn</a></p><p class="small mb-0">{external(ORCID,'ORCID · 0009-0006-6694-580X')}</p></div></section>'''
 
 
 def projects():
