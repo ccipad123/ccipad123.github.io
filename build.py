@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261016-final-review'
+REVISION = '20261016-root-avatar'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -209,8 +209,8 @@ def news_card():
 def home():
     selected = [next(p for p in PUBLICATIONS if p['doi'] == doi) for doi in ['10.1016/j.eswa.2026.134683','10.1016/j.inffus.2024.102733','10.1016/j.eswa.2024.125814','10.1016/j.eswa.2025.129406','10.1016/j.compag.2025.110020']]
     return profile_card() + education_honors() + news_card() + f'''<section class="my-3 p-0 bg-white shadow-sm rounded-xl" aria-labelledby="selected-title">
-    <h2 class="h6 border-bottom p-3 mb-0" id="selected-title">{icon('fas fa-star')} Selected Publications <a href="publications/index.html">(view all {icon('fas fa-angle-double-right')})</a></h2>
-    <p class="small text-muted px-3 pt-2 mb-2 correspondence-key"># Corresponding author</p>{''.join(paper(p) for p in selected)}<div class="h6 d-block p-3 mt-0 mb-0 text-right"><a href="publications/index.html">All publications {icon('fas fa-angle-double-right')}</a></div></section>''' + reviewer_service()
+    <h2 class="h6 border-bottom p-3 mb-0" id="selected-title">{icon('fas fa-star')} Selected Publications <a href="publications/">(view all {icon('fas fa-angle-double-right')})</a></h2>
+    <p class="small text-muted px-3 pt-2 mb-2 correspondence-key"># Corresponding author</p>{''.join(paper(p) for p in selected)}<div class="h6 d-block p-3 mt-0 mb-0 text-right"><a href="publications/">All publications {icon('fas fa-angle-double-right')}</a></div></section>''' + reviewer_service()
 
 
 def publications():
@@ -230,9 +230,9 @@ def experience():
     return f'''<h1 class="h3 font-weight-normal mb-3">Experience <small class="text-muted">学习与经历</small></h1>{education_honors('../')}
     <section class="my-3 bg-white shadow-sm rounded-xl" id="research"><h2 class="h6 p-3 mb-0 border-bottom">Research <small class="text-muted">研究经历</small></h2><div class="p-4 research-content">
     <section class="research-section" aria-labelledby="phd-research"><h3 class="h6" id="phd-research">博士阶段 · 空间转录组算法设计</h3><p>目前在北京大学第一临床医学院攻读博士，导师为{advisor_link()}。主要从事{bilingual_term('空间转录组', 'Spatial Transcriptomics')}算法设计，研究兴趣涉及{research_term('Computational Pathology')}与{research_term('Bioinformatics')}。</p><p>空间转录组数据同时记录分子表达和组织中的空间位置；我关注如何将这两类信息共同纳入模型，分析表达差异及其空间分布。</p></section>
-    <section class="research-section" aria-labelledby="undergraduate-research"><h3 class="h6" id="undergraduate-research">本科阶段 · 机器学习、模式识别与最优化理论</h3><p class="small text-muted research-subtitle">Machine Learning · Pattern Recognition · Optimization</p><p>{research_term('Multi-view Learning')}关注从不同角度描述同一样本的数据，各视图既有共有信息，也有各自的特征。我的相关工作围绕如何共同利用这些信息展开：在{research_term('Support Vector Machines')}中引入结构信息和不同损失函数，通过视图权重、结构正则项或跨层知识迁移构造分类模型。</p><p>除了模型构造，相关研究也讨论优化问题的求解。在非凸损失模型中分析最优解与平稳点的关系，结合工作集策略求解；在孪生支持向量机中推导安全筛选规则，减少参数选择时需要处理的样本。具体方法与实验见<a href="../publications/index.html">论文列表</a>。</p></section>
+    <section class="research-section" aria-labelledby="undergraduate-research"><h3 class="h6" id="undergraduate-research">本科阶段 · 机器学习、模式识别与最优化理论</h3><p class="small text-muted research-subtitle">Machine Learning · Pattern Recognition · Optimization</p><p>{research_term('Multi-view Learning')}关注从不同角度描述同一样本的数据，各视图既有共有信息，也有各自的特征。我的相关工作围绕如何共同利用这些信息展开：在{research_term('Support Vector Machines')}中引入结构信息和不同损失函数，通过视图权重、结构正则项或跨层知识迁移构造分类模型。</p><p>除了模型构造，相关研究也讨论优化问题的求解。在非凸损失模型中分析最优解与平稳点的关系，结合工作集策略求解；在孪生支持向量机中推导安全筛选规则，减少参数选择时需要处理的样本。具体方法与实验见<a href="../publications/">论文列表</a>。</p></section>
     <section class="research-section" aria-labelledby="collaborative-research"><h3 class="h6" id="collaborative-research">合作研究 · 预测建模与统计测量</h3><p>在森林生物量碳储量估计中，参与基于局部样本信息的加权回归研究，将 K 近邻结构与参数优化用于碳储量预测。在风速预测工作中，结合多尺度湍流特征、气象序列独立建模与 Transformer 融合，分析不同时间尺度及气象变量所包含的信息。</p><p>另一项合作研究面向多维自适应测评，在多维项目反应理论框架下进行即时组卷，比较不同组卷策略的能力估计精度、题目曝光和实施灵活性。上述工作分别发表于 <i>Computers and Electronics in Agriculture</i>、<i>Energies</i> 与 <i>Mathematics</i>。</p></section>
-    <p class="mb-0"><a href="../projects/index.html">Projects · 科研项目 {icon('fas fa-angle-double-right')}</a></p></div></section>
+    <p class="mb-0"><a href="../projects/">Projects · 科研项目 {icon('fas fa-angle-double-right')}</a></p></div></section>
     {reviewer_service()}
     <section class="my-3 bg-white shadow-sm rounded-xl" id="teaching"><h2 class="h6 p-3 mb-0 border-bottom">Teaching <small class="text-muted">教学与辅导</small></h2><div class="p-4">{dated_list(TEACHING)}</div></section>
     <section class="my-3 bg-white shadow-sm rounded-xl" id="service"><h2 class="h6 p-3 mb-0 border-bottom">Service <small class="text-muted">志愿与服务</small></h2><div class="p-4"><p class="mb-3">{recognition_summary}</p>{dated_list(service_items, certificates, '../')}<p class="mt-3">曾参与蓝信封通讯陪伴、临终关怀与国家动物博物馆等志愿服务。</p><ul class="pl-3 mb-0">{''.join('<li>' + ESC(item['activity']) + '<div class="small mt-1">' + external(item['url'], ESC(item['title'])) + '</div></li>' for item in PROFILE['outreach'])}</ul></div></section>
@@ -253,12 +253,12 @@ def layout(page, body, base=''):
     route = '' if page in ('home','404') else page+'/'
     if page == '404':
         base = BASE_PATH
-    nav = ''.join(f'<li class="nav-item"><a class="nav-link{" active" if page==key else ""}" '+('aria-current="page" ' if page==key else '')+f'href="{base}{path}">{label}</a></li>' for key,path,label in [('home','index.html','Home'),('publications','publications/index.html','Publications'),('projects','projects/index.html','Projects'),('experience','experience/index.html','Experience')])
+    nav = ''.join(f'<li class="nav-item"><a class="nav-link{" active" if page==key else ""}" '+('aria-current="page" ' if page==key else '')+f'href="{base+path or "./"}">{label}</a></li>' for key,path,label in [('home','','Home'),('publications','publications/','Publications'),('projects','projects/','Projects'),('experience','experience/','Experience')])
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>陈辰 Chen Chen · {titles[page]}</title><meta name="site-revision" content="{REVISION}"><meta name="description" content="陈辰的个人学术主页。北京大学第一临床医学院直博生，从事空间转录组算法设计，关注计算病理学与生物信息学。论文、科研项目、教育经历、获奖与教学。"><link rel="canonical" href="{ORIGIN}/{route}">
     <meta property="og:title" content="陈辰 Chen Chen · {titles[page]}"><meta property="og:description" content="个人简介、学术论文与学习经历。"><meta property="og:type" content="website"><meta property="og:url" content="{ORIGIN}/{route}"><meta name="theme-color" content="#f8f9fa">
-    <link rel="icon" href="{base}assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="{base}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{base}assets/vendor/fontawesome/css/all.min.css"><link rel="stylesheet" href="{base}assets/vendor/academic-homepage.css"><link rel="stylesheet" href="{base}style.css?v={REVISION}"><script src="{base}app.js?v={REVISION}" defer></script></head>
-    <body class="bg-light d-flex flex-column min-vh-100"><a class="skip-link" href="#main">跳转到正文</a><nav class="navbar navbar-expand-sm navbar-light fixed-top mb-5 shadow-sm" aria-label="主导航"><div class="container-lg"><a class="navbar-brand" href="{base}index.html"><strong>陈辰</strong></a><button class="navbar-toggler" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="打开导航">{icon('fas fa-map')} Menu</button><div class="collapse navbar-collapse" id="site-navigation"><ul class="navbar-nav ml-auto">{nav}</ul></div></div></nav>
+    <link rel="icon" href="{base}assets/portrait.png?v={REVISION}" type="image/png"><link rel="apple-touch-icon" href="{base}assets/portrait.png?v={REVISION}"><link rel="stylesheet" href="{base}assets/vendor/bootstrap.min.css"><link rel="stylesheet" href="{base}assets/vendor/fontawesome/css/all.min.css"><link rel="stylesheet" href="{base}assets/vendor/academic-homepage.css"><link rel="stylesheet" href="{base}style.css?v={REVISION}"><script src="{base}app.js?v={REVISION}" defer></script></head>
+    <body class="bg-light d-flex flex-column min-vh-100"><a class="skip-link" href="#main">跳转到正文</a><nav class="navbar navbar-expand-sm navbar-light fixed-top mb-5 shadow-sm" aria-label="主导航"><div class="container-lg"><a class="navbar-brand" href="{base or "./"}"><strong>陈辰</strong></a><button class="navbar-toggler" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="打开导航">{icon('fas fa-map')} Menu</button><div class="collapse navbar-collapse" id="site-navigation"><ul class="navbar-nav ml-auto">{nav}</ul></div></div></nav>
     <main class="flex-grow-1 flex-shrink-0 container-lg" id="main" tabindex="-1">{body}</main>{certificate_viewer() if page in ('home', 'experience') else ''}
     <footer class="footer flex-shrink-0 border-top py-2 mt-5 bg-white small"><div class="container-lg"><div class="row my-3"><div class="col-6 text-muted"><i>Last updated: Oct. 2026</i><span class="d-block small">© 2026 陈辰</span></div><div class="col-6 text-right">{external('https://github.com/luost26/academic-homepage',icon('fas fa-pencil-ruler')+' academic-homepage')}</div></div></div></footer></body></html>'''
 

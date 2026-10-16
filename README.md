@@ -2,7 +2,7 @@
 
 陈辰的独立学术主页，采用 [academic-homepage 的 layout2](https://luost.me/academic-homepage/index_layout2) 布局，包含 Home、Publications、Projects、Experience 四个页面。
 
-源码仓库：[ccipad123/chen-chen-homepage](https://github.com/ccipad123/chen-chen-homepage)。网站使用 GitHub Pages 托管，公开地址为 [陈辰的学术主页](https://ccipad123.github.io/chen-chen-homepage/)。仓库可从任意电脑或编辑器维护，与 ChatGPT 账号相互独立。
+源码仓库：[ccipad123/chen-chen-homepage](https://github.com/ccipad123/chen-chen-homepage)。网站使用 GitHub Pages 托管，正式地址为 [陈辰的学术主页](https://ccipad123.github.io/)。原来的 `/chen-chen-homepage/` 地址继续可用。仓库可从任意电脑或编辑器维护，与 ChatGPT 账号相互独立。
 
 ## 内容更新
 
@@ -18,11 +18,28 @@
 - docs/style.css：手工维护的排版覆盖层与灰色链接主题；build.py 不覆盖此文件
 - docs/app.js：导航、年份筛选、引用复制与证书弹窗；build.py 不覆盖此文件
 - docs/assets/certificates/：用户授权点击展示的三张原始证书
+- docs/assets/portrait.png：现有头像，同时用于浏览器标签图标和 apple-touch-icon
 - site_config.json：网站正式网址
 
 修改源文件后运行 python3 build.py，再用 python3 -m http.server 8767 --bind 127.0.0.1 --directory docs 本地预览。
 
-构建仅使用 Python 标准库，无需额外安装。docs/ 是生成后的静态网站，必须与源文件一起提交。发布源设置为 main 分支的 /docs；保留 .nojekyll。提交并推送后触发 GitHub Pages 更新。
+构建仅使用 Python 标准库，无需额外安装。docs/ 是生成后的静态网站，必须与源文件一起提交；保留 .nojekyll。
+
+## 发布
+
+两处使用同一份提交和 `/docs` 发布目录：
+
+- 源码仓库 `ccipad123/chen-chen-homepage`：`main` 分支，兼容原来的长网址。
+- 根站仓库 `ccipad123/ccipad123.github.io`：`academic-homepage` 分支，正式短网址 `https://ccipad123.github.io/`。原 `master` 分支保存旧主页源码，不覆盖。
+
+本地 `origin` 指向源码仓库，`root-site` 指向根站仓库。修改、构建、验证并提交后，将同一提交推送到两处：
+
+```sh
+git push root-site HEAD:academic-homepage
+git push origin main
+```
+
+新电脑若尚未配置根站 remote，先运行 `git remote add root-site https://github.com/ccipad123/ccipad123.github.io.git`。发布后核对两站 Pages build 的提交和实际公开页面。根站 Pages source 应为 `academic-homepage` / `/docs`；如需恢复旧主页，可切回原 `master` / `/`，源码仍保留。
 
 ## 内容与署名
 

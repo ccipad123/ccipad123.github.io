@@ -4,7 +4,7 @@
 - User: 陈辰 / Chen Chen, Peking University 第一临床医学院 direct PhD student.
 - Only public email: chenc2025@stu.pku.edu.cn. Do not add former homepages, former emails, student ID, course reports, or private research data.
 - Edit build.py and sources/, then run python3 build.py. docs/ is generated and is the GitHub Pages publication root.
-- No package installation is needed. Keep .nojekyll. Respect the project subpath from site_config.json, including 404 links.
+- No package installation is needed. Keep .nojekyll. Respect the root URL in site_config.json, including 404 links; keep the former project URL functional.
 - Preserve Paper, DOI, BibTeX and the local TeX SVG for L_{0/1}. Keep author order; use # only for sourced corresponding authors.
 - Reviewer publishers: Nature Portfolio, Elsevier, Springer Nature, Frontiers; journals alphabetical within each group. Show journal/publisher/2025 JIF only.
 - Undergraduate interests: Machine Learning, Pattern Recognition, Optimization; methods Multi-view Learning, Support Vector Machines. PhD focus Spatial Transcriptomics Algorithm Design; interests Computational Pathology, Bioinformatics.
@@ -13,7 +13,8 @@
 - Dates use English month abbreviations, italic, aligned right; known periods are in profile.json and awards.json.
 - User now requests clickable certificate images, superseding the earlier text-only choice. Keep the page compact: link the two race entries and three-star recognition to their original certificate images, enhanced with an accessible dialog and direct-image fallback. Service includes the April 2026 Haidian 10 km race and April 2025 Beijing Half Marathon. The 619.5 volunteer hours refer to the June 2024 three-star recognition, not a current total. Keep the existing award single. 本科新生学业辅导员 (Sep. 2023 – Aug. 2024) belongs under Teaching, not Service.
 - Do not invent projects, individual contributions, awards, impact factors, or publication status.
-- Before publishing, check desktop/mobile layout, navigation, local assets and year filtering. Reuse the existing GitHub repository; do not create another hosting account or Site.
+- Primary URL: https://ccipad123.github.io/. Maintain source in ccipad123/chen-chen-homepage main, mirror the same commit to ccipad123/ccipad123.github.io academic-homepage. Both publish /docs. Preserve the root repository master branch with the old homepage. Before publishing, check both root and former project paths, desktop/mobile layout, navigation, local assets, year filtering and certificates. Do not create another hosting account or Site.
+- Browser favicon and apple-touch-icon use the existing docs/assets/portrait.png with revision cache key; preserve the original avatar bytes.
 - Keep documentation consistent with actual publication status. No credentials or authentication tokens belong in the repository.
 
 - Full-paragraph paper descriptions end with a Chinese full stop. Award titles omit the freshman scholarship academic-year prefix and the Beijing mathematics competition subnote; keep their right-aligned award dates.
