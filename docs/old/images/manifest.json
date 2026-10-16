@@ -1,0 +1,10 @@
+{
+  "name": "Minimal Mistakes",
+  "icons": [
+    {
+      "src": "/old/images/favicon-portrait.jpg",
+      "sizes": "603x603",
+      "type": "image/jpeg"
+    }
+  ]
+}

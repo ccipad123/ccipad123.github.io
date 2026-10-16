@@ -2,7 +2,7 @@
 
 - Read README.md and site_config.json before editing. Preserve the selected academic-homepage layout2.
 - User: 陈辰 / Chen Chen, Peking University 第一临床医学院 direct PhD student.
-- Only public email: chenc2025@stu.pku.edu.cn. Do not add former homepages, former emails, student ID, course reports, or private research data.
+- Current homepage public email: chenc2025@stu.pku.edu.cn. Do not add former emails, student ID, course reports, or private research data to the current homepage. The user explicitly requested restoring the historical website at /old/; preserve its original public wording and historical contact details within that archive.
 - Edit build.py and sources/, then run python3 build.py. docs/ is generated and is the GitHub Pages publication root.
 - No package installation is needed. Keep .nojekyll. Respect the root URL in site_config.json, including 404 links; keep the former project URL functional.
 - Preserve Paper, DOI, BibTeX and the local TeX SVG for L_{0/1}. Keep author order; use # only for sourced corresponding authors.
@@ -15,6 +15,7 @@
 - Do not invent projects, individual contributions, awards, impact factors, or publication status.
 - Primary URL: https://ccipad123.github.io/. Maintain source in ccipad123/chen-chen-homepage main, mirror the same commit to ccipad123/ccipad123.github.io academic-homepage. Both publish /docs. Preserve the root repository master branch with the old homepage. Before publishing, check both root and former project paths, desktop/mobile layout, navigation, local assets, year filtering and certificates. Do not create another hosting account or Site.
 - Browser favicon and apple-touch-icon use the existing docs/assets/portrait.png with revision cache key; preserve the original avatar bytes.
+- Historical site: docs/old serves https://ccipad123.github.io/old/. It is built from the preserved root-repository master commit 664a95180e229918dc39ccd5c64dfad6f9047f2a using GitHub's existing Pages Jekyll runtime, then imported by import_legacy.py. Source/workflow provenance is in sources/legacy_site.json and sources/legacy_homepage_build.yml. build.py must preserve docs/old; do not mix historical content into the current site. Archive old generated files before replacing them. Keep links/assets inside /old/ and use its existing avatar for missing original favicon variants.
 - Keep documentation consistent with actual publication status. No credentials or authentication tokens belong in the repository.
 
 - Full-paragraph paper descriptions end with a Chinese full stop. Award titles omit the freshman scholarship academic-year prefix and the Beijing mathematics competition subnote; keep their right-aligned award dates.

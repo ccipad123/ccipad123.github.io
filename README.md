@@ -41,6 +41,14 @@ git push origin main
 
 新电脑若尚未配置根站 remote，先运行 `git remote add root-site https://github.com/ccipad123/ccipad123.github.io.git`。发布后核对两站 Pages build 的提交和实际公开页面。根站 Pages source 应为 `academic-homepage` / `/docs`；如需恢复旧主页，可切回原 `master` / `/`，源码仍保留。
 
+## 旧版主页归档
+
+[旧版主页](https://ccipad123.github.io/old/) 位于 `docs/old/`，保留原来的「無限進步」、Research、Awards、Links 及其他已有页面。它来自根站仓库 `master` 的固定提交 `664a95180e229918dc39ccd5c64dfad6f9047f2a`；旧版文字与历史联系方式仅保留在归档内。
+
+构建使用 GitHub Pages 现有 Jekyll 运行环境，工作流在 `sources/legacy_homepage_build.yml`，构建与导入来源在 `sources/legacy_site.json`。该工作流只生成 artifact，不部署根站。下载对应 artifact ZIP 后，运行 `python3 import_legacy.py /path/to/archive.zip` 导入；导入器将同站链接/资源迁移到 `/old/`，使用已有头像替代原模板缺失的图标。已有 `docs/old` 时须先归档，导入器不会覆盖它。
+
+日常 `python3 build.py` 不重建或删除 `docs/old/`；静态归档随其他文件同步发布到两个仓库。根站的原 `master` 分支继续保留。
+
 ## 内容与署名
 
 七篇论文作者顺序和 DOI 基于已核对书目。混合截断损失 SVM 论文已于 12 Oct. 2026 在线发表，当前无卷号，按已核实的文章号 134683 和在线日期展示；来源见 sources/hybrid_loss_verification.json。[Paper] 指向出版方文章页，[DOI] 保留永久链接，BibTeX 可下载。# Corresponding author 表示通讯作者，标记不加入 BibTeX 姓名。科研项目与荣誉按本人确认资料填写。
