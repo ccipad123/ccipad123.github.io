@@ -1,0 +1,39 @@
+name: Build archived homepage
+on:
+  push:
+    branches: [legacy-archive-build]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: 664a95180e229918dc39ccd5c64dfad6f9047f2a
+          path: legacy-source
+          persist-credentials: false
+      - name: Set archive base path
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p = Path('legacy-source/_config.yml')
+          text, count = re.subn(r'^baseurl\s*:.*$', 'baseurl: "/old"', p.read_text(), flags=re.M)
+          assert count == 1
+          p.write_text(text)
+          PY
+      - name: Build with the GitHub Pages Jekyll runtime
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697
+        with:
+          source: ./legacy-source
+          destination: ./legacy-output
+          build_revision: 664a95180e229918dc39ccd5c64dfad6f9047f2a
+      - name: Save archive for inspection
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: legacy-homepage-664a951
+          path: legacy-output/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
