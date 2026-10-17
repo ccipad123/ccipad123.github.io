@@ -3,43 +3,78 @@
     "paper_url": "https://www.sciencedirect.com/science/article/pii/S1566253524005116",
     "summary": "针对多视图分类中共有信息与互补信息难以同时利用的问题，研究提出基于 L0/1 软间隔损失的两类支持向量机，并在结构化模型中引入数据结构信息。围绕离散损失带来的优化困难，建立最优解与 P-平稳点之间的理论联系，将工作集策略融入近端 ADMM。数值实验比较了分类性能、计算速度和支持向量数量，检验结构信息与求解策略的作用。",
     "checked": "2026-10-15",
-    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record"
+    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record",
+    "pdf_file": "multi-view-svm-l01-structural-information.pdf",
+    "pdf_source_filename": "1-s2.0-S1566253524005116-main.pdf",
+    "pdf_sha256": "a30cc9d5016d3eaea7670748e817d7d1f019c7b4f9ecac47ea9931269b1978fb",
+    "pdf_pages": 28,
+    "pdf_supplied_on": "2026-10-18"
   },
   "10.1016/j.eswa.2024.125814": {
     "paper_url": "https://www.sciencedirect.com/science/article/pii/S0957417424026812",
     "summary": "通过聚类提取类内和类间结构，将其融入多视图孪生支持向量机：结构正则项保留视图间的一致性，视图权重用于利用互补信息，使模型兼顾类内紧凑性与类间可分性。研究采用迭代策略求解，并推导安全筛选规则，在不牺牲精度的前提下缩小优化问题规模、加快参数选择。数值实验同时考察了分类效果与筛选规则的安全性。",
     "checked": "2026-10-15",
-    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record"
+    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record",
+    "pdf_file": "multi-view-structural-twin-svm-safe-screening.pdf",
+    "pdf_source_filename": "1-s2.0-S0957417424026812-main.pdf",
+    "pdf_sha256": "881971cef035d545c5ec7a589feef268ba50fc2a2ac189dedec8df68e654b3e7",
+    "pdf_pages": 18,
+    "pdf_supplied_on": "2026-10-18"
   },
   "10.1016/j.compag.2025.110020": {
     "paper_url": "https://www.sciencedirect.com/science/article/pii/S0168169925001267",
     "summary": "森林生物量碳储量估计容易受到噪声和异常样本的干扰。研究提出最小二乘多生支持向量回归及其加权版本，用 K 近邻信息构造样本权重，使回归模型利用局部结构，并通过鲸鱼优化算法选择参数。在碳储量、模拟及 UCI 数据集上的比较，分别考察了预测精度、抗干扰能力与训练速度，分析加权策略和参数优化的效果。",
     "checked": "2026-10-15",
-    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record"
+    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record",
+    "pdf_file": "forest-biomass-carbon-stock.pdf",
+    "pdf_source_filename": "1-s2.0-S0168169925001267-main.pdf",
+    "pdf_sha256": "2339dc24273b2a4fbacc9c0d25ef4e833e9002882dd4c70bb1601c6854db8cac",
+    "pdf_pages": 16,
+    "pdf_supplied_on": "2026-10-18"
   },
   "10.3390/math13040594": {
     "paper_url": "https://www.mdpi.com/2227-7390/13/4/594",
     "summary": "面向需要同时测量多种潜在能力的测评场景，研究将即时组卷多阶段自适应测验扩展到多维项目反应理论框架，提出 OMST-M。组卷分别采用点估计与置信椭球方法，使试题内容和模块长度能够随测验阶段调整。模拟与实证研究考察能力估计精度、题目曝光控制及实施灵活性，并与多维计算机自适应测验和多阶段测验进行比较。",
     "checked": "2026-10-15",
-    "basis": "Publisher-provided abstract and primary URL in retained Crossref record"
+    "basis": "Publisher-provided abstract and primary URL in retained Crossref record",
+    "pdf_file": "multidimensional-adaptive-testing.pdf",
+    "pdf_source_filename": "mathematics-13-00594-v2.pdf",
+    "pdf_sha256": "a63095d77a1900da350ffbe80cf0d2a109fddece1399147271cef1dd1b561d4a",
+    "pdf_pages": 27,
+    "pdf_supplied_on": "2026-10-18"
   },
   "10.1016/j.eswa.2025.129406": {
     "paper_url": "https://www.sciencedirect.com/science/article/pii/S0957417425030222",
     "summary": "研究将多视图最小二乘支持向量机组织为深层堆叠结构，后续层利用前面各层的预测结果作为额外输入，通过跨输出知识迁移逐层学习。各层同时考虑一致性与互补性，并以交替优化策略求解；快速留一交叉验证用于评估层间迁移程度。模型允许对部分参数进行随机赋值，数值实验据此比较分类性能与计算效率。",
     "checked": "2026-10-15",
-    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record"
+    "basis": "Publisher abstract/highlights indexed by web search; PII and DOI cross-checked with retained Crossref record",
+    "pdf_file": "deep-multi-view-svm-knowledge-transfer.pdf",
+    "pdf_source_filename": "1-s2.0-S0957417425030222-main.pdf",
+    "pdf_sha256": "4f843bda8f9ed18fd62de3a431ae3acd8c75f2b0197d25810cc869cd891e0baf",
+    "pdf_pages": 22,
+    "pdf_supplied_on": "2026-10-18"
   },
   "10.3390/en18174571": {
     "paper_url": "https://www.mdpi.com/1996-1073/18/17/4571",
     "summary": "针对风速序列的非线性与多尺度波动，研究通过平稳小波变换提取不同尺度的平均风速和湍流强度，使用并行 LSTM 子模型分别预测。气压、温度、风向等气象序列由 WaveNet、LSTM 和 TCN 单独建模，再通过 Transformer 自注意力融合各路输出。三组数据上的多类对比实验评估了预测精度与稳健性，并报告了 6 小时预测结果。",
     "checked": "2026-10-15",
-    "basis": "Publisher-provided abstract and primary URL in retained Crossref record"
+    "basis": "Publisher-provided abstract and primary URL in retained Crossref record",
+    "pdf_file": "transformer-wind-speed-forecasting.pdf",
+    "pdf_source_filename": "energies-18-04571.pdf",
+    "pdf_sha256": "2b0cefca0d4c7fe106ff64435d4b8765a670255cfb4053f5adbbc97248b7536b",
+    "pdf_pages": 38,
+    "pdf_supplied_on": "2026-10-18"
   },
   "10.1016/j.eswa.2026.134683": {
     "paper_url": "https://www.sciencedirect.com/science/article/pii/S0957417426035876",
     "summary": "针对支持向量机中损失函数对异常样本敏感、非凸模型求解成本较高的问题，研究提出兼顾稀疏性与有界性的混合截断损失，构建单视图分类模型。通过 P-平稳点建立最优性条件，并结合工作集策略设计 ADMM 求解算法；进一步引入结构信息与视图权重，将模型扩展到多视图学习。合成、真实及图像数据集实验考察了分类性能、支持向量数量与噪声鲁棒性。",
     "checked": "2026-10-16",
     "basis": "Chinese summary based on the matching author preprint arXiv:2606.05814; journal metadata verified against Crossref and Elsevier API.",
-    "summary_source": "https://arxiv.org/abs/2606.05814"
+    "summary_source": "https://arxiv.org/abs/2606.05814",
+    "pdf_file": "robust-sparse-svm-hybrid-truncated-loss.pdf",
+    "pdf_source_filename": "1-s2.0-S0957417426035876-main.pdf",
+    "pdf_sha256": "a7152d3cdabc55f912bbf2734a048fd3cc32550c8f2c50942f51199825ab1686",
+    "pdf_pages": 37,
+    "pdf_supplied_on": "2026-10-18"
   }
 }

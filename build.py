@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261016-root-avatar'
+REVISION = '20261018-paper-downloads'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -72,6 +72,14 @@ def external(url, label, cls=''):
     return f'<a class="{cls}" href="{ESC(url, quote=True)}" target="_blank" rel="noopener noreferrer">{label}</a>'
 
 
+def paper_link(doi, base=''):
+    return external(base + 'assets/papers/' + PUBLICATION_DETAILS[doi]['pdf_file'], '[Paper]', 'paper-link')
+
+
+def citation_filename(p):
+    return Path(PUBLICATION_DETAILS[p['doi']]['pdf_file']).with_suffix('.bib').name
+
+
 
 
 
@@ -122,9 +130,9 @@ def paper(p, full=False):
         online = date.fromisoformat(p['published_online'])
         month = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'][online.month - 1]
         bibliographic_line += f' · Available online {online.day} {month} {online.year}'
-    citation = ''
+    citation = f'<a class="bibtex-download" href="{base}assets/bibtex/{ESC(citation_filename(p), quote=True)}" download title="下载 BibTeX 引用文件">[BibTeX ↓]</a>'
     if full:
-        citation = f'<details class="bibtex"><summary>BibTeX</summary><div class="citation-box"><pre><code>{ESC(bibtex(p))}</code></pre><button class="btn btn-sm btn-outline-secondary copy-citation" type="button">复制引用</button><span class="copy-status small ml-2" role="status"></span></div></details>'
+        citation += f'<details class="bibtex"><summary>查看引用</summary><div class="citation-box"><pre><code>{ESC(bibtex(p))}</code></pre><button class="btn btn-sm btn-outline-secondary copy-citation" type="button">复制引用</button><span class="copy-status small ml-2" role="status"></span></div></details>'
     return f'''<article class="publication row no-gutters border-bottom" data-year="{year}" style="--paper-cover:url('{cover_background}')">
     <div class="col-md-3 col-xl-2 p-md-3 d-none d-md-block journal-cover-column">{external(journal.get('cover_url', journal['journal_url']), cover, 'journal-cover-link')}</div>
     <div class="col-md-9 col-xl-10 p-3 pl-md-0 publication-body">
@@ -132,7 +140,7 @@ def paper(p, full=False):
     <p class="mt-0 mb-0 small authors">{names}</p>
     <p class="mt-0 mb-0 small journal-line"><i>{ESC(p['journal'])}</i> {bibliographic_line} {metric}</p>
     <p class="mt-0 mb-0 small text-muted paper-summary">{math_text(SUMMARIES[p['doi']], base)}</p>
-    <div class="small paper-links">{external(PUBLICATION_DETAILS[p['doi']]['paper_url'], '[Paper]', 'paper-link')}{external('https://doi.org/'+p['doi'], '[DOI]')}{citation}</div></div></article>'''
+    <div class="small paper-links">{paper_link(p['doi'], base)}{external('https://doi.org/'+p['doi'], '[DOI]')}{citation}</div></div></article>'''
 
 
 def profile_card():
@@ -200,10 +208,10 @@ def education_honors(base=''):
 
 def news_card():
     return f'''<section class="my-3 bg-white shadow-sm rounded-xl" id="news"><h2 class="h6 p-3 mb-0 border-bottom">{icon('fas fa-rss')} News</h2><div class="px-3 pb-1 small">
-    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>论文在线发表于 <i>Expert Systems with Applications</i>，研究基于混合截断损失的鲁棒稀疏支持向量机。 {external('https://doi.org/10.1016/j.eswa.2026.134683','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Oct.</i></div></div>
-    <div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习。 {external('https://doi.org/10.1016/j.eswa.2025.129406','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
-    <div class="media py-1 border-top"><div class="mr-3 text-muted my-1">2025</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Energies</i>，研究融合湍流强度与多种气象特征的 Transformer 风速预测模型。 {external('https://doi.org/10.3390/en18174571','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Aug.</i></div></div>
-    <div class="my-1 d-flex"><div>合作论文发表于 <i>Computers and Electronics in Agriculture</i>，研究森林生物量碳储量估计。 {external('https://doi.org/10.1016/j.compag.2025.110020','[Paper]')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>May</i></div></div></div></div></div></section>'''
+    <div class="media py-1"><div class="mr-3 text-muted my-1">2026</div><div class="media-body"><div class="my-1 d-flex"><div>论文在线发表于 <i>Expert Systems with Applications</i>，研究基于混合截断损失的鲁棒稀疏支持向量机。 {paper_link('10.1016/j.eswa.2026.134683')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Oct.</i></div></div>
+    <div class="my-1 d-flex"><div>合作论文发表于 <i>Expert Systems with Applications</i>，研究跨输出知识迁移的深度多视图学习。 {paper_link('10.1016/j.eswa.2025.129406')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Mar.</i></div></div></div></div>
+    <div class="media py-1 border-top"><div class="mr-3 text-muted my-1">2025</div><div class="media-body"><div class="my-1 d-flex"><div>合作论文发表于 <i>Energies</i>，研究融合湍流强度与多种气象特征的 Transformer 风速预测模型。 {paper_link('10.3390/en18174571')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>Aug.</i></div></div>
+    <div class="my-1 d-flex"><div>合作论文发表于 <i>Computers and Electronics in Agriculture</i>，研究森林生物量碳储量估计。 {paper_link('10.1016/j.compag.2025.110020')}</div><div class="ml-auto mt-auto text-muted no-break pl-3"><i>May</i></div></div></div></div></div></section>'''
 
 
 def home():
@@ -264,6 +272,13 @@ def layout(page, body, base=''):
 
 
 def main():
+    citations = DIST / 'assets/bibtex'
+    citations.mkdir(exist_ok=True)
+    for p in PUBLICATIONS:
+        pdf = DIST / 'assets/papers' / PUBLICATION_DETAILS[p['doi']]['pdf_file']
+        if not pdf.is_file():
+            raise FileNotFoundError(f'Missing paper PDF: {pdf}')
+        (citations / citation_filename(p)).write_text(bibtex(p) + '\n', encoding='utf-8')
     (DIST / 'publications').mkdir(exist_ok=True)
     (DIST / 'experience').mkdir(exist_ok=True)
     (DIST / 'projects').mkdir(exist_ok=True)

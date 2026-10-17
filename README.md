@@ -10,13 +10,15 @@
 - sources/awards.json：获奖名称与年月
 - sources/projects.json：科研项目、编号、角色和结题结果
 - sources/publications.json：论文书目
-- sources/publication_details.json：论文介绍和 Paper 链接
+- sources/publication_details.json：论文介绍、出版方链接、PDF 文件与校验信息
 - sources/corresponding_authors.json：通讯作者标记及依据
 - sources/reviewer_service.json：审稿期刊及顺序
 - sources/journals.json：期刊图片及明确年份的 JIF
 - build.py：页面结构及简介正文
 - docs/style.css：手工维护的排版覆盖层与灰色链接主题；build.py 不覆盖此文件
 - docs/app.js：导航、年份筛选、引用复制与证书弹窗；build.py 不覆盖此文件
+- docs/assets/papers/：用户提供的七篇论文 PDF 原件；[Paper] 直接打开对应文件
+- docs/assets/bibtex/：build.py 按书目生成的单篇 .bib 引用，首页和论文页均可下载
 - docs/assets/certificates/：用户授权点击展示的三张原始证书
 - docs/assets/portrait.png：现有头像，同时用于浏览器标签图标和 apple-touch-icon
 - site_config.json：网站正式网址
@@ -51,7 +53,7 @@ git push origin main
 
 ## 内容与署名
 
-七篇论文作者顺序和 DOI 基于已核对书目。混合截断损失 SVM 论文已于 12 Oct. 2026 在线发表，当前无卷号，按已核实的文章号 134683 和在线日期展示；来源见 sources/hybrid_loss_verification.json。[Paper] 指向出版方文章页，[DOI] 保留永久链接，BibTeX 可下载。# Corresponding author 表示通讯作者，标记不加入 BibTeX 姓名。科研项目与荣誉按本人确认资料填写。
+七篇论文作者顺序和 DOI 基于已核对书目。混合截断损失 SVM 论文已于 12 Oct. 2026 在线发表，当前无卷号，按已核实的文章号 134683 和在线日期展示；来源见 sources/hybrid_loss_verification.json。[Paper] 直接打开用户提供的论文 PDF 原件（首页、完整论文页及 News 均一致）；[DOI] 保留出版方永久链接。每篇 DOI 旁的 [BibTeX ↓] 下载单篇 .bib，完整论文页保留引用查看、复制及全部 BibTeX 下载。PDF 文件、页数、SHA256 与原始文件名记录于 sources/publication_details.json；仅复制原件，不由 PDF 生成或声称提供论文 LaTeX 全文源码。# Corresponding author 表示通讯作者，标记不加入 BibTeX 姓名。科研项目与荣誉按本人确认资料填写。
 
 Energies 图片是 18(17) 的官方期刊封面；封面故事并非本文作者的风速预测论文。封面印刷指标与当前明确年份的 JIF 标签分开保留。
 

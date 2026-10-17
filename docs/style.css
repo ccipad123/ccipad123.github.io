@@ -63,6 +63,7 @@ body.certificate-open{overflow:hidden}
 .publication-tools{display:flex;justify-content:space-between;align-items:center;gap:.6rem 1rem;flex-wrap:wrap}
 .year-nav{top:80px}
 .bibtex{min-width:0;flex:1}
+.bibtex[open]{flex-basis:100%}
 .bibtex summary{cursor:pointer;color:var(--site-link);width:max-content}
 .citation-box{background:#f8f9fa;border:1px solid #dee2e6;padding:.75rem;margin-top:.5rem;border-radius:.25rem}
 .citation-box pre{white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;font-size:12px;line-height:1.5;margin-bottom:.5rem}
