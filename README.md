@@ -10,6 +10,7 @@
 - sources/awards.json：获奖名称与年月
 - sources/projects.json：科研项目、编号、角色和结题结果
 - sources/publications.json：论文书目、稳定的 BibTeX 引用键及出版社
+- sources/citation_audit_20261018.json：六篇论文的 Google Scholar 详情、Crossref 与原 PDF 核对及差异处理
 - sources/publication_details.json：论文介绍、出版方链接、PDF 文件与校验信息
 - sources/corresponding_authors.json：通讯作者标记及依据
 - sources/reviewer_service.json：审稿期刊及顺序
@@ -53,7 +54,7 @@ git push origin main
 
 ## 内容与署名
 
-七篇论文作者顺序和 DOI 基于已核对书目。混合截断损失 SVM 论文已于 12 Oct. 2026 在线发表，当前无卷号，按已核实的文章号 134683 和在线日期展示；来源见 sources/hybrid_loss_verification.json。[Paper] 直接打开用户提供的论文 PDF 原件（首页、完整论文页及 News 均一致）；[DOI] 保留出版方永久链接。每篇 DOI 旁的 [BibTeX ↓] 下载单篇 .bib，完整论文页保留引用查看、复制及全部 BibTeX 下载。引用格式参考用户提供的 Google Scholar 示例：如 chen2025multi，作者按“姓, 名”并以 and 分隔，补充 publisher；保留 DOI、缺卷号论文的在线日期，以及 L₀/₁ 的 LaTeX 数学写法。其他条目按相同风格整理，不声称是 Google Scholar 的逐条原始导出。单篇、全部及页面内引用共用生成函数，下载 URL 带版本号避免旧缓存。PDF 文件、页数、SHA256 与原始文件名记录于 sources/publication_details.json；仅复制原件，不由 PDF 生成或声称提供论文 LaTeX 全文源码。# Corresponding author 表示通讯作者，标记不加入 BibTeX 姓名。科研项目与荣誉按本人确认资料填写。
+七篇论文作者顺序和 DOI 基于已核对书目。混合截断损失 SVM 论文已于 12 Oct. 2026 在线发表，当前无卷号，按已核实的文章号 134683 和在线日期展示；来源见 sources/hybrid_loss_verification.json。[Paper] 直接打开用户提供的论文 PDF 原件（首页、完整论文页及 News 均一致）；[DOI] 保留出版方永久链接。每篇 DOI 旁的 [BibTeX ↓] 下载单篇 .bib，首页精选和完整论文页均有可展开的“查看引用”及复制按钮，完整论文页另有全部 BibTeX 下载。引用格式参考用户提供的 Google Scholar 示例：如 chen2025multi，作者按“姓, 名”并以 and 分隔，补充 publisher；保留 DOI、缺卷号论文的在线日期，以及 L₀/₁ 的 LaTeX 数学写法。2026-10-18 已逐篇打开本人 Google Scholar 的另外六篇详情核对作者顺序、年份、卷期和文章号，记录见 sources/citation_audit_20261018.json。Mathematics 补充期号 4；深度多视图论文 Scholar 仍为 2025 在线版无卷号，正式期刊版沿用 2026/298/129406；混合截断损失 Scholar 仍是 arXiv 预印本，网站沿用 ESWA 2026/134683且暂不填卷号。已核对的是字段，不声称下载过六篇 Scholar 原始 BibTeX 导出。单篇、全部及页面内引用共用生成函数，下载 URL 带版本号避免旧缓存。PDF 文件、页数、SHA256 与原始文件名记录于 sources/publication_details.json；仅复制原件，不由 PDF 生成或声称提供论文 LaTeX 全文源码。# Corresponding author 表示通讯作者，标记不加入 BibTeX 姓名。科研项目与荣誉按本人确认资料填写。
 
 Energies 图片是 18(17) 的官方期刊封面；封面故事并非本文作者的风速预测论文。封面印刷指标与当前明确年份的 JIF 标签分开保留。
 

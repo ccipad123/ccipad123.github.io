@@ -1,0 +1,427 @@
+{
+  "checked_on": "2026-10-18",
+  "scope": "Other six papers excluding Information Fusion user-supplied Scholar BibTeX example",
+  "scholar_profile": "https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=en&pagesize=100",
+  "scholar_access": "All six public citation-detail pages read successfully in ordinary Chrome browser without login. Search/web reader failed; Jina anonymous endpoint returned an authentication/IP-reputation error. No authenticated account or bypass used.",
+  "comparison": "Author order, year, volume, issue and article number. Current journal records take precedence over older Scholar online/preprint records. This is a field-by-field metadata check, not a claim to have downloaded six Scholar BibTeX exports.",
+  "records": [
+    {
+      "doi": "10.1016/j.eswa.2024.125814",
+      "title": "Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules",
+      "scholar": {
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6bYDKs4AAAAJ&pagesize=100&citation_for_view=6bYDKs4AAAAJ:u-x6o8ySG0sC",
+        "title": "Multi-view structural twin support vector machine with the consensus and complementarity principles and its safe screening rules",
+        "fields": {
+          "Authors": "Qianfei Liu, Chen Chen, Ting Huang, Yan Meng, Huiru Wang",
+          "Publication date": "2025/3/15",
+          "Journal": "Expert systems with applications",
+          "Volume": "265",
+          "Pages": "125814",
+          "Publisher": "Pergamon"
+        },
+        "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0957417424026812",
+        "scholar_links": [
+          {
+            "label": "All 3 versions",
+            "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=14522425591967894234"
+          }
+        ]
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1016/j.eswa.2024.125814",
+        "authors": [
+          "Qianfei Liu",
+          "Chen Chen",
+          "Ting Huang",
+          "Yan Meng",
+          "Huiru Wang"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "published_print": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "published_online": null,
+        "volume": "265",
+        "issue": null,
+        "article_number": "125814",
+        "publisher": "Elsevier BV"
+      },
+      "publisher_pdf": {
+        "path": "docs/assets/papers/multi-view-structural-twin-svm-safe-screening.pdf",
+        "sha256": "881971cef035d545c5ec7a589feef268ba50fc2a2ac189dedec8df68e654b3e7"
+      },
+      "authors_order_matches": true,
+      "final": {
+        "year": 2025,
+        "volume": "265",
+        "issue": null,
+        "article_number": "125814"
+      },
+      "changes": [],
+      "notes": [
+        "Scholar lists publisher as Pergamon; website retains Elsevier, the publisher family recorded by Crossref (Elsevier BV)."
+      ]
+    },
+    {
+      "doi": "10.1016/j.compag.2025.110020",
+      "title": "Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale optimization algorithm",
+      "scholar": {
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6bYDKs4AAAAJ&pagesize=100&citation_for_view=6bYDKs4AAAAJ:d1gkVwhDpl0C",
+        "title": "Forest biomass carbon stock estimates via a novel approach: K-nearest neighbor-based weighted least squares multiple birth support vector regression coupled with whale …",
+        "fields": {
+          "Authors": "Niannian Deng, Renpeng Xu, Ying Zhang, Haoting Wang, Chen Chen, Huiru Wang",
+          "Publication date": "2025/5/1",
+          "Journal": "Computers and Electronics in Agriculture",
+          "Volume": "232",
+          "Pages": "110020",
+          "Publisher": "Elsevier"
+        },
+        "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0168169925001267",
+        "scholar_links": [
+          {
+            "label": "All 4 versions",
+            "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=8979283662589425667"
+          }
+        ]
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1016/j.compag.2025.110020",
+        "authors": [
+          "Niannian Deng",
+          "Renpeng Xu",
+          "Ying Zhang",
+          "Haoting Wang",
+          "Chen Chen",
+          "Huiru Wang"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "published_print": {
+          "date-parts": [
+            [
+              2025,
+              5
+            ]
+          ]
+        },
+        "published_online": null,
+        "volume": "232",
+        "issue": null,
+        "article_number": "110020",
+        "publisher": "Elsevier BV"
+      },
+      "publisher_pdf": {
+        "path": "docs/assets/papers/forest-biomass-carbon-stock.pdf",
+        "sha256": "2339dc24273b2a4fbacc9c0d25ef4e833e9002882dd4c70bb1601c6854db8cac"
+      },
+      "authors_order_matches": true,
+      "final": {
+        "year": 2025,
+        "volume": "232",
+        "issue": null,
+        "article_number": "110020"
+      },
+      "changes": [],
+      "notes": []
+    },
+    {
+      "doi": "10.3390/math13040594",
+      "title": "A New Multidimensional Computerized Testing Approach: On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory",
+      "scholar": {
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6bYDKs4AAAAJ&pagesize=100&citation_for_view=6bYDKs4AAAAJ:9yKSN-GCB0IC",
+        "title": "A New Multidimensional Computerized Testing Approach: On-the-Fly Assembled Multistage Adaptive Testing Based on Multidimensional Item Response Theory",
+        "fields": {
+          "Authors": "Jingwen Li, Jianan Sun, Mingyu Shao, Yinghui Lai, Chen Chen",
+          "Publication date": "2025/2/11",
+          "Journal": "Mathematics",
+          "Volume": "13",
+          "Issue": "4",
+          "Pages": "594",
+          "Publisher": "MDPI"
+        },
+        "publisher_url": "https://www.mdpi.com/2227-7390/13/4/594",
+        "scholar_links": [
+          {
+            "label": "All 7 versions",
+            "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=2276618690002286684"
+          }
+        ]
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.3390/math13040594",
+        "authors": [
+          "Jingwen Li",
+          "Jianan Sun",
+          "Mingyu Shao",
+          "Yinghui Lai",
+          "Chen Chen"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              11
+            ]
+          ]
+        },
+        "published_print": null,
+        "published_online": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              11
+            ]
+          ]
+        },
+        "volume": "13",
+        "issue": "4",
+        "article_number": "594",
+        "publisher": "MDPI AG"
+      },
+      "publisher_pdf": {
+        "path": "docs/assets/papers/multidimensional-adaptive-testing.pdf",
+        "sha256": "a63095d77a1900da350ffbe80cf0d2a109fddece1399147271cef1dd1b561d4a"
+      },
+      "authors_order_matches": true,
+      "final": {
+        "year": 2025,
+        "volume": "13",
+        "issue": "4",
+        "article_number": "594"
+      },
+      "changes": [
+        "Added missing issue=4; year 2025, volume 13 and article 594 unchanged."
+      ],
+      "notes": []
+    },
+    {
+      "doi": "10.1016/j.eswa.2025.129406",
+      "title": "Deep multi-view least squares support vector machine with consistency and complementarity principle based on cross-output knowledge transfer",
+      "scholar": {
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6bYDKs4AAAAJ&pagesize=100&citation_for_view=6bYDKs4AAAAJ:2osOgNQ5qMEC",
+        "title": "Deep multi-view least squares support vector machine with consistency and complementarity principle based on cross-output knowledge transfer",
+        "fields": {
+          "Authors": "Shuangrui Jia, Sijie Liang, Ziyi Mo, Chunxiao Liu, Huiru Wang, Chen Chen",
+          "Publication date": "2025/8/21",
+          "Journal": "Expert Systems with Applications",
+          "Pages": "129406",
+          "Publisher": "Pergamon"
+        },
+        "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0957417425030222",
+        "scholar_links": [
+          {
+            "label": "All 2 versions",
+            "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=17800378832577570328"
+          }
+        ]
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1016/j.eswa.2025.129406",
+        "authors": [
+          "Shuangrui Jia",
+          "Sijie Liang",
+          "Ziyi Mo",
+          "Chunxiao Liu",
+          "Huiru Wang",
+          "Chen Chen"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published_print": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "published_online": null,
+        "volume": "298",
+        "issue": null,
+        "article_number": "129406",
+        "publisher": "Elsevier BV"
+      },
+      "publisher_pdf": {
+        "path": "docs/assets/papers/deep-multi-view-svm-knowledge-transfer.pdf",
+        "sha256": "4f843bda8f9ed18fd62de3a431ae3acd8c75f2b0197d25810cc869cd891e0baf"
+      },
+      "authors_order_matches": true,
+      "final": {
+        "year": 2026,
+        "volume": "298",
+        "issue": null,
+        "article_number": "129406"
+      },
+      "changes": [],
+      "notes": [
+        "Scholar shows online publication 2025/8/21 and omits the volume. Publisher PDF and current Crossref specify volume 298 (2026), article 129406. Retain 2026 and volume 298 for the journal citation.",
+        "Scholar lists publisher as Pergamon; website retains Elsevier, the publisher family recorded by Crossref (Elsevier BV)."
+      ]
+    },
+    {
+      "doi": "10.3390/en18174571",
+      "title": "A Transformer-Based Hybrid Neural Network Integrating Multiresolution Turbulence Intensity and Independent Modeling of Multiple Meteorological Features for Wind Speed Forecasting",
+      "scholar": {
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6bYDKs4AAAAJ&pagesize=100&citation_for_view=6bYDKs4AAAAJ:qjMakFHDy7sC",
+        "title": "A transformer-based hybrid neural network integrating multiresolution turbulence intensity and independent modeling of multiple meteorological features for wind speed forecasting",
+        "fields": {
+          "Authors": "Hongbin Liu, Ziyan Wang, Yizhuo Liu, Jie Zhou, Chen Chen, Haoyuan Ma, Xi Huang, Hongqing Wang, Xiaodong Ji",
+          "Publication date": "2025/8/28",
+          "Journal": "Energies",
+          "Volume": "18",
+          "Issue": "17",
+          "Pages": "4571",
+          "Publisher": "MDPI"
+        },
+        "publisher_url": "https://www.mdpi.com/1996-1073/18/17/4571",
+        "scholar_links": [
+          {
+            "label": "All 6 versions",
+            "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=17138252186717234462"
+          }
+        ]
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.3390/en18174571",
+        "authors": [
+          "Hongbin Liu",
+          "Ziyan Wang",
+          "Yizhuo Liu",
+          "Jie Zhou",
+          "Chen Chen",
+          "Haoyuan Ma",
+          "Xi Huang",
+          "Hongqing Wang",
+          "Xiaodong Ji"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              28
+            ]
+          ]
+        },
+        "published_print": null,
+        "published_online": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              28
+            ]
+          ]
+        },
+        "volume": "18",
+        "issue": "17",
+        "article_number": "4571",
+        "publisher": "MDPI AG"
+      },
+      "publisher_pdf": {
+        "path": "docs/assets/papers/transformer-wind-speed-forecasting.pdf",
+        "sha256": "2b0cefca0d4c7fe106ff64435d4b8765a670255cfb4053f5adbbc97248b7536b"
+      },
+      "authors_order_matches": true,
+      "final": {
+        "year": 2025,
+        "volume": "18",
+        "issue": "17",
+        "article_number": "4571"
+      },
+      "changes": [],
+      "notes": []
+    },
+    {
+      "doi": "10.1016/j.eswa.2026.134683",
+      "title": "Robust and sparse support vector machine via hybrid truncated loss for supervised classification",
+      "scholar": {
+        "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6bYDKs4AAAAJ&pagesize=100&citation_for_view=6bYDKs4AAAAJ:zYLM7Y9cAGgC",
+        "title": "Robust and sparse support vector machine via hybrid truncated loss for supervised classification",
+        "fields": {
+          "Authors": "Yuliang Yang, Chen Chen, Yuxiang Liu, Huiru Wang",
+          "Publication date": "2026/6/4",
+          "Journal": "arXiv preprint arXiv:2606.05814"
+        },
+        "publisher_url": "https://arxiv.org/abs/2606.05814",
+        "scholar_links": [
+          {
+            "label": "All 2 versions",
+            "url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=13740344221069804963"
+          }
+        ]
+      },
+      "crossref": {
+        "url": "https://api.crossref.org/works/10.1016/j.eswa.2026.134683",
+        "authors": [
+          "Yuliang Yang",
+          "Chen Chen",
+          "Yuxiang Liu",
+          "Huiru Wang"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10
+            ]
+          ]
+        },
+        "published_print": {
+          "date-parts": [
+            [
+              2026,
+              10
+            ]
+          ]
+        },
+        "published_online": null,
+        "volume": null,
+        "issue": null,
+        "article_number": "134683",
+        "publisher": "Elsevier BV"
+      },
+      "publisher_pdf": {
+        "path": "docs/assets/papers/robust-sparse-svm-hybrid-truncated-loss.pdf",
+        "sha256": "a7152d3cdabc55f912bbf2734a048fd3cc32550c8f2c50942f51199825ab1686"
+      },
+      "authors_order_matches": true,
+      "final": {
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "article_number": "134683"
+      },
+      "changes": [],
+      "notes": [
+        "Scholar currently points to arXiv:2606.05814 dated 2026/6/4, not the journal version. Retain verified ESWA 2026 journal record and article 134683; volume remains unassigned. Supplied pre-proof has a conflicting 2025 suggested-citation line; its 2026 received/accepted/copyright dates and current Crossref support 2026."
+      ]
+    }
+  ]
+}

@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261018-scholar-bibtex'
+REVISION = '20261018-citation-audit'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -137,8 +137,7 @@ def paper(p, full=False):
         month = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'][online.month - 1]
         bibliographic_line += f' · Available online {online.day} {month} {online.year}'
     citation = f'<a class="bibtex-download" href="{base}assets/bibtex/{ESC(citation_filename(p), quote=True)}?v={REVISION}" download title="下载 BibTeX 引用文件">[BibTeX ↓]</a>'
-    if full:
-        citation += f'<details class="bibtex"><summary>查看引用</summary><div class="citation-box"><pre><code>{ESC(bibtex(p))}</code></pre><button class="btn btn-sm btn-outline-secondary copy-citation" type="button">复制引用</button><span class="copy-status small ml-2" role="status"></span></div></details>'
+    citation += f'<details class="bibtex"><summary>查看引用</summary><div class="citation-box"><pre><code>{ESC(bibtex(p))}</code></pre><button class="btn btn-sm btn-outline-secondary copy-citation" type="button">复制引用</button><span class="copy-status small ml-2" role="status"></span></div></details>'
     return f'''<article class="publication row no-gutters border-bottom" data-year="{year}" style="--paper-cover:url('{cover_background}')">
     <div class="col-md-3 col-xl-2 p-md-3 d-none d-md-block journal-cover-column">{external(journal.get('cover_url', journal['journal_url']), cover, 'journal-cover-link')}</div>
     <div class="col-md-9 col-xl-10 p-3 pl-md-0 publication-body">
