@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261018-paper-downloads'
+REVISION = '20261018-scholar-bibtex'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -56,15 +56,21 @@ def plain_title(p):
 def bibtex(p):
     year = p['published']['date-parts'][0][0]
     title = plain_title(p).replace('L0/1', r'{$L_{0/1}$}')
-    return ('@article{' + p['authors'][0].split()[-1] + str(year) + '_' + p['article'] + ',\n'
-            + '\n'.join('  ' + key + ' = {' + value + '},' for key, value in [
-                ('title', title), ('author', ' and '.join(p['authors'])),
-                ('journal', p['journal']), ('year', str(year)),
-                *([('volume', p['volume'])] if p.get('volume') else []),
-                *([('number', p['issue'])] if p.get('issue') else []),
-                ('pages', p['article']), ('doi', p['doi']),
-                *([('note', 'Available online ' + p['published_online'])]
-                  if p.get('published_online') and not p.get('volume') else [])]) + '\n}')
+    authors = []
+    for name in p['authors']:
+        given, family = name.rsplit(' ', 1)
+        authors.append(f'{family}, {given}')
+    fields = [
+        ('title', title), ('author', ' and '.join(authors)),
+        ('journal', p['journal']),
+        *([('volume', p['volume'])] if p.get('volume') else []),
+        *([('number', p['issue'])] if p.get('issue') else []),
+        ('pages', p['article']), ('year', str(year)),
+        ('publisher', p['publisher']), ('doi', p['doi']),
+        *([('note', 'Available online ' + p['published_online'])]
+          if p.get('published_online') and not p.get('volume') else [])]
+    return '@article{' + p['bibtex_key'] + ',\n' + ',\n'.join(
+        '  ' + key + '={' + value + '}' for key, value in fields) + '\n}'
 
 
 
@@ -130,7 +136,7 @@ def paper(p, full=False):
         online = date.fromisoformat(p['published_online'])
         month = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'][online.month - 1]
         bibliographic_line += f' · Available online {online.day} {month} {online.year}'
-    citation = f'<a class="bibtex-download" href="{base}assets/bibtex/{ESC(citation_filename(p), quote=True)}" download title="下载 BibTeX 引用文件">[BibTeX ↓]</a>'
+    citation = f'<a class="bibtex-download" href="{base}assets/bibtex/{ESC(citation_filename(p), quote=True)}?v={REVISION}" download title="下载 BibTeX 引用文件">[BibTeX ↓]</a>'
     if full:
         citation += f'<details class="bibtex"><summary>查看引用</summary><div class="citation-box"><pre><code>{ESC(bibtex(p))}</code></pre><button class="btn btn-sm btn-outline-secondary copy-citation" type="button">复制引用</button><span class="copy-status small ml-2" role="status"></span></div></details>'
     return f'''<article class="publication row no-gutters border-bottom" data-year="{year}" style="--paper-cover:url('{cover_background}')">
@@ -225,7 +231,7 @@ def publications():
     years = sorted({p['published']['date-parts'][0][0] for p in PUBLICATIONS}, reverse=True)
     groups = ''.join(f'<section class="publication-year" data-year-group="{year}"><h2 class="pt-4" id="year-{year}">{year}</h2><div class="my-0 p-0 bg-white shadow-sm rounded-xl">' + ''.join(paper(p, True) for p in PUBLICATIONS if p['published']['date-parts'][0][0] == year) + '</div></section>' for year in years)
     return f'''<h1 class="sr-only">Publications · 学术论文</h1><div class="row"><div class="col-12 col-lg-10">
-    <div class="publication-tools small"><div class="btn-group btn-group-sm" role="group" aria-label="按论文年份筛选"><button class="btn btn-outline-primary active" type="button" data-filter="all" aria-pressed="true">全部</button>{''.join(f'<button class="btn btn-outline-primary" type="button" data-filter="{year}" aria-pressed="false">{year}</button>' for year in years)}</div><span class="text-muted" id="filter-status" role="status">显示 {len(PUBLICATIONS)} 篇论文</span><a href="../assets/chen-chen-publications.bib" download>下载全部 BibTeX ↓</a></div><p class="small text-muted mt-3 mb-0 correspondence-key"># Corresponding author</p>{groups}
+    <div class="publication-tools small"><div class="btn-group btn-group-sm" role="group" aria-label="按论文年份筛选"><button class="btn btn-outline-primary active" type="button" data-filter="all" aria-pressed="true">全部</button>{''.join(f'<button class="btn btn-outline-primary" type="button" data-filter="{year}" aria-pressed="false">{year}</button>' for year in years)}</div><span class="text-muted" id="filter-status" role="status">显示 {len(PUBLICATIONS)} 篇论文</span><a href="../assets/chen-chen-publications.bib?v={REVISION}" download>下载全部 BibTeX ↓</a></div><p class="small text-muted mt-3 mb-0 correspondence-key"># Corresponding author</p>{groups}
     <p class="small mt-3 mb-0">{external(SCHOLAR,'Google Scholar →')}</p></div><div class="col-2 d-none d-lg-block"><nav class="nav nav-pills flex-column sticky-top year-nav" aria-label="论文年份">{''.join(f'<a class="nav-link d-block" href="#year-{year}">{year}</a>' for year in years)}</nav></div></div>'''
 
 

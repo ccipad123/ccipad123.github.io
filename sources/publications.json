@@ -20,7 +20,9 @@
       "Qingmin Yu"
     ],
     "volume": "115",
-    "article": "102733"
+    "article": "102733",
+    "bibtex_key": "chen2025multi",
+    "publisher": "Elsevier"
   },
   {
     "doi": "10.1016/j.eswa.2024.125814",
@@ -42,7 +44,9 @@
       "Huiru Wang"
     ],
     "volume": "265",
-    "article": "125814"
+    "article": "125814",
+    "bibtex_key": "liu2025multi",
+    "publisher": "Elsevier"
   },
   {
     "doi": "10.1016/j.compag.2025.110020",
@@ -65,7 +69,9 @@
       "Huiru Wang"
     ],
     "volume": "232",
-    "article": "110020"
+    "article": "110020",
+    "bibtex_key": "deng2025forest",
+    "publisher": "Elsevier"
   },
   {
     "doi": "10.3390/math13040594",
@@ -88,7 +94,9 @@
       "Chen Chen"
     ],
     "volume": "13",
-    "article": "594"
+    "article": "594",
+    "bibtex_key": "li2025new",
+    "publisher": "MDPI"
   },
   {
     "doi": "10.1016/j.eswa.2025.129406",
@@ -111,7 +119,9 @@
       "Chen Chen"
     ],
     "volume": "298",
-    "article": "129406"
+    "article": "129406",
+    "bibtex_key": "jia2026deep",
+    "publisher": "Elsevier"
   },
   {
     "doi": "10.3390/en18174571",
@@ -139,7 +149,9 @@
     ],
     "volume": "18",
     "issue": "17",
-    "article": "4571"
+    "article": "4571",
+    "bibtex_key": "liu2025transformer",
+    "publisher": "MDPI"
   },
   {
     "doi": "10.1016/j.eswa.2026.134683",
@@ -161,6 +173,8 @@
       "Yuxiang Liu",
       "Huiru Wang"
     ],
-    "article": "134683"
+    "article": "134683",
+    "bibtex_key": "yang2026robust",
+    "publisher": "Elsevier"
   }
 ]
