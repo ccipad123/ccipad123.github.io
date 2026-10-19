@@ -1,0 +1,169 @@
+{
+  "checked_on": "2026-10-19",
+  "doi": "10.1016/j.eswa.2026.134683",
+  "crossref_url": "https://api.crossref.org/works/10.1016/j.eswa.2026.134683",
+  "crossref_record": {
+    "title": [
+      "Robust and sparse support vector machine via hybrid truncated loss for supervised classification"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-8157-3638",
+        "authenticated-orcid": false,
+        "given": "Yuliang",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-6694-580X",
+        "authenticated-orcid": false,
+        "given": "Chen",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-3078-3814",
+        "authenticated-orcid": false,
+        "given": "Yuxiang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3579-0028",
+        "authenticated-orcid": false,
+        "given": "Huiru",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2027,
+          2
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2027,
+          2
+        ]
+      ]
+    },
+    "volume": "334",
+    "issue": null,
+    "article-number": "134683",
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2026-10-19T07:12:40Z",
+      "timestamp": 1792393960000
+    }
+  },
+  "pdf": {
+    "pdf_file": "robust-sparse-svm-hybrid-truncated-loss.pdf",
+    "pdf_source_filename": "1-s2.0-S0957417426035876-main.pdf",
+    "pdf_sha256": "411a3201e3f9ce9aa0dd55ab51a9dc03bab31ee99bbd7f4185a6be3417c6f6b5",
+    "pdf_pages": 28,
+    "pdf_supplied_on": "2026-10-19",
+    "pdf_version": "20261019-final",
+    "pdf_edition": "Final typeset journal article, Expert Systems with Applications 334 (2027) 134683"
+  },
+  "previous_pdf": {
+    "pdf_file": "robust-sparse-svm-hybrid-truncated-loss.pdf",
+    "pdf_source_filename": "1-s2.0-S0957417426035876-main.pdf",
+    "pdf_sha256": "a7152d3cdabc55f912bbf2734a048fd3cc32550c8f2c50942f51199825ab1686",
+    "pdf_pages": 37,
+    "pdf_supplied_on": "2026-10-18"
+  },
+  "previous_publication": {
+    "doi": "10.1016/j.eswa.2026.134683",
+    "title": "Robust and sparse support vector machine via hybrid truncated loss for supervised classification",
+    "journal": "Expert Systems with Applications",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ]
+    },
+    "published_online": "2026-10-12",
+    "authors": [
+      "Yuliang Yang",
+      "Chen Chen",
+      "Yuxiang Liu",
+      "Huiru Wang"
+    ],
+    "article": "134683",
+    "bibtex_key": "yang2026robust",
+    "publisher": "Elsevier"
+  },
+  "current_publication": {
+    "doi": "10.1016/j.eswa.2026.134683",
+    "title": "Robust and sparse support vector machine via hybrid truncated loss for supervised classification",
+    "journal": "Expert Systems with Applications",
+    "published": {
+      "date-parts": [
+        [
+          2027,
+          2
+        ]
+      ]
+    },
+    "published_online": "2026-10-12",
+    "authors": [
+      "Yuliang Yang",
+      "Chen Chen",
+      "Yuxiang Liu",
+      "Huiru Wang"
+    ],
+    "article": "134683",
+    "bibtex_key": "yang2026robust",
+    "publisher": "Elsevier",
+    "volume": "334"
+  },
+  "decisions": [
+    "Final journal citation is 2027, volume 334, article 134683; online publication remains 2026-10-12.",
+    "Retain stable citation key yang2026robust to preserve existing cite references; the year field is 2027.",
+    "News remains an October 2026 online-publication event.",
+    "PDF is copied byte for byte; no PDF content was edited.",
+    "The 2026-10-18 Scholar audit and 2026-10-16 verification are historical snapshots, superseded for this article by this record."
+  ]
+}

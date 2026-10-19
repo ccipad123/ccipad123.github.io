@@ -17,7 +17,7 @@ from urllib.parse import urlsplit
 BASE_PATH = urlsplit(ORIGIN).path.rstrip('/') + '/'
 SCHOLAR = 'https://scholar.google.com/citations?user=6bYDKs4AAAAJ&hl=zh-CN'
 ORCID = 'https://orcid.org/0009-0006-6694-580X'
-REVISION = '20261018-citation-audit'
+REVISION = '20261019-hybrid-final'
 PROFILE = json.loads((ROOT / 'sources/profile.json').read_text())
 PUBLICATIONS = json.loads((ROOT / 'sources/publications.json').read_text())
 PUBLICATIONS.sort(key=lambda p: tuple(p['published']['date-parts'][0]), reverse=True)
@@ -79,7 +79,9 @@ def external(url, label, cls=''):
 
 
 def paper_link(doi, base=''):
-    return external(base + 'assets/papers/' + PUBLICATION_DETAILS[doi]['pdf_file'], '[Paper]', 'paper-link')
+    details = PUBLICATION_DETAILS[doi]
+    version = '?v=' + details['pdf_version'] if details.get('pdf_version') else ''
+    return external(base + 'assets/papers/' + details['pdf_file'] + version, '[Paper]', 'paper-link')
 
 
 def citation_filename(p):

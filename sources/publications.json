@@ -161,9 +161,8 @@
     "published": {
       "date-parts": [
         [
-          2026,
-          10,
-          12
+          2027,
+          2
         ]
       ]
     },
@@ -176,6 +175,7 @@
     ],
     "article": "134683",
     "bibtex_key": "yang2026robust",
-    "publisher": "Elsevier"
+    "publisher": "Elsevier",
+    "volume": "334"
   }
 ]

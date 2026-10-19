@@ -68,13 +68,15 @@
   "10.1016/j.eswa.2026.134683": {
     "paper_url": "https://www.sciencedirect.com/science/article/pii/S0957417426035876",
     "summary": "针对支持向量机中损失函数对异常样本敏感、非凸模型求解成本较高的问题，研究提出兼顾稀疏性与有界性的混合截断损失，构建单视图分类模型。通过 P-平稳点建立最优性条件，并结合工作集策略设计 ADMM 求解算法；进一步引入结构信息与视图权重，将模型扩展到多视图学习。合成、真实及图像数据集实验考察了分类性能、支持向量数量与噪声鲁棒性。",
-    "checked": "2026-10-16",
-    "basis": "Chinese summary based on the matching author preprint arXiv:2606.05814; journal metadata verified against Crossref and Elsevier API.",
-    "summary_source": "https://arxiv.org/abs/2606.05814",
+    "checked": "2026-10-19",
+    "basis": "Existing Chinese summary checked against the supplied final publisher PDF abstract; final journal year/volume/article and author order agree with current Crossref.",
+    "summary_source": "https://www.sciencedirect.com/science/article/pii/S0957417426035876",
     "pdf_file": "robust-sparse-svm-hybrid-truncated-loss.pdf",
     "pdf_source_filename": "1-s2.0-S0957417426035876-main.pdf",
-    "pdf_sha256": "a7152d3cdabc55f912bbf2734a048fd3cc32550c8f2c50942f51199825ab1686",
-    "pdf_pages": 37,
-    "pdf_supplied_on": "2026-10-18"
+    "pdf_sha256": "411a3201e3f9ce9aa0dd55ab51a9dc03bab31ee99bbd7f4185a6be3417c6f6b5",
+    "pdf_pages": 28,
+    "pdf_supplied_on": "2026-10-19",
+    "pdf_version": "20261019-final",
+    "pdf_edition": "Final typeset journal article, Expert Systems with Applications 334 (2027) 134683"
   }
 }
